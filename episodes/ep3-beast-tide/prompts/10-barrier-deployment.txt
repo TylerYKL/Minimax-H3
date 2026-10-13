@@ -1,0 +1,29 @@
+subject_definitions:
+<Subject 1> is the 1.88-meter Aegis from <Picture 2>.
+<Subject 2> is Nyx from <Picture 2>.
+<Subject 3> is Lyra from <Picture 2>.
+<Subject 5> is the 30-meter titan shown in <Picture 1>.
+<Subject 6> is the golden hexagonal defensive dome from <Picture 1>, with a ten-meter radius and ten-meter height.
+
+summary:
+[reference generation] <Subject 1> deploys <Subject 6> around the southern support lane, enclosing the allied team while <Subject 5> remains outside.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor, chest furnace and right-arm emitter.
+<Subject 2>: fully_preserved - retain purple armor and cannon.
+<Subject 3>: fully_preserved - retain emerald armor and medical equipment.
+<Subject 5>: fully_preserved - retain identity and specified 30-meter scale.
+<Subject 6>: fully_preserved - retain golden transparency and hexagonal surface, enforcing the defined dimensions and boundary.
+
+detailed_description:
+Cinematic 3D CG. The central highway span remains broken. The titan's chest core is intact, with two local slash wounds around it.
+[Shot 1] A medium-low view shows Aegis lowering the bottom edge of his right-arm projected shield onto the road. The physical emitter remains attached to his forearm. During seconds zero to two, his chest furnace brightens and orange power travels through the right-arm conduits before a golden line spreads across the ground.
+[Shot 2] At 00:02.000, cut to an elevated side-wide view that clearly establishes the boundary. The circular line encloses the southern medical lane, centered behind Aegis. He stands one stride inside its northern edge. Nyx, Lyra and wounded allies are farther south inside the circle. Both titan feet are entirely north of the circle on uncovered road.
+During seconds two to five, the ring rises into a transparent hemisphere ten meters high. The thirty-meter titan towers above it from outside. Gold hexagonal cells spread upward and meet at the crown.
+During the final second, Aegis raises his forearm from the road and retains a compact personal shield. His chest furnace sustains the stationary dome. End with the completed boundary and the giant's hand poised outside. No captions or spoken dialogue.
+
+overall_soundscape:
+Shield-ground contact, rising furnace strain, energy spreading across asphalt, a deep expanding barrier tone and electrical mesh settling into resonance.
+
+non_diegetic_music:
+N/A

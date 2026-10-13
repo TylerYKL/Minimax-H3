@@ -1,0 +1,27 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>, carrying the intact right-arm shield shown in <Picture 2>.
+<Subject 2> is Nyx from <Picture 1>.
+<Subject 3> is Lyra from <Picture 1>.
+<Subject 4> is the southern support lane of the referenced ruined city.
+
+summary:
+[reference generation] <Subject 1> recovers from the tail strike and positions himself in front of <Subject 3> and the wounded allies.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor and intact shield equipment.
+<Subject 2>: fully_preserved - retain purple armor and cannon.
+<Subject 3>: fully_preserved - retain emerald armor and medical equipment.
+<Subject 4>: partially_preserved - retain the environment with the broken highway visible north of the support lane.
+
+detailed_description:
+Cinematic 3D CG with a brief breathing pause after the violent fall.
+[Shot 1] A medium three-quarter view begins with Aegis on one knee at the end of a fresh road furrow. His left palm supports him on the ground and his right shield remains intact beside him. The thrusters fade from braking thrust to a low glow. During the first second, his helmet dips and steadies as the ringing subsides.
+The camera moves slightly sideways to reveal Lyra behind him supporting a wounded allied mech, with another injured fighter beside the vehicle barricade. Nyx approaches from the western flank.
+During seconds two to four, Aegis plants his front boot and rises. He turns his closed helmet toward the allies, then faces north again and takes one protective step in front of them. He lowers the bottom edge of the right-arm shield toward the road, preparing to channel the barrier. The distant titan remains north beyond the broken bridge, not beside the human-sized team.
+End immediately before the shield touches the ground. No sword, captions or spoken dialogue.
+
+overall_soundscape:
+Heavy breathing, settling grit, loaded armor servos, fading thrusters, distant giant footsteps and the low return of the chest furnace hum.
+
+non_diegetic_music:
+N/A

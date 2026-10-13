@@ -1,0 +1,25 @@
+subject_definitions:
+<Subject 1> is the 1.88-meter Aegis from <Picture 2>, with back and calf thrusters and a right-forearm emitter that alternates between a golden blade and honeycomb shield.
+<Subject 5> is the 30-meter rock titan from <Picture 1>.
+<Subject 4> is the avenue and twelve-meter-high highway from <Picture 1>.
+
+summary:
+[reference generation] <Subject 1> flies toward <Subject 5>, blocks its intercepting claw and escapes a follow-up strike that destroys the highway's central span.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor, propulsion and attached right-arm equipment.
+<Subject 5>: fully_preserved - retain identity, anatomy and specified scale.
+<Subject 4>: partially_preserved - retain the environment while the central highway span is destroyed during the action.
+
+detailed_description:
+Cinematic 3D CG with rapid aerial acceleration and clearly connected impacts. Aegis is 1.88 meters tall; the titan is 30 meters tall. Preserve this scale through every cut. The right-forearm emitter produces either the golden blade or the shield, with a visible transition between them.
+[Shot 1] A low street-level extreme-wide view places tiny <Subject 1> near the feet of <Subject 5>. The intact twelve-meter-high highway and abandoned cars establish scale. During seconds zero to two, Aegis bends his knees and ignites his back thrusters. Dust spreads beneath the exhaust as he accelerates upward beside the giant's leg. His right-arm blade points along his approach. The camera tilts upward with the climb, keeping the giant's body visible.
+[Shot 2] At 00:02.000, cut to a rear three-quarter tracking view behind Aegis, facing the enormous chest. The titan's near hand sweeps into his flight path. Aegis retracts the blade into the attached right-forearm emitter, then fans its energy outward into a honeycomb shield. The claw tip visibly meets the shield before sparks appear. Keep contact and the first recoil in this shot: the shield dents, his elbow compresses, and his whole body is driven sideways toward the highway. His left arm opens to balance the displacement.
+[Shot 3] At 00:04.500, cut to a side-wide view that shows Aegis, the pursuing hand and the highway together. Preserve his existing travel direction. Calf jets arrest his roll and carry him just beyond the central span. The titan follows with its hand and strikes the bridge behind him. Concrete fractures after contact; the central span collapses into the avenue. Aegis clears the falling fragments with his shield still deployed.
+End airborne beyond the broken span, with a clear route toward the titan's outer shoulder. The chest core remains undamaged. No captions or spoken dialogue.
+
+overall_soundscape:
+Accelerating thrusters, a fast air rush, claw-shield impact, electrical strain, corrective jet bursts and concrete breaking into falling fragments.
+
+non_diegetic_music:
+N/A

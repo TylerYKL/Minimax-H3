@@ -1,0 +1,25 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 2>, exactly 1.88 meters tall, with the right-forearm energy blade.
+<Subject 5> is the 30-meter horned rock-armored titan from <Picture 1>, with red molten veins, a central red chest core and an attached armored tail.
+<Subject 4> is the ruined avenue and elevated highway from <Picture 1>.
+
+summary:
+[reference generation] <Subject 5> enters the defensive avenue and towers over <Subject 1>, who prepares to launch toward its chest.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity and equipment.
+<Subject 5>: fully_preserved - retain rock armor, horns, core, tail and the specified 30-meter height.
+<Subject 4>: partially_preserved - retain environmental design with the highway central span still intact.
+
+detailed_description:
+Cinematic 3D CG. The titan is approximately sixteen times Aegis's height. Maintain this physical scale across all camera positions.
+[Shot 1] A wide street-level view shows the smaller beasts separating as the titan enters from the north. Its enormous foot lands beside an abandoned car. Pavement depresses under the foot before fragments scatter. The camera tilts upward and pulls back enough to reveal the titan's complete body. The twelve-meter-high highway crosses below its chest, while nearby forty-to-sixty-meter buildings rise above its head.
+During seconds three to five, keep Aegis and the titan near the same depth plane. Aegis is a tiny human-sized figure near the giant's foot, not a foreground giant. The titan's red chest core is high above the roadway; Aegis cannot reach it from the ground.
+[Shot 2] At 00:05.000, cut to a low medium view of Aegis looking upward. His right-arm golden blade stays low and clear of the road. Orange power travels through the armor conduits toward his back and calf thrusters. He lowers his center of mass and plants both feet for launch.
+End before takeoff. The titan's chest armor and red core remain undamaged. No captions or spoken dialogue.
+
+overall_soundscape:
+A heavy footfall, collapsing asphalt, settling rubble, a deep beast exhalation and the rising ignition of Aegis's thrusters.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,25 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter flying armored fighter with an attached right-forearm blade-and-shield emitter.
+<Subject 5> is the 30-meter titan from <Picture 2>.
+<Subject 4> is the referenced ruined city, with the central highway span already broken.
+
+summary:
+[reference generation] <Subject 1> circles <Subject 5>'s shoulder, makes two connected blade passes against one chest-armor seam and withdraws behind the shield.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor, thrusters and right-arm blade design.
+<Subject 5>: partially_preserved - retain identity and scale while adding two local slash wounds around the intact core.
+<Subject 4>: partially_preserved - retain city appearance and the established broken highway state.
+
+detailed_description:
+Cinematic 3D CG with fast connected aerial passes. <Subject 1> remains a 1.88-meter fighter against the thirty-meter <Subject 5>. The giant chest and individual armor plates remain enormous beside his full body. The central highway span is already broken.
+[Shot 1] An elevated wide view from behind the titan's outer shoulder reveals Aegis approaching through the air, the avenue far below and the chest beyond the shoulder. During seconds zero to two, his calf jets steer him around the shoulder. His right-arm shield visibly contracts into its attached emitter and extends into a broad golden single-edged blade. The titan turns its head and upper body to track him, exposing the plate seam beside the red core. Aegis banks toward that opening. His left hand remains empty.
+[Shot 2] At 00:02.000, cut to a three-quarter side view of the chest, keeping Aegis's full body, blade and intended contact point visible. He passes diagonally downward across the armor and rotates his right shoulder through the slash. The blade edge meets the seam before sparks and small stone fragments scatter. Hold through contact and follow-through. One narrow cut remains beside the intact core. The titan's nearby plates jolt, but its entire body is not thrown backward.
+[Shot 3] At 00:03.800, cut to a rear-upper tracking view behind Aegis, looking along his return route toward the same damaged seam. The red core remains visible as a fixed landmark. Calf jets redirect him through a tight banking turn. He brings the same right-arm blade upward across the first cut, extending the fracture after visible contact.
+As the titan brings its hand back toward him, Aegis retracts the blade and unfolds the shield. The camera widens with his backward retreat, revealing the approaching hand and the space he escapes into. End in a guarded hover. Both slash wounds persist; the core stays whole. No captions or spoken dialogue.
+
+overall_soundscape:
+Banking thrusters, two distinct blade-on-rock impacts, falling chips, a giant arm passing through air and the shield projection opening.
+
+non_diegetic_music:
+N/A

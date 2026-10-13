@@ -1,0 +1,24 @@
+subject_definitions:
+<Subject 1> is Aegis, whose armor comes from <Picture 1> and whose right-forearm golden energy blade design comes from <Picture 2>.
+<Subject 2> is the purple Nyx with the long laser cannon from <Picture 1>.
+<Subject 4> is the ruined red-moon avenue from <Picture 1>.
+
+summary:
+[reference generation] <Subject 2> fires into the approaching small beasts while <Subject 1> intercepts one beast that reaches the defensive line.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity and the defined right-forearm blade design.
+<Subject 2>: fully_preserved - retain purple armor and cannon.
+<Subject 4>: partially_preserved - retain city appearance while showing the western firing position.
+
+detailed_description:
+Cinematic 3D CG with short bursts of action and clear attack trajectories. All allied fighters are human-sized.
+[Shot 1] A medium side view shows Nyx braced on a low western platform, aiming diagonally down the northern avenue. During seconds zero to three, Nyx fires two distinct violet shots. Each straight beam leaves the cannon before its target reacts. A small armored beast tumbles after the first impact; the second impact scatters another beast away from the southern support route. Recoil moves the cannon into Nyx's shoulder and supporting stance.
+[Shot 2] At 00:03.000, cut to Aegis at street level as one surviving beast lunges toward him. His right-forearm shield contracts toward its attached emitter and extends into a broad golden single-edged blade approximately 1.8 meters long. He pivots on his supporting foot and makes one diagonal cut across the beast's armored shoulder. The blade contacts before sparks and rock-like fragments scatter. The beast is redirected sideways and falls clear of his legs.
+Aegis ends with the blade low, left arm balancing and feet grounded. No full shield remains while the blade is active. The titan has not entered the foreground. The highway remains intact. No captions or spoken dialogue.
+
+overall_soundscape:
+Two laser discharges, cannon recoil, distant impacts, projection transformation, a sharp blade scrape and claws skidding on asphalt.
+
+non_diegetic_music:
+N/A

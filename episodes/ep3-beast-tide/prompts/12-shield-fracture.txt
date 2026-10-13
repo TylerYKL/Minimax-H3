@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>, with the right-forearm projected shield and intact physical emitter.
+<Subject 2> is the purple Nyx from <Picture 1>.
+<Subject 3> is the emerald Lyra from <Picture 1>.
+<Subject 5> is the thirty-meter titan from <Picture 2>.
+<Subject 6> is the fading defensive dome from <Picture 2>.
+<Subject 7> is the luminous fracture appearance on Aegis's projected shield from <Picture 1>.
+
+summary:
+[reference generation] The titan withdraws, the dome fades, and <Subject 7> first develops on <Subject 1>'s shield as further threats emerge beyond the city.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor, shield emitter and fatigued appearance.
+<Subject 2>: fully_preserved - retain purple armor and cannon.
+<Subject 3>: fully_preserved - retain emerald armor and medical equipment.
+<Subject 5>: fully_preserved - retain identity, scale and surviving intact core.
+<Subject 6>: partially_preserved - begin with the existing dome and dissolve it.
+<Subject 7>: fully_preserved - retain the projected-energy fracture appearance, introduced only after the dome fades.
+
+detailed_description:
+Cinematic 3D CG with quieter movement and cooling light after the defensive climax. The central bridge span remains destroyed.
+[Shot 1] A wide side view begins with the titan outside the northern boundary. During seconds zero to three, it pulls its hand away and takes one heavy step north. The red core remains intact and the two chest-plate cuts persist. The golden dome loses brightness and dissolves into sparse particles. Aegis's chest furnace dims while the allied team remains in the protected lane.
+[Shot 2] At 00:03.000, cut to the right-forearm projected shield. Its physical emitter is intact. A first bright fracture grows from the outer edge across the honeycomb projection. The surface remains present, but small gold sparks leak from the unstable line. Aegis turns his forearm slightly to inspect it.
+[Shot 3] At 00:06.000, cut to a rear wide view of the team facing north. Nyx stands beside Aegis; Lyra supports a wounded ally behind them. The surviving titan retreats into smoke. Farther beyond it, several pairs of red eyes appear high between ruined towers, their bodies mostly hidden.
+Aegis takes one protective step forward and raises the cracked shield. Hold the unresolved confrontation, then fade toward black during the final second. No victory, new attack, captions or spoken dialogue.
+
+overall_soundscape:
+Receding giant footsteps, fading barrier hum, heavy breathing, a fine electrical fracture crackle and distant low beast calls.
+
+non_diegetic_music:
+N/A

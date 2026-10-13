@@ -1,0 +1,29 @@
+subject_definitions:
+<Subject 1> is the human-sized Aegis from <Picture 1>, with black-gold armor and the chest furnace sustaining the barrier.
+<Subject 2> is the purple Nyx from <Picture 1>.
+<Subject 3> is the emerald Lyra from <Picture 1>.
+<Subject 5> is the thirty-meter titan from <Picture 1>.
+<Subject 6> is the stationary golden dome from <Picture 1>, ten meters high and ten meters in radius.
+
+summary:
+[reference generation] <Subject 5> presses the exterior of <Subject 6> while <Subject 1> maintains the barrier and the allies move away from the loaded boundary.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor, furnace and shield equipment.
+<Subject 2>: fully_preserved - retain purple armor and cannon.
+<Subject 3>: fully_preserved - retain emerald armor and medical equipment.
+<Subject 5>: fully_preserved - retain titan identity, scale and existing chest damage.
+<Subject 6>: fully_preserved - retain the dome's appearance, location and defined boundary.
+
+detailed_description:
+Cinematic 3D CG with continuous inside-outside geography. <Subject 6> is a stationary ten-meter-high dome around the southern support lane. The thirty-meter <Subject 5> stands entirely outside its northern boundary. Human-sized <Subject 1>, <Subject 2> and <Subject 3> remain inside. The bridge stays broken, and the titan's red core remains intact with two surrounding slash wounds.
+[Shot 1] A side extreme-wide view shows the dome, the titan's full body and its grounded feet outside the perimeter. During seconds zero to two, the giant lowers one hand onto the dome's northern exterior. The fingertips touch the shell before the local surface indents and golden ripples spread. Keep the actual contact and initial deformation visible. The hand does not pass through the barrier.
+[Shot 2] At 00:02.000, cut inside the dome to a low angle looking upward toward that same contact point. Aegis's armored shoulder and intact right-arm shield occupy the lower foreground. Above him, the enormous fingers press against the outside of the transparent mesh. Hexagonal cells tighten around the indentation while energy ripples travel across the curved surface. Farther south, Lyra draws a wounded ally away from the loaded boundary. Nyx guards their movement.
+[Shot 3] At 00:04.000, cut to a close three-quarter view of Aegis bracing under the sustained load. His boots remain planted, his chest furnace brightens, and orange conduits pulse through the armor. His personal shield remains intact beside his torso.
+The camera pulls back enough to include the dome surface above him. A concentrated energy pulse restores its curvature, lifting the exterior fingertips slightly. The giant releases pressure and withdraws its hand while remaining grounded outside. End with the dome standing and Aegis still sustaining it. No persistent shield crack, captions or spoken dialogue.
+
+overall_soundscape:
+A deep exterior impact, strained barrier resonance, overloaded furnace vibration, scraping giant claws and a short release of pressure as the hand withdraws.
+
+non_diegetic_music:
+N/A

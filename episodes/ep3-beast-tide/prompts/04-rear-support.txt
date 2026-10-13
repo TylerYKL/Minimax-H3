@@ -1,0 +1,21 @@
+subject_definitions:
+<Subject 3> is Lyra from <Picture 1>, with emerald armor, a medical antenna and wrist-mounted repair emitter.
+<Subject 4> is the ruined city and southern support environment derived from <Picture 1>.
+
+summary:
+[reference generation] <Subject 3> repairs a wounded ally as a new ground tremor signals an approaching larger threat.
+
+retention_analysis:
+<Subject 3>: fully_preserved - retain emerald armor, helmet and repair equipment.
+<Subject 4>: partially_preserved - retain environmental appearance while showing the protected rear lane.
+
+detailed_description:
+Cinematic 3D CG with emerald repair light against cool shadows.
+[Shot 1] A medium-close camera moves slowly beside an abandoned armored vehicle in the southern support lane. Lyra stands beside a kneeling allied mech whose shoulder plate is visibly damaged. Another wounded ally waits behind the vehicle. During the first two seconds, a narrow stream of emerald particles travels from Lyra's wrist emitter to the damaged shoulder seam. The particles settle along the seam and draw its separated edges closer. The ally remains supported and does not instantly become undamaged.
+During the last two seconds, loose fragments beside a puddle begin trembling. Concentric ripples spread over the water with a deep ground pulse. Lyra pauses the repair and turns her closed helmet toward the northern avenue. The camera lowers slightly to include the vibrating road surface while keeping her reaction visible. A distant oversized shadow is obscured by smoke beyond the intact highway. Do not fully reveal the titan in this clip. End on the interrupted repair and growing tremor. No captions or spoken dialogue.
+
+overall_soundscape:
+Soft repair crackle, strained allied servos, distant laser fire, a deep approaching footfall and small fragments rattling against asphalt.
+
+non_diegetic_music:
+N/A
