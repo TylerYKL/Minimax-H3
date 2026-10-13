@@ -8,6 +8,7 @@ retention_analysis:
 <Subject 4>: partially_preserved - retain city design and lighting while establishing the broader defensive geography.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
 Cinematic 3D CG, weathered armor, wet asphalt, cool ambient shadows and localized energy light. The northern avenue leads toward the horde; the defenders occupy its southern end. A twelve-meter-high elevated highway crosses the avenue, its central span still intact.
 [Shot 1] A low wide camera retreats south along the road as dog-sized armored beasts charge from the northern distance. Claws strike pavement before pebbles scatter; dust follows the running bodies. The red moon remains above the distant ruins. During the first three seconds, the leading beasts advance from background to middle distance.

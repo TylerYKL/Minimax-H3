@@ -8,6 +8,7 @@ retention_analysis:
 <Subject 4>: partially_preserved - retain environmental appearance and establish the flank and support routes.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
 Cinematic 3D CG with readable contact and physically weighted armor.
 [Shot 1] A low three-quarter tracking view places Aegis behind his raised right-arm shield, facing north. Two leading dog-sized armored beasts reach him. During the first second, the foremost beast physically strikes the outward shield face. The projection dents locally before sparks appear. Aegis's right elbow and knees compress; his boots slide backward through gravel.

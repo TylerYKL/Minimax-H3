@@ -12,6 +12,7 @@ retention_analysis:
 <Picture 3>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with a brief breathing pause after the violent fall.
 [Shot 1] A medium three-quarter view begins with Aegis on one knee at the end of a fresh road furrow. His left palm supports him on the ground and his right shield remains intact beside him. The thrusters fade from braking thrust to a low glow. During the first second, his helmet dips and steadies as the ringing subsides.
 The camera moves slightly sideways to reveal Lyra behind him supporting a wounded allied mech, with another injured fighter beside the vehicle barricade. Nyx approaches from the western flank.

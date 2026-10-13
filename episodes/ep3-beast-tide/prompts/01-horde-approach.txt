@@ -1,6 +1,6 @@
 subject_definitions:
 <Subject 1> is Aegis from <Picture 1>, a 1.88-meter black-gold armored fighter with a cyan visor, orange hexagonal chest furnace and attached right-forearm energy-shield emitter.
-<Subject 2> is the purple Nyx armored fighter with the long laser cannon from <Picture 1>.
+<Subject 2> is Nyx from <Picture 1>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon follows the existing armed reference and episode equipment design.
 <Subject 3> is the emerald Lyra armored medic from <Picture 1>.
 <Subject 4> is the red-moon ruined city environment from <Picture 1>.
 
@@ -14,6 +14,7 @@ retention_analysis:
 <Subject 4>: partially_preserved - retain city design and lighting while establishing the broader defensive geography.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG, weathered armor, wet asphalt, cool ambient shadows and localized energy light. The northern avenue leads toward the horde; the defenders occupy its southern end. A twelve-meter-high elevated highway crosses the avenue, its central span still intact.
 [Shot 1] A low wide camera retreats south along the road as dog-sized armored beasts charge from the northern distance. Claws strike pavement before pebbles scatter; dust follows the running bodies. The red moon remains above the distant ruins. During the first three seconds, the leading beasts advance from background to middle distance.
 [Shot 2] At 00:03.000, cut to a medium-wide view of the three defenders facing the approaching threat. Aegis holds the center, Nyx stands on the western flank, and Lyra stays nearer the southern support lane. They are human-sized fighters, with Aegis bulkier rather than several times taller. Aegis raises his right forearm and unfolds a golden honeycomb shield. Nyx readies the cannon; Lyra turns toward two wounded allies behind the line. End with the shield fully deployed before the first collision. Helmets remain closed. No titan is visible yet. No captions, logos or spoken dialogue.

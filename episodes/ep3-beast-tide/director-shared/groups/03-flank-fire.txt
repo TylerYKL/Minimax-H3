@@ -11,6 +11,7 @@ retention_analysis:
 <Picture 3>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
 Cinematic 3D CG with short bursts of action and clear attack trajectories. All allied fighters are human-sized.
 [Shot 1] A medium side view shows Nyx braced on a low western platform, aiming diagonally down the northern avenue. During seconds zero to three, Nyx fires two distinct violet shots. Each straight beam leaves the cannon before its target reacts. A small armored beast tumbles after the first impact; the second impact scatters another beast away from the southern support route. Recoil moves the cannon into Nyx's shoulder and supporting stance.

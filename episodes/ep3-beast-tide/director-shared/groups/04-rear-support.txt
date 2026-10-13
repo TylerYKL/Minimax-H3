@@ -6,6 +6,7 @@ retention_analysis:
 <Subject 4>: partially_preserved - retain environmental appearance while showing the protected rear lane.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
 Cinematic 3D CG with emerald repair light against cool shadows.
 [Shot 1] A medium-close camera moves slowly beside an abandoned armored vehicle in the southern support lane. Lyra stands beside a kneeling allied mech whose shoulder plate is visibly damaged. Another wounded ally waits behind the vehicle. During the first two seconds, a narrow stream of emerald particles travels from Lyra's wrist emitter to the damaged shoulder seam. The particles settle along the seam and draw its separated edges closer. The ally remains supported and does not instantly become undamaged.

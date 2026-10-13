@@ -1,6 +1,6 @@
 subject_definitions:
 <Subject 1> is Aegis, whose armor comes from <Picture 1> and whose right-forearm golden energy blade design comes from <Picture 2>.
-<Subject 2> is the purple Nyx with the long laser cannon from <Picture 1>.
+<Subject 2> is Nyx from <Picture 1>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon follows the existing armed reference and episode equipment design.
 <Subject 4> is the ruined red-moon avenue from <Picture 1>.
 
 summary:
@@ -12,6 +12,7 @@ retention_analysis:
 <Subject 4>: partially_preserved - retain city appearance while showing the western firing position.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with short bursts of action and clear attack trajectories. All allied fighters are human-sized.
 [Shot 1] A medium side view shows Nyx braced on a low western platform, aiming diagonally down the northern avenue. During seconds zero to three, Nyx fires two distinct violet shots. Each straight beam leaves the cannon before its target reacts. A small armored beast tumbles after the first impact; the second impact scatters another beast away from the southern support route. Recoil moves the cannon into Nyx's shoulder and supporting stance.
 [Shot 2] At 00:03.000, cut to Aegis at street level as one surviving beast lunges toward him. His right-forearm shield contracts toward its attached emitter and extends into a broad golden single-edged blade approximately 1.8 meters long. He pivots on his supporting foot and makes one diagonal cut across the beast's armored shoulder. The blade contacts before sparks and rock-like fragments scatter. The beast is redirected sideways and falls clear of his legs.

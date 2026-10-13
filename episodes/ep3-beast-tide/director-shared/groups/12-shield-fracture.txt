@@ -13,6 +13,7 @@ retention_analysis:
 <Subject 7>: fully_preserved - retain the projected-energy fracture appearance, introduced only after the dome fades.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with quieter movement and cooling light after the defensive climax. The central bridge span remains destroyed.
 [Shot 1] A wide side view begins with the titan outside the northern boundary. During seconds zero to three, it pulls its hand away and takes one heavy step north. The red core remains intact and the two chest-plate cuts persist. The golden dome loses brightness and dissolves into sparse particles. Aegis's chest furnace dims while the allied team remains in the protected lane.
 [Shot 2] At 00:03.000, cut to the right-forearm projected shield. Its physical emitter is intact. A first bright fracture grows from the outer edge across the honeycomb projection. The surface remains present, but small gold sparks leak from the unstable line. Aegis turns his forearm slightly to inspect it.

@@ -1,6 +1,6 @@
 subject_definitions:
 <Subject 1> is the 1.88-meter Aegis from <Picture 2>.
-<Subject 2> is Nyx from <Picture 2>.
+<Subject 2> is Nyx from <Picture 2>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon follows the existing armed reference and episode equipment design.
 <Subject 3> is Lyra from <Picture 2>.
 <Subject 5> is the 30-meter titan shown in <Picture 1>.
 <Subject 6> is the golden hexagonal defensive dome from <Picture 1>, with a ten-meter radius and ten-meter height.
@@ -16,6 +16,7 @@ retention_analysis:
 <Subject 6>: fully_preserved - retain golden transparency and hexagonal surface, enforcing the defined dimensions and boundary.
 
 detailed_description:
+Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG. The central highway span remains broken. The titan's chest core is intact, with two local slash wounds around it.
 [Shot 1] A medium-low view shows Aegis lowering the bottom edge of his right-arm projected shield onto the road. The physical emitter remains attached to his forearm. During seconds zero to two, his chest furnace brightens and orange power travels through the right-arm conduits before a golden line spreads across the ground.
 [Shot 2] At 00:02.000, cut to an elevated side-wide view that clearly establishes the boundary. The circular line encloses the southern medical lane, centered behind Aegis. He stands one stride inside its northern edge. Nyx, Lyra and wounded allies are farther south inside the circle. Both titan feet are entirely north of the circle on uncovered road.
