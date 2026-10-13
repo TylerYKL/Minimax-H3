@@ -1,0 +1,24 @@
+<Picture 3> is a shield-contact composition reference for this group. Use its right-arm shield attachment and force-transfer treatment; the current scene determines whether impact or recovery is shown. It is not a fixed opening frame.
+
+summary:
+[reference generation] <Subject 5> strikes <Subject 1>'s shield with its tail, throwing him toward the southern support lane where he brakes his fall.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor, shield and propulsion.
+<Subject 5>: fully_preserved - retain anatomy, tail attachment and scale.
+<Subject 4>: partially_preserved - retain the referenced city with persistent bridge damage.
+
+<Picture 3>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
+
+detailed_description:
+Cinematic 3D CG with a readable tail path and strong force transfer. <Subject 5> is thirty meters tall and <Subject 1> is 1.88 meters tall. Two local slash wounds remain beside the intact red core. The highway's central span is already destroyed.
+[Shot 1] A rear three-quarter wide view shows the titan's planted feet, pelvis, attached tail and tiny Aegis hovering beyond its flank. During seconds zero to one and a half, the giant turns its hips and shoulders. The tail initially trails behind, then accelerates in a broad arc toward Aegis. Keep its attachment and full approach visible. Aegis begins descending and turns his right-arm shield toward the incoming tip.
+[Shot 2] At 00:01.500, cut to a side medium-wide view aligned with the tail's travel. The enormous tail tip enters frame and physically contacts the outward shield face. Hold through the collision: the hexagonal projection dents, sparks burst from the contact point, Aegis's right elbow recoils, and his hips are displaced. His whole body is thrown diagonally downward toward the southern lane. The tail continues along its established arc. The shield remains attached and has no persistent fracture.
+[Shot 3] At 00:03.000, cut to a low tracking view beside the southern roadway. Aegis enters along the same descending direction established by the impact. Back and calf jets fire against the fall, reducing his speed before ground contact. One boot meets the asphalt, followed by the lower edge of his shield. Grit and short sparks trail behind these contact points.
+The camera tracks alongside the slide as he lowers his center of mass and begins settling toward one knee. End at the final braking movement, ready for the recovery clip. No sword appears during this sequence. No captions or spoken dialogue.
+
+overall_soundscape:
+Heavy tail armor movement, an accelerating air rush, a hard shield strike, strained thrusters, scraping asphalt and a brief ringing tone after impact.
+
+non_diegetic_music:
+N/A

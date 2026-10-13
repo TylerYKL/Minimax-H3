@@ -1,0 +1,20 @@
+summary:
+[reference generation] An approaching beast horde threatens <Subject 4> while <Subject 1>, <Subject 2> and <Subject 3> establish the defensive line.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, helmet, colors and right-arm equipment.
+<Subject 2>: fully_preserved - retain purple armor and long cannon.
+<Subject 3>: fully_preserved - retain emerald armor and medical equipment.
+<Subject 4>: partially_preserved - retain city design and lighting while establishing the broader defensive geography.
+
+detailed_description:
+Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
+Cinematic 3D CG, weathered armor, wet asphalt, cool ambient shadows and localized energy light. The northern avenue leads toward the horde; the defenders occupy its southern end. A twelve-meter-high elevated highway crosses the avenue, its central span still intact.
+[Shot 1] A low wide camera retreats south along the road as dog-sized armored beasts charge from the northern distance. Claws strike pavement before pebbles scatter; dust follows the running bodies. The red moon remains above the distant ruins. During the first three seconds, the leading beasts advance from background to middle distance.
+[Shot 2] At 00:03.000, cut to a medium-wide view of the three defenders facing the approaching threat. Aegis holds the center, Nyx stands on the western flank, and Lyra stays nearer the southern support lane. They are human-sized fighters, with Aegis bulkier rather than several times taller. Aegis raises his right forearm and unfolds a golden honeycomb shield. Nyx readies the cannon; Lyra turns toward two wounded allies behind the line. End with the shield fully deployed before the first collision. Helmets remain closed. No titan is visible yet. No captions, logos or spoken dialogue.
+
+overall_soundscape:
+Layered running claws, distant beast calls, road grit, wind between buildings, armor servos and the rising hum of the deployed shield.
+
+non_diegetic_music:
+N/A

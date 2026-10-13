@@ -1,0 +1,21 @@
+summary:
+[reference generation] <Subject 1> absorbs the first horde collision while <Subject 2> and <Subject 3> move to their separate assignments.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor and attached shield equipment.
+<Subject 2>: fully_preserved - retain purple armor and cannon.
+<Subject 3>: fully_preserved - retain emerald armor and medical equipment.
+<Subject 4>: partially_preserved - retain environmental appearance and establish the flank and support routes.
+
+detailed_description:
+Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
+Cinematic 3D CG with readable contact and physically weighted armor.
+[Shot 1] A low three-quarter tracking view places Aegis behind his raised right-arm shield, facing north. Two leading dog-sized armored beasts reach him. During the first second, the foremost beast physically strikes the outward shield face. The projection dents locally before sparks appear. Aegis's right elbow and knees compress; his boots slide backward through gravel.
+During the second second, he catches his rear heel and stops the slide. The beast rebounds onto the road in front of the shield. His left hand remains free for balance, and the shield retains its complete outline without a lasting crack.
+The camera moves laterally enough to reveal Nyx running toward a low western firing platform and Lyra guiding wounded allies toward the southern vehicle barricade. Aegis remains between the approaching beasts and those retreating allies. End with the formation clearly divided into front defense, western fire support and southern medical support. The elevated highway remains intact. No sword appears during the block. No captions or spoken dialogue.
+
+overall_soundscape:
+A hard shield collision, electrical strain, compressed servos, scraping boots, beast recoil and retreating allied footsteps.
+
+non_diegetic_music:
+N/A

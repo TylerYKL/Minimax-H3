@@ -2,6 +2,8 @@
 
 75秒剪辑目标，7个剧情段落，12个独立Ref2VA源片段。
 
+使用MiniMax H3 Director公共参数时，请改用已核对源码的[Shared Params版本](director-shared/README.md)：一份公共角色定义加12份组提示词，固定公共Picture 1–2，动作参考按组放入Picture 3–4。下方原始映射适用于关闭公共参数的独立完整提示词，不能与新版本混用。
+
 - [完整改编故事与台词](story.md)
 - [片段时长与附件映射](manifest.json)
 - [独立提示词](prompts/)

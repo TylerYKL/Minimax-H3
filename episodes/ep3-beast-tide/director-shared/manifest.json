@@ -1,0 +1,141 @@
+{
+  "purpose": "Manual Director r2v Shared Params setup; not a workflow or Director import pack",
+  "verified_upstream_commit": "4c6245e518dd8a494f3afc4f3cccd53f22d82d10",
+  "shared_params": {
+    "enabled": true,
+    "prompt": "common-prompt.txt",
+    "references": {
+      "Picture 1": "../references/A-team.png",
+      "Picture 2": "../references/B-scale-final.png"
+    }
+  },
+  "merge_rule": "strip(shared prompt) + two newlines + strip(group prompt); references merge by index, local wins",
+  "target_duration_seconds": 75,
+  "clips": [
+    {
+      "number": 1,
+      "title": "兽潮逼近、三人列阵",
+      "duration_seconds": 6,
+      "target_start_seconds": 0,
+      "target_end_seconds": 6,
+      "prompt": "groups/01-horde-approach.txt",
+      "local_references": {}
+    },
+    {
+      "number": 2,
+      "title": "盾接兽群、小队分开",
+      "duration_seconds": 4,
+      "target_start_seconds": 6,
+      "target_end_seconds": 10,
+      "prompt": "groups/02-shield-collision.txt",
+      "local_references": {}
+    },
+    {
+      "number": 3,
+      "title": "Nyx点射、Aegis截杀",
+      "duration_seconds": 6,
+      "target_start_seconds": 10,
+      "target_end_seconds": 16,
+      "prompt": "groups/03-flank-fire.txt",
+      "local_references": {
+        "Picture 3": "../references/C-blade-contact.png"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Lyra修复、地面异动",
+      "duration_seconds": 4,
+      "target_start_seconds": 16,
+      "target_end_seconds": 20,
+      "prompt": "groups/04-rear-support.txt",
+      "local_references": {}
+    },
+    {
+      "number": 5,
+      "title": "30米巨兽现身",
+      "duration_seconds": 8,
+      "target_start_seconds": 20,
+      "target_end_seconds": 28,
+      "prompt": "groups/05-titan-reveal.txt",
+      "local_references": {}
+    },
+    {
+      "number": 6,
+      "title": "起飞、挡爪、断桥脱险（多机位）",
+      "duration_seconds": 8,
+      "target_start_seconds": 28,
+      "target_end_seconds": 36,
+      "prompt": "groups/06-launch-block-bridge.txt",
+      "local_references": {
+        "Picture 3": "../references/C-blade-contact.png"
+      }
+    },
+    {
+      "number": 7,
+      "title": "绕肩、两刀破甲、化盾撤离（多机位）",
+      "duration_seconds": 7,
+      "target_start_seconds": 36,
+      "target_end_seconds": 43,
+      "prompt": "groups/07-aerial-double-slash.txt",
+      "local_references": {
+        "Picture 3": "../references/C-blade-contact.png"
+      }
+    },
+    {
+      "number": 8,
+      "title": "巨尾命中、坠地制动（多机位）",
+      "duration_seconds": 6,
+      "target_start_seconds": 43,
+      "target_end_seconds": 49,
+      "prompt": "groups/08-tail-impact.txt",
+      "local_references": {
+        "Picture 3": "../references/D-tail-contact.png"
+      }
+    },
+    {
+      "number": 9,
+      "title": "单膝撑地、重新守线",
+      "duration_seconds": 4,
+      "target_start_seconds": 49,
+      "target_end_seconds": 53,
+      "prompt": "groups/09-recover-and-defend.txt",
+      "local_references": {
+        "Picture 3": "../references/D-tail-contact.png"
+      }
+    },
+    {
+      "number": 10,
+      "title": "盾沿触地、领域展开",
+      "duration_seconds": 6,
+      "target_start_seconds": 53,
+      "target_end_seconds": 59,
+      "prompt": "groups/10-barrier-deployment.txt",
+      "local_references": {
+        "Picture 3": "../references/E-barrier.png"
+      }
+    },
+    {
+      "number": 11,
+      "title": "巨爪压罩、过载守住（多机位）",
+      "duration_seconds": 6,
+      "target_start_seconds": 59,
+      "target_end_seconds": 65,
+      "prompt": "groups/11-barrier-pressure.txt",
+      "local_references": {
+        "Picture 3": "../references/E-barrier.png"
+      }
+    },
+    {
+      "number": 12,
+      "title": "领域消散、盾裂、红眼悬念",
+      "duration_seconds": 10,
+      "target_start_seconds": 65,
+      "target_end_seconds": 75,
+      "prompt": "groups/12-shield-fracture.txt",
+      "local_references": {
+        "Picture 3": "../references/F-shield-fracture.png",
+        "Picture 4": "../references/E-barrier.png"
+      }
+    }
+  ]
+}
