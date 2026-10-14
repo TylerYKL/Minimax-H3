@@ -72,7 +72,7 @@
       "target_end_seconds": 36,
       "prompt": "groups/06-launch-block-bridge.txt",
       "local_references": {
-        "Picture 5": "../references/C-blade-contact.png"
+        "Picture 5": "../references/states/aegis-airborne-shield.png"
       }
     },
     {

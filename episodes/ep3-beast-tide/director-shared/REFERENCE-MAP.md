@@ -22,7 +22,7 @@
 |03|6s|Picture 5: C-blade-contact；Picture 6: nyx-fire|
 |04|4s|Picture 5: lyra-repair|
 |05|8s||
-|06|8s|Picture 5: C-blade-contact|
+|06|8s|Picture 5: aegis-airborne-shield|
 |07|7s|Picture 5: C-blade-contact；Picture 6: titan-wounded|
 |08|6s|Picture 5: titan-tail-contact；Picture 6: titan-wounded|
 |09|4s|Picture 5: titan-tail-contact；Picture 6: titan-wounded|
@@ -39,3 +39,7 @@
 - 新图片是外观/动作参考，不是固定首帧。灰底不进入影片，参考中的其他人物也不自动进入当前镜头。
 - 先测06，再测07和08；确认右臂刀盾切换、尾根位置、接触后受力及镜头轴线。多机位保持06/07/08/11原来的三个镜头，不增加切镜负担。
 - 保留你已验证的4-step Turbo LoRA配置；本次没有验证采样器、CFG、LoRA强度，也没有实际渲染视频。
+
+## 第06段测试修订
+
+第06段已改成全程盾形态的防守脱险，刀盾变形及斩击放到后续段落。Picture 5 改为 `references/states/aegis-airborne-shield.png`，请移除本段旧的 C-blade-contact。新图只指导盾的位置和受力姿态，不是首帧或准确尺寸图。完整操作见 [CLIP06-RETEST.md](CLIP06-RETEST.md)。
