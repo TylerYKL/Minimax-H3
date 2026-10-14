@@ -6,7 +6,9 @@
     "prompt": "common-prompt.txt",
     "references": {
       "Picture 1": "../references/A-team.png",
-      "Picture 2": "../references/B-scale-final.png"
+      "Picture 2": "../references/states/titan-scale-preview.png",
+      "Picture 3": "../references/states/nyx-aim.png",
+      "Picture 4": "../references/states/lyra-skill.png"
     }
   },
   "merge_rule": "strip(shared prompt) + two newlines + strip(group prompt); references merge by index, local wins",
@@ -38,7 +40,8 @@
       "target_end_seconds": 16,
       "prompt": "groups/03-flank-fire.txt",
       "local_references": {
-        "Picture 3": "../references/C-blade-contact.png"
+        "Picture 5": "../references/C-blade-contact.png",
+        "Picture 6": "../references/states/nyx-fire.png"
       }
     },
     {
@@ -48,7 +51,9 @@
       "target_start_seconds": 16,
       "target_end_seconds": 20,
       "prompt": "groups/04-rear-support.txt",
-      "local_references": {}
+      "local_references": {
+        "Picture 5": "../references/states/lyra-repair.png"
+      }
     },
     {
       "number": 5,
@@ -67,7 +72,7 @@
       "target_end_seconds": 36,
       "prompt": "groups/06-launch-block-bridge.txt",
       "local_references": {
-        "Picture 3": "../references/C-blade-contact.png"
+        "Picture 5": "../references/C-blade-contact.png"
       }
     },
     {
@@ -78,7 +83,8 @@
       "target_end_seconds": 43,
       "prompt": "groups/07-aerial-double-slash.txt",
       "local_references": {
-        "Picture 3": "../references/C-blade-contact.png"
+        "Picture 5": "../references/C-blade-contact.png",
+        "Picture 6": "../references/states/titan-wounded.png"
       }
     },
     {
@@ -89,7 +95,8 @@
       "target_end_seconds": 49,
       "prompt": "groups/08-tail-impact.txt",
       "local_references": {
-        "Picture 3": "../references/D-tail-contact.png"
+        "Picture 5": "../references/states/titan-tail-contact.png",
+        "Picture 6": "../references/states/titan-wounded.png"
       }
     },
     {
@@ -100,7 +107,8 @@
       "target_end_seconds": 53,
       "prompt": "groups/09-recover-and-defend.txt",
       "local_references": {
-        "Picture 3": "../references/D-tail-contact.png"
+        "Picture 5": "../references/states/titan-tail-contact.png",
+        "Picture 6": "../references/states/titan-wounded.png"
       }
     },
     {
@@ -111,7 +119,7 @@
       "target_end_seconds": 59,
       "prompt": "groups/10-barrier-deployment.txt",
       "local_references": {
-        "Picture 3": "../references/E-barrier.png"
+        "Picture 5": "../references/states/titan-dome-pressure.png"
       }
     },
     {
@@ -122,7 +130,8 @@
       "target_end_seconds": 65,
       "prompt": "groups/11-barrier-pressure.txt",
       "local_references": {
-        "Picture 3": "../references/E-barrier.png"
+        "Picture 5": "../references/states/titan-dome-pressure.png",
+        "Picture 6": "../references/states/titan-wounded.png"
       }
     },
     {
@@ -133,9 +142,11 @@
       "target_end_seconds": 75,
       "prompt": "groups/12-shield-fracture.txt",
       "local_references": {
-        "Picture 3": "../references/F-shield-fracture.png",
-        "Picture 4": "../references/E-barrier.png"
+        "Picture 5": "../references/F-shield-fracture.png",
+        "Picture 6": "../references/states/titan-dome-pressure.png",
+        "Picture 7": "../references/states/titan-wounded.png"
       }
     }
-  ]
+  ],
+  "asset_revision": "2026-10-14 action references; scale and wound layout remain provisional"
 }

@@ -1,10 +1,13 @@
 subject_definitions:
-<Subject 1> is Aegis from <Picture 1>, with the right-forearm projected shield and intact physical emitter.
-<Subject 2> is Nyx from <Picture 1>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon follows the existing armed reference and episode equipment design.
-<Subject 3> is the emerald Lyra from <Picture 1>.
-<Subject 5> is the thirty-meter titan from <Picture 2>.
-<Subject 6> is the fading defensive dome from <Picture 2>.
-<Subject 7> is the luminous fracture appearance on Aegis's projected shield from <Picture 1>.
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter human-sized fighter in broad-shouldered worn dark-gunmetal layered armor with orange-gold light strips, with a sealed cyan visor, an orange hexagonal chest furnace and back and calf thrusters. His attached RIGHT-forearm emitter alternates between a golden honeycomb shield for defense and a broad single-edged golden energy blade approximately 1.8 meters long for attack. Only one full projection is active at a time; his left hand balances or supports his body.
+<Subject 2> is Nyx from <Picture 3>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon has a rectangular dark-purple barrel, twin side rails, violet central channel, hexagonal muzzle and shoulder brace; preserve the same weapon across shots.
+<Subject 3> is Lyra from <Picture 4>, a human-sized medic in dark-teal segmented armor, a hood-shaped armored head covering, cyan-green faceplate, green hexagonal chest core, split long armored skirt, belt and luminous rings around both wrists. Repair filaments originate at the wrist rings. No deployed antenna is part of this reference.
+<Subject 4> is the red-moon ruined city from <Picture 1>: wet rubble avenue, abandoned vehicles, forty-to-sixty-meter towers and a twelve-meter-high elevated highway. The northern avenue is the enemy approach, the southern lane is allied medical support, and the western platform is Nyx's firing position. Bridge damage follows the current group's description.
+<Subject 5> is the horned rock-armored titan from <Picture 2>, thirty meters tall, approximately sixteen times Aegis's height, with charcoal carapace, red molten veins, a central red chest core and a long armored tail rooted at the base of the spine behind the pelvis, ending in a polygonal rock hammer. Both clawed hands are separate and empty. The scale preview supplies creature identity only: its pictured hero is too large. Enforce the stated 30-meter to 1.88-meter scale using common ground depth, cars and building floors. Appearance definitions do not require every subject to appear. The current group's description determines the visible cast, equipment state and persistent damage.
+
+<Picture 7> is a shot-planning reference for damaged chest material only; core remains intact and titan survives. It is not a fixed first frame.
+<Subject 7> is the bright persistent fracture across the projected shield surface from <Picture 5>. It first develops only after the dome fades in this group; the physical forearm emitter remains intact.
+<Subject 6> is the transparent golden hexagonal defensive dome from <Picture 6>, fixed on the southern support lane, with a ten-meter radius and ten-meter height. Its deployment, boundary and dissolution follow the current group.
 
 summary:
 [reference generation] The titan withdraws, the dome fades, and <Subject 7> first develops on <Subject 1>'s shield as further threats emerge beyond the city.
@@ -17,9 +20,14 @@ retention_analysis:
 <Subject 6>: partially_preserved - begin with the existing dome and dissolve it.
 <Subject 7>: fully_preserved - retain the projected-energy fracture appearance, introduced only after the dome fades.
 
+<Picture 7>: weak_reference - transfer only the stated action or material; current shot text controls cast, timing, scale and damage.
+
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with quieter movement and cooling light after the defensive climax. The central bridge span remains destroyed.
+Use <Picture 7> only for its defined reference role.
+Keep the titan 30 meters tall and Aegis 1.88 meters tall. At equal camera depth Aegis is about one sixteenth of its height; action references are not measured scale plates.
+The tail hammer remains attached to the pelvis-rooted tail, never to an arm or held in a hand. Preserve exactly two chest gouges from clip 07 and the intact red core.
 [Shot 1] A wide side view begins with the titan outside the northern boundary. During seconds zero to three, it pulls its hand away and takes one heavy step north. The red core remains intact and the two chest-plate cuts persist. The golden dome loses brightness and dissolves into sparse particles. Aegis's chest furnace dims while the allied team remains in the protected lane.
 [Shot 2] At 00:03.000, cut to the right-forearm projected shield. Its physical emitter is intact. A first bright fracture grows from the outer edge across the honeycomb projection. The surface remains present, but small gold sparks leak from the unstable line. Aegis turns his forearm slightly to inspect it.
 [Shot 3] At 00:06.000, cut to a rear wide view of the team facing north. Nyx stands beside Aegis; Lyra supports a wounded ally behind them. The surviving titan retreats into smoke. Farther beyond it, several pairs of red eyes appear high between ruined towers, their bodies mostly hidden.

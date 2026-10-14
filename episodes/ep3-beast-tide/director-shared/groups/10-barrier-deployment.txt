@@ -1,4 +1,4 @@
-<Subject 6> is the transparent golden hexagonal defensive dome from <Picture 3>, fixed on the southern support lane, with a ten-meter radius and ten-meter height. Its deployment, boundary and dissolution follow the current group.
+<Subject 6> is the transparent golden hexagonal defensive dome from <Picture 5>, fixed on the southern support lane, with a ten-meter radius and ten-meter height. Its deployment, boundary and dissolution follow the current group.
 
 summary:
 [reference generation] <Subject 1> deploys <Subject 6> around the southern support lane, enclosing the allied team while <Subject 5> remains outside.
@@ -13,6 +13,8 @@ retention_analysis:
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG. The central highway span remains broken. The titan's chest core is intact, with two local slash wounds around it.
+Keep the titan 30 meters tall and Aegis 1.88 meters tall. At equal camera depth Aegis is about one sixteenth of its height; action references are not measured scale plates.
+The tail hammer remains attached to the pelvis-rooted tail, never to an arm or held in a hand. Preserve exactly two chest gouges from clip 07 and the intact red core.
 [Shot 1] A medium-low view shows Aegis lowering the bottom edge of his right-arm projected shield onto the road. The physical emitter remains attached to his forearm. During seconds zero to two, his chest furnace brightens and orange power travels through the right-arm conduits before a golden line spreads across the ground.
 [Shot 2] At 00:02.000, cut to an elevated side-wide view that clearly establishes the boundary. The circular line encloses the southern medical lane, centered behind Aegis. He stands one stride inside its northern edge. Nyx, Lyra and wounded allies are farther south inside the circle. Both titan feet are entirely north of the circle on uncovered road.
 During seconds two to five, the ring rises into a transparent hemisphere ten meters high. The thirty-meter titan towers above it from outside. Gold hexagonal cells spread upward and meet at the crown.

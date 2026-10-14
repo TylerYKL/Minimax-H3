@@ -1,5 +1,6 @@
-<Subject 7> is the bright persistent fracture across the projected shield surface from <Picture 3>. It first develops only after the dome fades in this group; the physical forearm emitter remains intact.
-<Subject 6> is the transparent golden hexagonal defensive dome from <Picture 4>, fixed on the southern support lane, with a ten-meter radius and ten-meter height. Its deployment, boundary and dissolution follow the current group.
+<Picture 7> is a shot-planning reference for damaged chest material only; core remains intact and titan survives. It is not a fixed first frame.
+<Subject 7> is the bright persistent fracture across the projected shield surface from <Picture 5>. It first develops only after the dome fades in this group; the physical forearm emitter remains intact.
+<Subject 6> is the transparent golden hexagonal defensive dome from <Picture 6>, fixed on the southern support lane, with a ten-meter radius and ten-meter height. Its deployment, boundary and dissolution follow the current group.
 
 summary:
 [reference generation] The titan withdraws, the dome fades, and <Subject 7> first develops on <Subject 1>'s shield as further threats emerge beyond the city.
@@ -12,9 +13,14 @@ retention_analysis:
 <Subject 6>: partially_preserved - begin with the existing dome and dissolve it.
 <Subject 7>: fully_preserved - retain the projected-energy fracture appearance, introduced only after the dome fades.
 
+<Picture 7>: weak_reference - transfer only the stated action or material; current shot text controls cast, timing, scale and damage.
+
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with quieter movement and cooling light after the defensive climax. The central bridge span remains destroyed.
+Use <Picture 7> only for its defined reference role.
+Keep the titan 30 meters tall and Aegis 1.88 meters tall. At equal camera depth Aegis is about one sixteenth of its height; action references are not measured scale plates.
+The tail hammer remains attached to the pelvis-rooted tail, never to an arm or held in a hand. Preserve exactly two chest gouges from clip 07 and the intact red core.
 [Shot 1] A wide side view begins with the titan outside the northern boundary. During seconds zero to three, it pulls its hand away and takes one heavy step north. The red core remains intact and the two chest-plate cuts persist. The golden dome loses brightness and dissolves into sparse particles. Aegis's chest furnace dims while the allied team remains in the protected lane.
 [Shot 2] At 00:03.000, cut to the right-forearm projected shield. Its physical emitter is intact. A first bright fracture grows from the outer edge across the honeycomb projection. The surface remains present, but small gold sparks leak from the unstable line. Aegis turns his forearm slightly to inspect it.
 [Shot 3] At 00:06.000, cut to a rear wide view of the team facing north. Nyx stands beside Aegis; Lyra supports a wounded ally behind them. The surviving titan retreats into smoke. Farther beyond it, several pairs of red eyes appear high between ruined towers, their bodies mostly hidden.

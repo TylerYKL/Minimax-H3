@@ -1,7 +1,11 @@
 subject_definitions:
-<Subject 3> is Lyra from <Picture 1>, with emerald armor, a medical antenna and wrist-mounted repair emitter.
-<Subject 4> is the ruined city and southern support environment derived from <Picture 1>.
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter human-sized fighter in broad-shouldered worn dark-gunmetal layered armor with orange-gold light strips, with a sealed cyan visor, an orange hexagonal chest furnace and back and calf thrusters. His attached RIGHT-forearm emitter alternates between a golden honeycomb shield for defense and a broad single-edged golden energy blade approximately 1.8 meters long for attack. Only one full projection is active at a time; his left hand balances or supports his body.
+<Subject 2> is Nyx from <Picture 3>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon has a rectangular dark-purple barrel, twin side rails, violet central channel, hexagonal muzzle and shoulder brace; preserve the same weapon across shots.
+<Subject 3> is Lyra from <Picture 4>, a human-sized medic in dark-teal segmented armor, a hood-shaped armored head covering, cyan-green faceplate, green hexagonal chest core, split long armored skirt, belt and luminous rings around both wrists. Repair filaments originate at the wrist rings. No deployed antenna is part of this reference.
+<Subject 4> is the red-moon ruined city from <Picture 1>: wet rubble avenue, abandoned vehicles, forty-to-sixty-meter towers and a twelve-meter-high elevated highway. The northern avenue is the enemy approach, the southern lane is allied medical support, and the western platform is Nyx's firing position. Bridge damage follows the current group's description.
+<Subject 5> is the horned rock-armored titan from <Picture 2>, thirty meters tall, approximately sixteen times Aegis's height, with charcoal carapace, red molten veins, a central red chest core and a long armored tail rooted at the base of the spine behind the pelvis, ending in a polygonal rock hammer. Both clawed hands are separate and empty. The scale preview supplies creature identity only: its pictured hero is too large. Enforce the stated 30-meter to 1.88-meter scale using common ground depth, cars and building floors. Appearance definitions do not require every subject to appear. The current group's description determines the visible cast, equipment state and persistent damage.
 
+<Picture 5> is a shot-planning reference for wrist-to-armor healing contact for Lyra and a generic injured gray-armored ally; use the episode medical lane instead of the studio background. It is not a fixed first frame.
 summary:
 [reference generation] <Subject 3> repairs a wounded ally as a new ground tremor signals an approaching larger threat.
 
@@ -9,10 +13,14 @@ retention_analysis:
 <Subject 3>: fully_preserved - retain emerald armor, helmet and repair equipment.
 <Subject 4>: partially_preserved - retain environmental appearance while showing the protected rear lane.
 
+<Picture 5>: weak_reference - transfer only the stated action or material; current shot text controls cast, timing, scale and damage.
+
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
+Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
 Cinematic 3D CG with emerald repair light against cool shadows.
-[Shot 1] A medium-close camera moves slowly beside an abandoned armored vehicle in the southern support lane. Lyra stands beside a kneeling allied mech whose shoulder plate is visibly damaged. Another wounded ally waits behind the vehicle. During the first two seconds, a narrow stream of emerald particles travels from Lyra's wrist emitter to the damaged shoulder seam. The particles settle along the seam and draw its separated edges closer. The ally remains supported and does not instantly become undamaged.
+Use <Picture 5> only for its defined reference role.
+[Shot 1] A medium-close camera moves slowly beside an abandoned armored vehicle in the southern support lane. Lyra kneels beside a seated allied mech whose shoulder plate is visibly damaged. Another wounded ally waits behind the vehicle. During the first two seconds, a narrow stream of emerald particles travels from Lyra's two luminous wrist rings to the damaged shoulder seam. The particles settle along the seam and draw its separated edges closer. The ally remains supported and does not instantly become undamaged.
 During the last two seconds, loose fragments beside a puddle begin trembling. Concentric ripples spread over the water with a deep ground pulse. Lyra pauses the repair and turns her closed helmet toward the northern avenue. The camera lowers slightly to include the vibrating road surface while keeping her reaction visible. A distant oversized shadow is obscured by smoke beyond the intact highway. Do not fully reveal the titan in this clip. End on the interrupted repair and growing tremor. No captions or spoken dialogue.
 
 overall_soundscape:

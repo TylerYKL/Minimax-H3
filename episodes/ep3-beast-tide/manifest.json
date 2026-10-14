@@ -14,7 +14,10 @@
       "target_end_seconds": 6,
       "prompt": "prompts/01-horde-approach.txt",
       "references": {
-        "Picture 1": "references/A-team.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png"
       }
     },
     {
@@ -25,7 +28,10 @@
       "target_end_seconds": 10,
       "prompt": "prompts/02-shield-collision.txt",
       "references": {
-        "Picture 1": "references/A-team.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png"
       }
     },
     {
@@ -37,7 +43,11 @@
       "prompt": "prompts/03-flank-fire.txt",
       "references": {
         "Picture 1": "references/A-team.png",
-        "Picture 2": "references/C-blade-contact.png"
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/C-blade-contact.png",
+        "Picture 6": "references/states/nyx-fire.png"
       }
     },
     {
@@ -48,7 +58,11 @@
       "target_end_seconds": 20,
       "prompt": "prompts/04-rear-support.txt",
       "references": {
-        "Picture 1": "references/A-team.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/states/lyra-repair.png"
       }
     },
     {
@@ -59,8 +73,10 @@
       "target_end_seconds": 28,
       "prompt": "prompts/05-titan-reveal.txt",
       "references": {
-        "Picture 1": "references/B-scale-final.png",
-        "Picture 2": "references/A-team.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png"
       }
     },
     {
@@ -71,8 +87,11 @@
       "target_end_seconds": 36,
       "prompt": "prompts/06-launch-block-bridge.txt",
       "references": {
-        "Picture 1": "references/B-scale-final.png",
-        "Picture 2": "references/C-blade-contact.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/C-blade-contact.png"
       }
     },
     {
@@ -83,8 +102,12 @@
       "target_end_seconds": 43,
       "prompt": "prompts/07-aerial-double-slash.txt",
       "references": {
-        "Picture 1": "references/C-blade-contact.png",
-        "Picture 2": "references/B-scale-final.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/C-blade-contact.png",
+        "Picture 6": "references/states/titan-wounded.png"
       }
     },
     {
@@ -95,8 +118,12 @@
       "target_end_seconds": 49,
       "prompt": "prompts/08-tail-impact.txt",
       "references": {
-        "Picture 1": "references/D-tail-contact.png",
-        "Picture 2": "references/B-scale-final.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/states/titan-tail-contact.png",
+        "Picture 6": "references/states/titan-wounded.png"
       }
     },
     {
@@ -108,7 +135,11 @@
       "prompt": "prompts/09-recover-and-defend.txt",
       "references": {
         "Picture 1": "references/A-team.png",
-        "Picture 2": "references/D-tail-contact.png"
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/states/titan-tail-contact.png",
+        "Picture 6": "references/states/titan-wounded.png"
       }
     },
     {
@@ -119,8 +150,11 @@
       "target_end_seconds": 59,
       "prompt": "prompts/10-barrier-deployment.txt",
       "references": {
-        "Picture 1": "references/E-barrier.png",
-        "Picture 2": "references/A-team.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/states/titan-dome-pressure.png"
       }
     },
     {
@@ -131,7 +165,12 @@
       "target_end_seconds": 65,
       "prompt": "prompts/11-barrier-pressure.txt",
       "references": {
-        "Picture 1": "references/E-barrier.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/states/titan-dome-pressure.png",
+        "Picture 6": "references/states/titan-wounded.png"
       }
     },
     {
@@ -142,8 +181,13 @@
       "target_end_seconds": 75,
       "prompt": "prompts/12-shield-fracture.txt",
       "references": {
-        "Picture 1": "references/F-shield-fracture.png",
-        "Picture 2": "references/E-barrier.png"
+        "Picture 1": "references/A-team.png",
+        "Picture 2": "references/states/titan-scale-preview.png",
+        "Picture 3": "references/states/nyx-aim.png",
+        "Picture 4": "references/states/lyra-skill.png",
+        "Picture 5": "references/F-shield-fracture.png",
+        "Picture 6": "references/states/titan-dome-pressure.png",
+        "Picture 7": "references/states/titan-wounded.png"
       }
     }
   ]

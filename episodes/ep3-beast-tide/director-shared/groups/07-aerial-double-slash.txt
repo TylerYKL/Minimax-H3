@@ -1,4 +1,5 @@
-<Picture 3> is a composition and blade-contact reference for this group. Use its right-arm blade silhouette and readable contact treatment; the current scene determines the target, pose, bridge state and damage. It is not a fixed opening frame.
+<Picture 6> is a shot-planning reference for chest damage material after the second slash only; use exactly two shallow diagonal gouges flanking the intact circular core, not every crack pictured. It is not a fixed first frame.
+<Picture 5> is a composition and blade-contact reference for this group. Use its right-arm blade silhouette and readable contact treatment; the current scene determines the target, pose, bridge state and damage. It is not a fixed opening frame.
 
 summary:
 [reference generation] <Subject 1> circles <Subject 5>'s shoulder, makes two connected blade passes against one chest-armor seam and withdraws behind the shield.
@@ -8,11 +9,15 @@ retention_analysis:
 <Subject 5>: partially_preserved - retain identity and scale while adding two local slash wounds around the intact core.
 <Subject 4>: partially_preserved - retain city appearance and the established broken highway state.
 
-<Picture 3>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
+<Picture 5>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
+
+<Picture 6>: weak_reference - transfer only the stated action or material; current shot text controls cast, timing, scale and damage.
 
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with fast connected aerial passes. <Subject 1> remains a 1.88-meter fighter against the thirty-meter <Subject 5>. The giant chest and individual armor plates remain enormous beside his full body. The central highway span is already broken.
+Use <Picture 6> only for its defined reference role.
+Keep the titan 30 meters tall and Aegis 1.88 meters tall. At equal camera depth Aegis is about one sixteenth of its height; action references are not measured scale plates.
 [Shot 1] An elevated wide view from behind the titan's outer shoulder reveals Aegis approaching through the air, the avenue far below and the chest beyond the shoulder. During seconds zero to two, his calf jets steer him around the shoulder. His right-arm shield visibly contracts into its attached emitter and extends into a broad golden single-edged blade. The titan turns its head and upper body to track him, exposing the plate seam beside the red core. Aegis banks toward that opening. His left hand remains empty.
 [Shot 2] At 00:02.000, cut to a three-quarter side view of the chest, keeping Aegis's full body, blade and intended contact point visible. He passes diagonally downward across the armor and rotates his right shoulder through the slash. The blade edge meets the seam before sparks and small stone fragments scatter. Hold through contact and follow-through. One narrow cut remains beside the intact core. The titan's nearby plates jolt, but its entire body is not thrown backward.
 [Shot 3] At 00:03.800, cut to a rear-upper tracking view behind Aegis, looking along his return route toward the same damaged seam. The red core remains visible as a fixed landmark. Calf jets redirect him through a tight banking turn. He brings the same right-arm blade upward across the first cut, extending the fracture after visible contact.

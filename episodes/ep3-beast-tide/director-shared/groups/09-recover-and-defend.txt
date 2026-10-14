@@ -1,4 +1,5 @@
-<Picture 3> is a shield-contact composition reference for this group. Use its right-arm shield attachment and force-transfer treatment; the current scene determines whether impact or recovery is shown. It is not a fixed opening frame.
+<Picture 6> is a shot-planning reference for damaged chest material only; retain the two existing gouges. It is not a fixed first frame.
+<Picture 5> is a shield-contact composition reference for this group. Use its right-arm shield attachment and force-transfer treatment; the current scene determines whether impact or recovery is shown. It is not a fixed opening frame.
 
 summary:
 [reference generation] <Subject 1> recovers from the tail strike and positions himself in front of <Subject 3> and the wounded allies.
@@ -9,11 +10,16 @@ retention_analysis:
 <Subject 3>: fully_preserved - retain emerald armor and medical equipment.
 <Subject 4>: partially_preserved - retain the environment with the broken highway visible north of the support lane.
 
-<Picture 3>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
+<Picture 5>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
+
+<Picture 6>: weak_reference - transfer only the stated action or material; current shot text controls cast, timing, scale and damage.
 
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
 Cinematic 3D CG with a brief breathing pause after the violent fall.
+Use <Picture 6> only for its defined reference role.
+Keep the titan 30 meters tall and Aegis 1.88 meters tall. At equal camera depth Aegis is about one sixteenth of its height; action references are not measured scale plates.
+The tail hammer remains attached to the pelvis-rooted tail, never to an arm or held in a hand. Preserve exactly two chest gouges from clip 07 and the intact red core.
 [Shot 1] A medium three-quarter view begins with Aegis on one knee at the end of a fresh road furrow. His left palm supports him on the ground and his right shield remains intact beside him. The thrusters fade from braking thrust to a low glow. During the first second, his helmet dips and steadies as the ringing subsides.
 The camera moves slightly sideways to reveal Lyra behind him supporting a wounded allied mech, with another injured fighter beside the vehicle barricade. Nyx approaches from the western flank.
 During seconds two to four, Aegis plants his front boot and rises. He turns his closed helmet toward the allies, then faces north again and takes one protective step in front of them. He lowers the bottom edge of the right-arm shield toward the road, preparing to channel the barrier. The distant titan remains north beyond the broken bridge, not beside the human-sized team.

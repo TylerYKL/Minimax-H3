@@ -15,31 +15,12 @@ Sources: [README_EN reference groups](https://github.com/AIMixer/ComfyUI_MiniMax
 ## EP3 setup
 
 1. Select **Reference to Video (r2v)**, using the compatible **ref2va** model and audio VAE.
-2. Enable Shared Params. Upload `../references/A-team.png` as **Picture 1**, and `../references/B-scale-final.png` as **Picture 2**.
-3. Paste [common-prompt.txt](common-prompt.txt) into the shared prompt field. It supplies `subject_definitions` and the fixed Subject 1–5 identities.
-4. For each group, paste its file from [groups/](groups/). These are prompt tails, not standalone full requests. Any leading definitions continue the shared `subject_definitions` section before the group's `summary`.
-5. Attach only the local assets shown below. Keep Picture 1 and Picture 2 clear in the group, so the shared identities are not overwritten.
+2. Enable Shared Params and attach the four fixed slots listed in [REFERENCE-MAP.md](REFERENCE-MAP.md).
+3. Paste [common-prompt.txt](common-prompt.txt) once in Shared Params.
+4. Paste the corresponding file from `groups/` into each group. Local definitions continue the shared subject_definitions section.
+5. Attach the local images in REFERENCE-MAP.md, starting at Picture 5. Do not overwrite slots 1–4.
 
-|Group|Target duration|Local Picture 3|Local Picture 4|
-|---|---:|---|---|
-|01|6s|—|—|
-|02|4s|—|—|
-|03|6s|C-blade-contact|—|
-|04|4s|—|—|
-|05|8s|—|—|
-|06|8s|C-blade-contact|—|
-|07|7s|C-blade-contact|—|
-|08|6s|D-tail-contact|—|
-|09|4s|D-tail-contact|—|
-|10|6s|E-barrier|—|
-|11|6s|E-barrier|—|
-|12|10s|F-shield-fracture|E-barrier|
-
-Local Picture 3 intentionally varies by group and is defined in that group's text. Subject identities stay fixed. Subject 6 is the dome; Subject 7 is the final energy fracture. Early groups explicitly keep the shared titan out of the visible cast.
-
-This supersedes the earlier suggestion to share all six action/state images. Keeping damage and dome references local reduces conflicting visual states; it is a production choice, not a Director limitation.
-
-Do not paste the original complete prompts from `../prompts/` after this common prompt: that would duplicate `subject_definitions` and use incompatible per-clip Picture numbers. The original standalone prompts remain available as a separate mode with shared params disabled.
+The complete `../prompts/` files now use exactly the same image numbering as the merged shared version. They are an alternative for Shared Params OFF; never append them after the common prompt.
 
 ## Timing and rendering limits
 

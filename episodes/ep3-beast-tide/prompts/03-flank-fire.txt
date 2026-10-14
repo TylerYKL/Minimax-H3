@@ -1,7 +1,12 @@
 subject_definitions:
-<Subject 1> is Aegis, whose armor comes from <Picture 1> and whose right-forearm golden energy blade design comes from <Picture 2>.
-<Subject 2> is Nyx from <Picture 1>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon follows the existing armed reference and episode equipment design.
-<Subject 4> is the ruined red-moon avenue from <Picture 1>.
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter human-sized fighter in broad-shouldered worn dark-gunmetal layered armor with orange-gold light strips, with a sealed cyan visor, an orange hexagonal chest furnace and back and calf thrusters. His attached RIGHT-forearm emitter alternates between a golden honeycomb shield for defense and a broad single-edged golden energy blade approximately 1.8 meters long for attack. Only one full projection is active at a time; his left hand balances or supports his body.
+<Subject 2> is Nyx from <Picture 3>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon has a rectangular dark-purple barrel, twin side rails, violet central channel, hexagonal muzzle and shoulder brace; preserve the same weapon across shots.
+<Subject 3> is Lyra from <Picture 4>, a human-sized medic in dark-teal segmented armor, a hood-shaped armored head covering, cyan-green faceplate, green hexagonal chest core, split long armored skirt, belt and luminous rings around both wrists. Repair filaments originate at the wrist rings. No deployed antenna is part of this reference.
+<Subject 4> is the red-moon ruined city from <Picture 1>: wet rubble avenue, abandoned vehicles, forty-to-sixty-meter towers and a twelve-meter-high elevated highway. The northern avenue is the enemy approach, the southern lane is allied medical support, and the western platform is Nyx's firing position. Bridge damage follows the current group's description.
+<Subject 5> is the horned rock-armored titan from <Picture 2>, thirty meters tall, approximately sixteen times Aegis's height, with charcoal carapace, red molten veins, a central red chest core and a long armored tail rooted at the base of the spine behind the pelvis, ending in a polygonal rock hammer. Both clawed hands are separate and empty. The scale preview supplies creature identity only: its pictured hero is too large. Enforce the stated 30-meter to 1.88-meter scale using common ground depth, cars and building floors. Appearance definitions do not require every subject to appear. The current group's description determines the visible cast, equipment state and persistent damage.
+
+<Picture 6> is a shot-planning reference for firing pose and muzzle-to-beam connection for Nyx; retain his cannon design. It is not a fixed first frame.
+<Picture 5> is a composition and blade-contact reference for this group. Use its right-arm blade silhouette and readable contact treatment; the current scene determines the target, pose, bridge state and damage. It is not a fixed opening frame.
 
 summary:
 [reference generation] <Subject 2> fires into the approaching small beasts while <Subject 1> intercepts one beast that reaches the defensive line.
@@ -11,9 +16,15 @@ retention_analysis:
 <Subject 2>: fully_preserved - retain purple armor and cannon.
 <Subject 4>: partially_preserved - retain city appearance while showing the western firing position.
 
+<Picture 5>: weak_reference - use composition and equipment treatment only; follow the current group for pose, timing, target, scale and damage.
+
+<Picture 6>: weak_reference - transfer only the stated action or material; current shot text controls cast, timing, scale and damage.
+
 detailed_description:
 Cinematic 3D CG in the visual style of the supplied reference images, with realistic physically based materials, heavy mechanical armor, detailed rock surfaces, volumetric lighting, and high-contrast red-moon illumination. Preserve consistent character design, material response, and rendering style across every shot.
+Only the allied fighters and small beasts specified below appear. The titan remains unrevealed; do not add its visible body from the shared reference.
 Cinematic 3D CG with short bursts of action and clear attack trajectories. All allied fighters are human-sized.
+Use <Picture 6> only for its defined reference role.
 [Shot 1] A medium side view shows Nyx braced on a low western platform, aiming diagonally down the northern avenue. During seconds zero to three, Nyx fires two distinct violet shots. Each straight beam leaves the cannon before its target reacts. A small armored beast tumbles after the first impact; the second impact scatters another beast away from the southern support route. Recoil moves the cannon into Nyx's shoulder and supporting stance.
 [Shot 2] At 00:03.000, cut to Aegis at street level as one surviving beast lunges toward him. His right-forearm shield contracts toward its attached emitter and extends into a broad golden single-edged blade approximately 1.8 meters long. He pivots on his supporting foot and makes one diagonal cut across the beast's armored shoulder. The blade contacts before sparks and rock-like fragments scatter. The beast is redirected sideways and falls clear of his legs.
 Aegis ends with the blade low, left arm balancing and feet grounded. No full shield remains while the blade is active. The titan has not entered the foreground. The highway remains intact. No captions or spoken dialogue.
