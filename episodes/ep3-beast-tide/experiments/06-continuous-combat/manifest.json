@@ -1,0 +1,38 @@
+{
+  "purpose": "Experimental manual r2v setup, not an importable workflow; does not replace production clip06",
+  "source_duration_seconds": 12,
+  "editorial_target_seconds": 8,
+  "shared_prompt": "common-prompt.txt",
+  "shared_references": {
+    "Picture 1": "../../references/A-team.png",
+    "Picture 2": "../../references/states/titan-scale-preview.png",
+    "Picture 3": "../../references/states/nyx-aim.png",
+    "Picture 4": "../../references/states/lyra-skill.png"
+  },
+  "clips": [
+    {
+      "name": "06A-claw-shield-recoil",
+      "prompt": "groups/06A-claw-shield-recoil.txt",
+      "duration_seconds": 4,
+      "local_references": {
+        "Picture 5": "../../references/states/aegis-airborne-shield.png"
+      }
+    },
+    {
+      "name": "06B-roll-and-thread",
+      "prompt": "groups/06B-roll-and-thread.txt",
+      "duration_seconds": 4,
+      "local_references": {
+        "Picture 5": "../../references/states/aegis-airborne-shield.png"
+      }
+    },
+    {
+      "name": "06C-bridge-strike-escape",
+      "prompt": "groups/06C-bridge-strike-escape.txt",
+      "duration_seconds": 4,
+      "local_references": {
+        "Picture 5": "../../references/states/aegis-airborne-shield.png"
+      }
+    }
+  ]
+}

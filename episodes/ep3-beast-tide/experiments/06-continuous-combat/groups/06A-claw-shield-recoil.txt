@@ -1,0 +1,23 @@
+<Picture 5> supplies Aegis's attached right-forearm shield and recoil posture only. It is a visual equipment reference, not the first frame or a gray-background scene.
+
+summary:
+[reference generation] Aegis makes a fast approach, catches a sudden claw sweep on his shield and is knocked into a sideways roll.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, 1.88-meter height, attached right-arm emitter and back/calf propulsion.
+<Subject 5>: fully_preserved - retain 30-meter volcanic titan, attached pelvis-rooted tail, intact chest armor and red core.
+<Subject 4>: partially_preserved - retain the city and highway; bridge state follows the shot's explicit timeline.
+<Picture 5>: weak_reference - retain equipment location and recoil mechanics only; motion, framing and projection state follow this shot.
+
+detailed_description:
+Cinematic 3D CG with physically based worn metal, rough volcanic rock, red moon and cool shadows. This is a four-second source shot of an ongoing fight, with rapid acceleration changes and clear contact. Aegis is human-sized, about one sixteenth the titan's height at equal camera depth. Only Aegis and the titan appear. No internal cuts, slow motion, captions or speech. Preserve rightward screen travel and the same side of the action axis.
+[Shot 1] One continuous moving shot, already at combat speed on the first frame. A side-rear tracking camera races alongside <Subject 1> as he flies left to right close to the outside of <Subject 5>'s enormous forearm. His body is stretched forward, right-arm shield held obliquely ahead, left hand free. The titan's intact chest core stays far behind and above; its forearm is much larger than Aegis's entire body. Broken city windows streak past in the background while his silhouette remains sharp. An intact highway runs across the background toward screen right.
+Within the first second, the titan rotates its shoulder and sweeps its near claw sharply across his route. Aegis has only a short distance to raise the shield fully. Around second one, a single claw tip strikes its outward face. Show the tip meeting the shield before any flash. The honeycomb surface briefly compresses, a compact white-gold flash peaks at contact, and a thin ring races outward across the shield. A short fan of sparks shoots sideways from that exact point. The shield remains attached to the right forearm and rebounds without persistent cracks.
+The blow immediately folds his right elbow toward his ribs and twists his shoulder and pelvis away. His legs whip sideways; the main jet trails briefly shorten as he is thrown toward screen right. The camera receives one short jolt at impact, then whips right to catch his displacement, with momentary background blur rather than a prolonged shaking view. The titan's claw continues through its sweep behind him. Aegis does not stop to pose or push against the hand.
+During the final second, he is still traveling rapidly rightward, torso beginning a side roll with feet above his previous flight line. A short calf-jet burst begins correcting the roll but does not finish it. End mid-roll with the intact bridge ahead and the pursuing titan still active. No landing or stable hovering.
+
+overall_soundscape:
+Fast air rush, a single hard metallic-energy impact, brief electrical snap, armor compression and uneven corrective jet bursts. The impact sound peaks only after visible contact.
+
+non_diegetic_music:
+N/A

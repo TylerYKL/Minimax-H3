@@ -1,0 +1,23 @@
+<Picture 5> supplies Aegis's attached right-forearm shield and recoil posture only. It is a visual equipment reference, not the first frame or a gray-background scene.
+
+summary:
+[reference generation] The pursuing palm hits the bridge behind Aegis; the span collapses and he flies through debris into his next attack.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, 1.88-meter height, attached right-arm emitter and back/calf propulsion.
+<Subject 5>: fully_preserved - retain 30-meter volcanic titan, attached pelvis-rooted tail, intact chest armor and red core.
+<Subject 4>: partially_preserved - retain the city and highway; bridge state follows the shot's explicit timeline.
+<Picture 5>: weak_reference - retain equipment location and recoil mechanics only; motion, framing and projection state follow this shot.
+
+detailed_description:
+Cinematic 3D CG with physically based worn metal, rough volcanic rock, red moon and cool shadows. This is a four-second source shot of an ongoing fight, with rapid acceleration changes and clear contact. Aegis is human-sized, about one sixteenth the titan's height at equal camera depth. Only Aegis and the titan appear. No internal cuts, slow motion, captions or speech. Preserve rightward screen travel and the same side of the action axis.
+[Shot 1] One continuous wide side-tracking shot begins with <Subject 1> already speeding left to right just beyond the edge of an intact elevated bridge. His right-arm projection is retracted after the narrow escape. <Subject 5>'s enormous open palm is already descending behind him, continuing the previous shot. The titan stands outside and beyond the bridge, its chest and red core untouched. Frame the descending palm, central deck span, support column and escaping Aegis together, keeping the same screen direction.
+Within the first second the palm visibly hits the deck behind Aegis. Concrete buckles downward at the contact point, a jagged fracture crosses the deck and the central slab separates from its support. Keep the break visible in this same shot. Large distinct slab pieces drop under gravity, while smaller chips eject outward from the strike. Dust begins locally at contact and spreads after the deck has visibly broken, leaving the opening readable. The falling span exposes a clear gap between the surviving bridge ends.
+The blast of air and fragments catches Aegis from behind. His flight path jolts forward and slightly downward; he throws his free left arm outward, then fires a sharp calf-jet correction to recover without stopping. The camera surges forward with him, briefly revealing falling concrete below. A few near-camera fragments streak past; the main silhouette and bridge gap remain readable. No debris comes from the titan's chest, which stays intact.
+As Aegis clears the last falling slab, he banks upward toward the outside of the giant's shoulder. His RIGHT-forearm emitter extends one broad golden single-edged blade along the new flight direction; the shield stays retracted. Finish on fast upward motion with the blade newly deployed, bridge gap behind him and the next approach still underway. He does not strike the chest, hover, land or celebrate. The titan remains alive and turning to pursue.
+
+overall_soundscape:
+A heavy palm-on-deck crash precedes concrete fracture and falling slab impacts. Carry the jet roar forward through debris, with short steering bursts and a brief energy-blade ignition at the end.
+
+non_diegetic_music:
+N/A
