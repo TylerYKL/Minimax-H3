@@ -1,0 +1,26 @@
+{
+  "purpose": "Manual six-second r2v slow-contact / fast-knockback / building-impact experiment; not an importable workflow",
+  "target_duration_seconds": 6,
+  "shared_prompt": "common-prompt.txt",
+  "shared_images": {
+    "Picture 1": "../../references/A-team.png",
+    "Picture 2": "../../references/states/titan-scale-preview.png",
+    "Picture 3": "../../references/states/nyx-aim.png",
+    "Picture 4": "../../references/states/lyra-skill.png"
+  },
+  "group_prompt": "06A-group.txt",
+  "local_images": {
+    "Picture 5": "../../references/states/aegis-airborne-shield.png"
+  },
+  "local_videos": {
+    "Video 1": "../06A-video-reference/assets/impact-motion-6.65-7.80.mp4"
+  },
+  "source_excerpt": {
+    "source_filename": "douyinsaver.com-7660465649396198129.mp4",
+    "start_seconds": 6.65,
+    "requested_duration_seconds": 1.15,
+    "audio": false,
+    "transform": "Temporal trim and re-encode only; original visible overlay retained"
+  },
+  "rendered": false
+}
