@@ -1,0 +1,30 @@
+subject_definitions:
+<Video 1> is the 56-frame, 24-fps three-dimensional blocking source, 06A-previs-source-56f.mp4. It controls both cameras, the cut, trajectories, scale, shield activation, contact, separation, impact timing and the progressive building collapse. Its simplified geometry, opaque wire rings and faceted effect markers are temporary visualization materials to replace, not final art direction.
+<Subject 1> is Aegis, whose final armor identity comes from <Picture 1> and whose attached RIGHT-forearm shield design comes from <Picture 5>. He is 1.88 meters tall, with broad worn gunmetal armor, orange-gold light strips, a cyan sealed visor, an orange hexagonal chest core, and lower-leg and foot thruster outlets. His right-arm emitter produces one golden honeycomb shield. No sword is active in this clip.
+<Subject 2> is the 30-meter horned rock titan from <Picture 2>, with charcoal volcanic armor, red molten cracks, red eyes, an intact circular red chest core and a tail rooted behind the pelvis with a stone hammer at its end. Both hands are empty. Transfer this appearance onto the large creature in <Video 1> without enlarging Aegis.
+<Subject 3> is the red-moon ruined-city appearance from <Picture 1>, applied to the street, highway, cars and buildings of <Video 1>. Keep the source layout, the struck gray tower with its narrow red corner panel, and the source's progressive damage. Appearance references do not replace the source cameras or pose sequence.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the simplified proxies with <Subject 1>, <Subject 2> and <Subject 3> in cinematic 3D CG while preserving the source's exact action order, brief contact, immediate separation, overhead cut, fast displacement and building-collapse trajectory.
+
+retention_analysis:
+<Video 1> (both shots): partially_preserved - preserve the 56-frame duration, two-shot structure, spatial layout, scale, body trajectories, timing of all contacts and ongoing collapse. Replace only proxy surfaces and effect markers with finished CG appearances.
+<Subject 1> (both shots): attribute_transfer - transfer referenced armor and shield onto the source's small fighter; use source poses, not the reference's hovering display pose.
+<Subject 2> (both shots): attribute_transfer - transfer the titan's rock armor and red features onto the large source creature; preserve the source striking limb and normal limb count.
+<Subject 3> (both shots): attribute_transfer - transfer ruined-city materials and red-moon lighting onto the source geometry, retaining the location and timing of damage.
+
+detailed_description:
+Edit <Video 1> into cinematic 3D CG with worn metal, rough volcanic rock and red-moon rim light over cool shadows. The source motion and camera timing are the animation guide. Do not restage the fight, add an attack or stretch the recoil into a slow push.
+
+[Shot 1] Retain the source's lateral camera and composition. Replace the small armored proxy with <Subject 1>, Aegis, keeping his feet ten meters above the avenue of <Subject 3>. His cyan visor faces the incoming claw at screen left; his orange chest core and armor accents remain visible. Foot exhaust points downward and supports his hover. The right-arm shield is absent initially. Replace the large arm and claw with <Subject 2>'s volcanic armor and red fissures, preserving the hand's incoming path and the sixteen-to-one body-height ratio.
+Match the source's quick initial approach and slower anticipation. Convert the thin air-guide rings into a localized curved refractive pressure front that travels immediately ahead of the palm. Window edges distort only through this narrow layer; dust is driven forward. Do not render solid hoops or a sphere around Aegis. Keep the source camera path and the separation between the two bodies readable.
+At approximately 1.000 seconds, follow the source shield's two-frame deployment: golden energy opens directly from the right forearm. Around 1.083 seconds the claw reaches it. Replace the small white contact marker with a brief bright impact flare and sparks at that same location, not a new projectile. The shield flexes while remaining attached and intact. Match the source's immediate backward displacement; foot exhaust extinguishes on contact. By the following frame Aegis is separating from the claw. Preserve this acceleration instead of extending the contact or showing a stationary resistance pose.
+
+[Shot 2] At 00:01.167, cut to the source's fixed high overhead view. Keep the full titan at left, the small departing Aegis near center and the forty-meter tower at right. Cars and floor spacing establish scale. Preserve Aegis's back-leading rightward flight and dark thruster outlets. The short white source trail becomes a thin fading afterimage of his actual displacement, with his silhouette at its leading end; no second Aegis remains at the departure point.
+Around 1.333 seconds, preserve the source wall-contact position and Aegis entering the facade. Replace the orange marker with a compact impact flare after contact. Concrete and glazing break from that point; the existing fragment trajectories become physical rubble and glass. Match the upper floors beginning to descend as the damaged supports give way. Add fine dust around the source dust proxies while keeping the breached wall, falling slabs and descending roofline visible. Continue that collapse through the final source frame, approximately 2.333 seconds. Aegis stays inside the breach; the titan stays outside. Do not insert recovery, another strike, a new camera angle, captions or watermark.
+
+overall_soundscape:
+Generate synchronized sound: foot-jet hiss during the opening hover, rising air pressure before contact, a brief shield ignition, one sharp shield impact near 1.083 seconds, immediate displacement whoosh, then a wall-impact crash near 1.333 seconds and falling rubble. The source has no audio to copy. No speech.
+
+non_diegetic_music:
+N/A
