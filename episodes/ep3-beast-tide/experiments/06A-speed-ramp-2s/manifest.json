@@ -1,0 +1,77 @@
+{
+  "purpose": "Manual two-second anticipation-to-impact experiment; slow approach ends before shield contact",
+  "target_duration_seconds": 2,
+  "shared_prompt": "common-prompt.txt",
+  "shared_images": {
+    "Picture 1": "../../references/A-team.png",
+    "Picture 2": "../../references/states/titan-scale-preview.png",
+    "Picture 3": "../../references/states/nyx-aim.png",
+    "Picture 4": "../../references/states/lyra-skill.png"
+  },
+  "group_prompt": "06A-group.txt",
+  "local_images": {
+    "Picture 5": "../../references/states/aegis-airborne-shield.png"
+  },
+  "local_videos": {
+    "Video 1": "../06A-video-reference/assets/impact-motion-6.65-7.80.mp4"
+  },
+  "source_excerpt": {
+    "source_filename": "douyinsaver.com-7660465649396198129.mp4",
+    "start_seconds": 6.65,
+    "requested_duration_seconds": 1.15,
+    "audio": false,
+    "transform": "Temporal trim and re-encode only; original visible overlay retained"
+  },
+  "rendered": false,
+  "expected_aligned_frames_at_24fps": 56,
+  "expected_aligned_duration_seconds": 2.3333333333333335,
+  "complete_prompt": "06A-complete.txt",
+  "settings": {
+    "mode": "r2v",
+    "shared_enabled": true,
+    "fps": 24,
+    "steps": 4,
+    "cfg": 1,
+    "seed": 888,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "shift_video": 12,
+    "shift_audio": 3,
+    "lora_chain": [
+      {
+        "filename": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "strength": 1.0
+      },
+      {
+        "filename": "H3_Combat_V2.safetensors",
+        "strength": 0.4
+      }
+    ],
+    "triggers": [
+      "prfight2",
+      "prfin1"
+    ]
+  },
+  "shots": [
+    {
+      "id": 1,
+      "start_seconds": 0,
+      "end_seconds": 1.18
+    },
+    {
+      "id": 2,
+      "start_seconds": 1.18,
+      "end_seconds": 2
+    }
+  ],
+  "skills": [
+    {
+      "repository": "https://github.com/irenerachel/fight-prompt-director",
+      "commit": "fee4387b4c53a4b282efa67e143ac9b54d964150"
+    },
+    {
+      "repository": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "skill": "h3-prompt-writing"
+    }
+  ]
+}

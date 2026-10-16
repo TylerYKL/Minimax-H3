@@ -1,0 +1,27 @@
+For this clip, <Subject 1> also uses <Picture 5> for armor and RIGHT-forearm shield design only. The depicted shield is initially inactive; the picture is not an opening-frame or pose constraint. Downward exhaust exits his lower-leg and foot outlets during the opening hover.
+<Video 1> supplies only the abrupt separation after contact. Its kick, equal-sized fighters, background, captions, camera cuts and audio are not transferred. The target shot timing is defined below.
+
+summary:
+[reference generation] prfight2, prfin1. In <Subject 4>, <Subject 5> approaches the hovering <Subject 1> with a clawed palm in a fast-to-slow anticipation. Aegis deploys his shield just before contact. Full-speed impact instantly launches him into a damaged building, shown from overhead as a brief white motion streak followed by structural collapse.
+
+retention_analysis:
+<Subject 1> (both shots): partially_preserved - preserve armor, cyan visor, orange core and 1.88-meter stature; activate the right-arm shield only immediately before impact, cut thrust on impact, and retain the shield during knockback. No blade is projected.
+<Subject 5> (both shots): fully_preserved - retain the 30-meter rock titan, horns, red fissures, intact chest core and normal limb count.
+<Subject 4> (both shots): partially_preserved - preserve the ruined-city lighting and geography; the struck building starts collapsing after physical impact, while the highway remains intact.
+<Video 1> (impact-to-separation rhythm): weak_reference - use brief contact and abrupt displacement only; the target deliberately adds slow anticipation and an overhead cut.
+
+detailed_description:
+Cinematic 3D CG with worn metal, rough volcanic rock, a red moon and cool shadows. A two-second action beat uses slow anticipation followed by explosive real-time impact. Only Aegis and the titan appear; maintain their 1.88-meter and 30-meter heights.
+
+[Shot 1] A lateral medium-wide view in <Subject 4>, the ruined avenue, places <Subject 5>'s enormous black-rock clawed palm at screen left and <Subject 1>, Aegis with cyan visor and orange chest core, at center-right. Aegis hovers ten meters above the road; continuous downward foot exhaust supports his weight. His right-forearm emitter is dark. An already damaged building stands twelve meters behind him at screen right, with cracked columns but no fresh impact hole. Window floors and cars establish scale. The titan remains grounded.
+During the opening 0.15 seconds, the palm sweeps rapidly toward Aegis. From 0.15 to 1.00 seconds, its approach decelerates into slow motion. A thin curved pressure front travels immediately ahead of the palm: background window edges refract through it and dust is pushed forward. The distortion hugs the hand rather than enclosing Aegis in a bubble. The camera pushes in slightly, retaining his full body, the approaching palm and their shrinking gap. His right forearm turns toward the threat while the jets continue firing. Contact has not occurred.
+At 1.00 seconds, full action speed resumes. With the palm less than half a meter away, a golden honeycomb shield flashes open from his right forearm, completing by 1.10 seconds. The palm strikes once. A one-to-two-frame white-hot contact flash, brief inward shield flex and outward golden ripple mark the impact. His elbow folds into his ribs; shoulder and torso snap backward together. Foot jets extinguish. A short camera jolt accompanies the sharp impact. By 1.18 seconds his body has separated from the palm; no sustained push follows.
+
+[Shot 2] At 00:01.180, hard cut to a fixed, steep overhead wide view, angled enough to show the building facade. Keep the titan at left, Aegis's launch point near center and the building at right. Preserve the left-to-right trajectory, existing damage and attached shield. His back leads and his limbs trail as he crosses the gap almost instantaneously, reaching the wall around 1.35 seconds. A thin white afterimage briefly connects his departing silhouette to the impact point, then vanishes; it is his displacement trail, not a fired beam. He is no longer at the launch point. The camera does not track alongside him.
+His back breaks through the wall before the impact flash. Concrete buckles inward, glass and chips burst outward, and connected floor slabs shear around the breach. The damaged supports give way; the upper building section starts descending into the broken floors. Heavy rubble falls while dust expands behind it, leaving the collapse readable. End at 2.00 seconds with collapse underway and Aegis inside the breach. Any extra output frames continue this collapse, without replaying the impact or adding an escape. No second attack, sword, duplicate fighter, captions or watermark.
+
+overall_soundscape:
+Steady foot-jet hiss during the hover, rising air pressure as the claw approaches, a brief shield ignition and one sharp impact. Thrust cuts off on contact. An immediate displacement crack leads directly into a structural crash, breaking glass and falling masonry. Impact and collapse sounds have fast attacks at normal speed. No speech.
+
+non_diegetic_music:
+N/A
