@@ -1,0 +1,74 @@
+{
+  "purpose": "Rear ambush procedural Blender previs and manual H3 RV2V appearance-transfer test; not an importable workflow",
+  "previs_rendered": true,
+  "h3_conversion_rendered": false,
+  "source": "06A-rear-ambush-source-56f.mp4",
+  "source_slot": "Video 1 in source-video timeline",
+  "prompt": "rv2v-complete.txt",
+  "image_references": {
+    "Picture 1": "../../references/A-team.png",
+    "Picture 2": "../../references/states/titan-scale-preview.png",
+    "Picture 5": "../../references/states/aegis-airborne-shield.png"
+  },
+  "assets": [
+    {
+      "file": "06A-rear-ambush-source-56f.mp4",
+      "frames": 56,
+      "fps": 24,
+      "duration_seconds": 2.333333,
+      "width": 960,
+      "height": 540,
+      "audio": false,
+      "sha256": "e8d5b7bca89dce59c57decb506989ea7572bc112c31c8dae527e4382c40b9cb8"
+    },
+    {
+      "file": "06A-rear-ambush-preview-2s.mp4",
+      "frames": 48,
+      "fps": 24,
+      "duration_seconds": 2.0,
+      "width": 960,
+      "height": 540,
+      "audio": false,
+      "sha256": "163ce8c564c851d9736e4ae708d0720d37b40de77967dce9b249277cb1b7195d"
+    }
+  ],
+  "source_physical_scale_meters": {
+    "aegis": 1.88,
+    "titan_to_horn_tip": 30,
+    "target_building": 40,
+    "highway": 12
+  },
+  "timing_frames_zero_based": {
+    "claw_entry_start": 5,
+    "reaction_cut": 8,
+    "turn_cut": 11,
+    "shield_start": 13,
+    "shield_full": 14,
+    "contact": 15,
+    "separation": 16,
+    "overhead_cut": 17,
+    "building_contact": 21,
+    "preview_end_exclusive": 48,
+    "source_end_exclusive": 56
+  },
+  "suggested_test": {
+    "mode": "rv2v",
+    "model": "ref2va",
+    "steps": 4,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "cfg": 1,
+    "seed": 888,
+    "shift_video": 12,
+    "shift_audio": 3,
+    "turbo_lora_strength": 1,
+    "combat_lora_enabled": false,
+    "motion_context_enabled": false,
+    "h3_output_width": 864,
+    "h3_output_height": 480
+  },
+  "limitations": [
+    "Previs uses simple kinematic geometry and effect markers, not final CG or physically simulated structural failure.",
+    "H3 RV2V preservation of timing and identity is unverified."
+  ]
+}

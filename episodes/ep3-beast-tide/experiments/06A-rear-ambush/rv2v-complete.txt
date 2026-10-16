@@ -1,0 +1,31 @@
+subject_definitions:
+<Video 1> is 06A-rear-ambush-source-56f.mp4, the 56-frame, 24-fps blocking source. Its four shots establish camera cuts, body scale, rear attack, turnaround, shield contact, flight and collapse. Replace its proxy geometry and effect guides with finished appearances.
+<Subject 1> is Aegis from <Picture 1>, 1.88 meters tall, wearing heavy worn gunmetal armor with orange-gold accents, a cyan sealed visor, an orange hexagonal chest core and foot thrusters. Use the attached RIGHT-forearm golden honeycomb shield design from <Picture 5>. No sword is active here.
+<Subject 2> is the 30-meter titan from <Picture 2>: horned charcoal volcanic armor, glowing red fissures and eyes, intact circular red chest core, and a tail rooted behind the pelvis ending in a stone hammer. Both hands are empty. Preserve the source's sixteen-to-one height ratio.
+<Subject 3> is the ruined-city appearance from <Picture 1>, applied to the source street, cars, highway and tower. Preserve their positions and scale; retain the target tower's narrow red corner marker.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Transfer cinematic 3D CG appearances onto its sudden rear ambush, fleeting alarm reaction, rapid shield turn, impact and near-instant knockback into a collapsing building.
+
+retention_analysis:
+<Video 1> (all four shots): partially_preserved - preserve 56 frames, all cuts, trajectories, scale and event timing. Replace proxy surfaces and effect guides.
+<Subject 1> (all four shots): attribute_transfer - transfer armor and shield appearance; retain source movement rather than reference-image poses.
+<Subject 2> (shots 1, 3, 4): attribute_transfer - transfer rock armor; preserve the source striking limb and normal anatomy.
+<Subject 3> (all four shots): attribute_transfer - transfer city materials and lighting, preserving damage locations and onset.
+
+detailed_description:
+Render cinematic 3D CG with worn metal, rough volcanic rock, red-moon rim light and cool shadows. Follow the source animation at its original speed. Keep each event short; do not insert slow motion, anticipation poses, sustained shield pushing or another attack.
+
+[Shot 1] Keep the lateral source camera. Aegis hovers ten meters above the avenue, facing screen right with his back toward the threat. Foot exhaust streams downward. The shield is absent. Around 0.208-0.250 seconds the enormous claw suddenly enters from screen left behind his back. Its entry is abrupt, not a leisurely approach. Keep its continued inward travel and the remaining gap before contact; it does not teleport through Aegis.
+
+[Shot 2] At 00:00.333, cut to the source's tight rear three-quarter reaction view for three frames. Aegis's shoulders twitch upward as he senses danger behind him. Replace the cyan zigzag guides with a fleeting icy rim-light glint across his back armor. This is a subjective chill cue, not new equipment or an energy shield on his back. Keep the foot jets running. Do not freeze the body or prolong the reaction.
+
+[Shot 3] At 00:00.458, return to the lateral view. Follow the fast four-frame turnaround toward screen left. The right forearm swings into the claw's path. At approximately 0.542 seconds, its golden honeycomb shield opens; it reaches full size by 0.583 seconds. At 0.625 seconds the claw strikes the shield. Replace the white contact marker with a sharp white-gold impact flash. Convert the expanding ring guide into a thin refractive shockwave spreading from the contact point over two frames, with outward sparks. Keep the shield attached. Foot jets extinguish immediately. By 0.667 seconds Aegis is already separating, torso pitched backward; do not hold him against the palm.
+
+[Shot 4] At 00:00.708, cut to the fixed high overhead view. Preserve the full giant at left, tiny airborne Aegis near center and forty-meter tower at right. Match the four-frame flight across the gap. His back leads toward the building; dark thruster outlets make the forced knockback clear. Convert the source trail into one thin white displacement streak with Aegis at its leading end. No duplicate body remains behind. At approximately 0.875 seconds he strikes the facade and penetrates it. A compact impact flare erupts at contact, followed by outward concrete fragments and glass. Upper floors buckle and descend on the source trajectory. Dust expands around the breach while falling slabs and the descending roof remain readable through the final frame at 2.333 seconds. Aegis remains inside the breach. No recovery, additional camera angle, captions or watermark.
+
+overall_soundscape:
+Generate synchronized foot-jet hiss, an abrupt claw air-slice, a brief chilled metallic tick at the reaction cut, shield ignition, a sharp impact crack at 0.625 seconds, immediate displacement whoosh, building impact at 0.875 seconds and continuing rubble crashes. Source video is silent. No speech.
+
+non_diegetic_music:
+N/A
