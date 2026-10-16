@@ -1,0 +1,114 @@
+{
+  "purpose": "Two independent single-shot generations, edited into a 48-frame two-second sequence; manual setup, not an importable workflow",
+  "target_duration_seconds": 2,
+  "shared_prompt": "common-prompt.txt",
+  "shared_images": {
+    "Picture 1": "../../references/A-team.png",
+    "Picture 2": "../../references/states/titan-scale-preview.png",
+    "Picture 3": "../../references/states/nyx-aim.png",
+    "Picture 4": "../../references/states/lyra-skill.png"
+  },
+  "local_images": {
+    "Picture 5": "../../references/states/aegis-airborne-shield.png"
+  },
+  "rendered": false,
+  "expected_aligned_frames_at_24fps": 56,
+  "expected_aligned_duration_seconds": 2.3333333333333335,
+  "settings": {
+    "mode": "r2v",
+    "shared_enabled": true,
+    "fps": 24,
+    "steps": 4,
+    "cfg": 1,
+    "seed": 888,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "shift_video": 12,
+    "shift_audio": 3,
+    "lora_chain": [
+      {
+        "filename": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "strength": 1.0
+      },
+      {
+        "filename": "H3_Combat_V2.safetensors",
+        "strength": 0.4
+      }
+    ],
+    "triggers": [
+      "prfight2",
+      "prfin1"
+    ],
+    "motion_context_enabled": false,
+    "reference_previous_group": false
+  },
+  "skills": [
+    {
+      "repository": "https://github.com/irenerachel/fight-prompt-director",
+      "commit": "fee4387b4c53a4b282efa67e143ac9b54d964150"
+    },
+    {
+      "repository": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "skill": "h3-prompt-writing"
+    }
+  ],
+  "duration_scope": "Each raw group requests 2 seconds; final edited sequence also targets 2 seconds through event-based trimming and retiming",
+  "final_edit": {
+    "fps": 24,
+    "frames": 48,
+    "duration_seconds": 2,
+    "stages": [
+      {
+        "event": "approach",
+        "group": "A",
+        "start_frame": 0,
+        "end_frame_exclusive": 24
+      },
+      {
+        "event": "shield deployment",
+        "group": "A",
+        "start_frame": 24,
+        "end_frame_exclusive": 26
+      },
+      {
+        "event": "impact",
+        "group": "A",
+        "start_frame": 26,
+        "end_frame_exclusive": 28
+      },
+      {
+        "event": "overhead flight",
+        "group": "B",
+        "start_frame": 28,
+        "end_frame_exclusive": 32
+      },
+      {
+        "event": "wall contact and collapse",
+        "group": "B",
+        "start_frame": 32,
+        "end_frame_exclusive": 48
+      }
+    ]
+  },
+  "local_videos": {},
+  "groups": [
+    {
+      "id": "A",
+      "group_prompt": "groups/A-anticipation-impact.txt",
+      "complete_prompt": "complete-prompts/A-anticipation-impact.txt",
+      "requested_duration_seconds": 2,
+      "expected_aligned_frames_at_24fps": 56,
+      "local_videos": {},
+      "rendered": false
+    },
+    {
+      "id": "B",
+      "group_prompt": "groups/B-overhead-flight-collapse.txt",
+      "complete_prompt": "complete-prompts/B-overhead-flight-collapse.txt",
+      "requested_duration_seconds": 2,
+      "expected_aligned_frames_at_24fps": 56,
+      "local_videos": {},
+      "rendered": false
+    }
+  ]
+}

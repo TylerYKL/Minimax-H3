@@ -1,0 +1,28 @@
+For this clip, <Subject 1> also uses <Picture 5> for armor and attached RIGHT-forearm shield design only. Do not copy its hovering pose. The shield is already active, the jets are off, and Aegis is already in involuntary high-speed motion at the opening. No reference video is used.
+
+summary:
+[reference generation] prfight2, prfin1. A fixed overhead view in <Subject 4> shows <Subject 1> already hurled away from <Subject 5>. His brief white displacement trail leads directly into a damaged building. His back breaches the facade, then connected floors and the upper structure begin collapsing. This entire shot plays at fast real-time speed.
+
+retention_analysis:
+<Subject 1>: partially_preserved - retain the 1.88-meter armor identity and active, attached right-arm shield; show powerless back-leading flight with extinguished jets, followed by disappearance into the wall breach.
+<Subject 5>: fully_preserved - preserve the 30-meter titan, red fissures, horns and intact chest core; its right hand is already separated from Aegis.
+<Subject 4>: partially_preserved - retain the street, target-building identity and intact highway; new structural damage originates at Aegis's wall collision and persists.
+
+detailed_description:
+Cinematic 3D CG with worn metal, volcanic rock, a red moon and cool shadows. A single two-second overhead shot starts during fast knockback and continues into building collapse. Every movement is real-time: no hovering, slow motion, shield deployment or repeated palm contact.
+
+[Shot 1] The camera is high above the avenue of <Subject 4>, looking steeply downward at roughly sixty degrees so the road, roof and struck facade are all readable. It holds a fixed wide composition. <Subject 5>, the thirty-meter horned titan with red cracks, occupies screen left. Its empty right claw is extended toward center after a completed strike. <Subject 1>, Aegis, is already beyond the fingertips with a clear gap, flying toward screen right at extreme speed. His gunmetal armor, cyan visor and orange chest core identify the small 1.88-meter figure. Cars and repeated floors preserve the sixteen-to-one height difference. His upper back leads toward the building; chest and active right-arm shield face back toward the titan. His legs trail and both foot outlets are dark.
+
+The target at screen right is the same forty-meter gray concrete building: ten floors, flat roof, dark rectangular window grid, a narrow vertical red panel at its far-right corner, and previously cracked supports. Its near-facing facade is twelve meters along Aegis's departure path. There is no fresh impact hole in the opening frame. The background highway is intact.
+
+Within roughly the first 0.20 seconds, Aegis crosses the entire visible gap without braking. A thin white afterimage briefly traces his actual body displacement from the clear gap beyond the claw to the wall. Show his silhouette at the advancing tip, never a second body left at the starting point. The trail fades behind him and is not a laser fired from his hands or chest. The camera remains fixed; the sudden traversal of windows and road establishes speed.
+
+Around 0.20 seconds his upper back physically strikes the wall at ten meters above the road. The facade dents inward first, cracks spread from that contact, and his body punches through the opening with the shield still attached. Only then does a compact orange-white energy flash flare inside the breach. Glass and small concrete chips spray outward. No hovering figure remains outside the wall.
+
+From roughly 0.25 seconds onward, the damaged columns buckle and the adjacent floor slab tears away. Connected floors start dropping into the breach; the roofline of that upper section visibly descends. Heavy blocks fall rapidly while finer dust expands behind them, leaving the broken structure visible. Damage does not reset. The titan remains outside and does not strike again. End during active collapse, with Aegis concealed inside the breach. Extra output frames continue falling rubble rather than adding recovery or escape. Only two characters, one attached shield, no sword, captions or watermark.
+
+overall_soundscape:
+An immediate fast displacement whoosh with no thruster hum, followed by a sharp wall-impact crash near the opening, snapping concrete, breaking glass and falling masonry. Sound attacks are short and at normal speed. No repeated shield hit, speech or music.
+
+non_diegetic_music:
+N/A

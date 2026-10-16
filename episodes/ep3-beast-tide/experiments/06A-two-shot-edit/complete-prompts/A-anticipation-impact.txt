@@ -1,0 +1,35 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter human-sized fighter in broad-shouldered worn dark-gunmetal layered armor with orange-gold light strips, with a sealed cyan visor, an orange hexagonal chest furnace and back and lower-leg thrusters with foot outlets. His attached RIGHT-forearm emitter alternates between a golden honeycomb shield for defense and a broad single-edged golden energy blade approximately 1.8 meters long for attack. Only one full projection is active at a time; his left hand balances or supports his body.
+<Subject 2> is Nyx from <Picture 3>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon has a rectangular dark-purple barrel, twin side rails, violet central channel, hexagonal muzzle and shoulder brace; preserve the same weapon across shots.
+<Subject 3> is Lyra from <Picture 4>, a human-sized medic in dark-teal segmented armor, a hood-shaped armored head covering, cyan-green faceplate, green hexagonal chest core, split long armored skirt, belt and luminous rings around both wrists. Repair filaments originate at the wrist rings. No deployed antenna is part of this reference.
+<Subject 4> is the red-moon ruined city from <Picture 1>: wet rubble avenue, abandoned vehicles, forty-to-sixty-meter towers and a twelve-meter-high elevated highway. The northern avenue is the enemy approach, the southern lane is allied medical support, and the western platform is Nyx's firing position. Bridge damage follows the current group's description.
+<Subject 5> is the horned rock-armored titan from <Picture 2>, thirty meters tall, approximately sixteen times Aegis's height, with charcoal carapace, red molten veins, a central red chest core and a long armored tail rooted at the base of the spine behind the pelvis, ending in a polygonal rock hammer. Both clawed hands are separate and empty. The scale preview supplies creature identity only: its pictured hero is too large. Enforce the stated 30-meter to 1.88-meter scale using common ground depth, cars and building floors. Appearance definitions do not require every subject to appear. The current group's description determines the visible cast, equipment state and persistent damage.
+
+For this clip, <Subject 1> also uses <Picture 5> for armor and attached RIGHT-forearm shield design only. Its pictured pose and active shield are not an opening-frame constraint. The shield starts inactive. No reference video is used.
+
+summary:
+[reference generation] prfight2, prfin1. In <Subject 4>, <Subject 1> hovers under continuous foot thrust while <Subject 5>'s approaching claw decelerates into slow motion. At the last instant, full speed resumes, Aegis flashes his shield open, and one palm strike launches him rightward. This single lateral shot ends during separation.
+
+retention_analysis:
+<Subject 1>: partially_preserved - retain the 1.88-meter armor identity and right-arm emitter; the shield activates only before impact and foot thrust stops on impact.
+<Subject 5>: fully_preserved - preserve the 30-meter rock titan, red fissures, horns, intact chest core and normal limbs.
+<Subject 4>: fully_preserved - maintain the ruined street, target building and highway in their opening damaged state throughout this shot.
+
+detailed_description:
+Cinematic 3D CG with worn gunmetal, rough volcanic rock, red moonlight and cool shadows. One continuous lateral shot lasting approximately two seconds. The slow anticipation ends before contact; the impact and separation play at full speed.
+
+[Shot 1] A medium-wide camera at Aegis's height looks across the ruined avenue of <Subject 4>. <Subject 1>, Aegis, hovers center-right, ten meters above the road. His cyan visor faces screen left, orange chest core glows, and continuous downward exhaust from both foot outlets holds his body upright. His attached right-forearm emitter is dark. His left hand balances him; there is no sword. <Subject 5>'s enormous right claw enters from screen left, palm advancing toward his torso. Preserve the 30-meter titan versus the 1.88-meter fighter; the whole hand exceeds the fighter's body length. Cars and building floors establish scale.
+
+The target building stands twelve meters behind Aegis at screen right: a forty-meter gray concrete block, ten floors, flat roof, dark rectangular window grid, and a narrow vertical red panel at its far-right corner. Its supports are already cracked, but there is no fresh hole at Aegis's height. Keep that destination visible near the right edge. The highway remains intact in the distance.
+
+During the first 0.15 seconds the hand enters rapidly. Through approximately 1.20 seconds, its approach slows progressively while Aegis remains supported by steady jets. A narrow transparent compression ridge hugs the advancing palm; background window edges bend only where seen through that ridge, and a thin dust sheet moves ahead of it. The distortion is not a giant sphere. A small camera push keeps Aegis's feet, right forearm and the approaching palm visible together. The gap shrinks without contact. Aegis turns his right forearm toward the hand.
+
+Around 1.20 seconds, motion returns abruptly to full speed. The palm is almost touching him. A golden honeycomb shield flashes open from his right forearm in a short snap, completing just before the strike around 1.30 seconds. One palm hit produces a tiny white-hot contact flash, one outward golden ripple and a short sideways spark burst. The shield flexes inward without breaking. Right elbow, shoulder and torso recoil together; his knees and feet lag behind. Both foot jets go dark immediately.
+
+A single camera jolt marks contact. By approximately 1.40 seconds, his back leads his whole body rapidly toward screen right and clear air separates the shield from the palm. The camera stays with the contact position, allowing him to leave the frame. Continue that departure through the remaining frames; do not hold the palm against the shield, replay contact, or show the building collision here. Only Aegis and the titan appear. Shield attachment, body scale, damaged surroundings and screen direction remain consistent. No captions or watermark.
+
+overall_soundscape:
+Continuous foot-thruster hiss during the hover and a rising air-pressure rush. A brief shield ignition is followed immediately by one sharp impact crack and a fast departure whoosh. The jets cut out on contact. No wall collision sound, speech or prolonged slowed impact rumble.
+
+non_diegetic_music:
+N/A
