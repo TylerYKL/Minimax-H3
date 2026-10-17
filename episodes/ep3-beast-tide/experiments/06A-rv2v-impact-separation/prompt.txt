@@ -1,0 +1,27 @@
+subject_definitions:
+<Video 1> is impact-separation-source-56f.mp4, a 56-frame, 24-fps source video showing a shielded fighter, a giant claw striking the shield, and immediate fast knockback out of frame. It controls the single fixed camera, scale, motion trajectories and contact timing.
+<Subject 1> is Aegis from the turnaround sheet in <Picture 1>: one 1.88-meter fighter in worn heavy gunmetal armor, orange-gold light strips, orange hexagonal chest core and a sealed cyan visor. Use <Picture 2> for his attached RIGHT-forearm golden honeycomb shield. The shield is fully deployed from the first frame. No blade appears.
+<Subject 2> is the ruined-city background from <Picture 3>. Transfer its damaged concrete, dark windows and red-moon rim lighting to the source background. Do not add the other characters shown in that image.
+<Subject 3> is the 30-meter rock titan from <Picture 4>, with charcoal volcanic armor and red molten fissures. Only its striking forearm and empty claw enter this shot. Keep their source size relative to human-sized Aegis; the titan's full body remains outside the camera view.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the proxies with finished cinematic 3D CG appearances while preserving the brief shield impact and immediate forced flight out of the frame.
+
+retention_analysis:
+<Video 1> (whole shot): partially_preserved - retain one stationary camera, 56 frames, subject scale, timing, contact location and the fast rightward exit. Replace proxy surfaces and effect markers.
+<Subject 1> (until his exit): attribute_transfer - preserve armor identity throughout recoil. Shield stays attached to his right forearm and leaves with him.
+<Subject 2> (whole shot): attribute_transfer - finish the existing city surfaces without changing their layout.
+<Subject 3> (visible striking arm): attribute_transfer - replace the faceted hand and forearm with the referenced rock surface and red fissures, maintaining one connected arm and normal claw anatomy.
+
+detailed_description:
+One continuous stationary shot matching <Video 1>. Aegis hovers near the center-right, facing the incoming attack at screen left. His full-sized golden honeycomb shield already covers his right forearm from the opening frame. Narrow orange-white foot exhaust streams downward while he holds position. Render finished armor on every visible surface from frame one, with stable cyan visor and orange chest core. Maintain source framing and titan-to-human scale.
+During the opening guard interval, preserve the source pose without adding shield deployment, a sword or a turn. Around 1.167 seconds the enormous claw rapidly enters from screen left along the source path. Its fingers and rock plates cross the gap in a few frames. Do not slow its arrival or move the camera to follow it.
+At approximately 1.333 seconds, frame 32, the claw strikes the existing shield. Replace the source contact marker with one sharp white-gold flare at the actual contact point, with small sparks and a thin outward refractive shockwave. The flare peaks on contact and fades on the following frame. Keep the shield intact and attached. Foot jets extinguish at contact.
+On frame 33, approximately 1.375 seconds, Aegis has already separated from the claw: a clear gap opens between the palm and his departing shield. Preserve the source's abrupt backward displacement and torso tilt. His back leads to screen right while his helmet remains oriented toward the attacker. On the next frames he rapidly crosses the right edge, leaving the camera view by approximately 1.500 seconds. The thin white source line becomes a short fading motion streak with Aegis at its leading end, never a separate projectile. The shield travels with him. No body or shield remains at the contact point.
+For the remaining frames through 2.333 seconds, keep the camera fixed on the vacant departure area and the giant claw completing its small follow-through and withdrawal. The impact flare has vanished. Do not hold a shield-versus-palm pushing pose, chase the departing fighter, slow his flight, insert a cut, add another attack or depict a building collision. Transfer the city surfaces and lighting from <Subject 2> while keeping the action silhouette readable. No text or watermark.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

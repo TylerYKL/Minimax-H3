@@ -1,0 +1,19 @@
+{
+  "previs_rendered": true,
+  "h3_rendered": false,
+  "workflow_tested_in_comfyui": false,
+  "source": "impact-separation-source-56f.mp4",
+  "frames": 56,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "audio": false,
+  "sha256": "9d084739b6a9baca1a7dec1adcec1c2d4f94b47d3dd0457574e5d67b0b005b9d",
+  "shield_active_from_frame": 0,
+  "claw_approach_start_frame": 28,
+  "contact_frame": 32,
+  "separation_frame": 33,
+  "exit_by_frame": 36,
+  "export_audio_connected": false,
+  "source_upload_required": true
+}
