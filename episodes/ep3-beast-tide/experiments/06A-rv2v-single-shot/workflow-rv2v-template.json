@@ -1,6 +1,6 @@
 {
   "id": "59a59c54-bf47-438f-8e1f-b317a1533f05",
-  "revision": 0,
+  "revision": 1,
   "last_node_id": 17,
   "last_link_id": 32,
   "nodes": [
@@ -108,7 +108,7 @@
           "name": "audio",
           "shape": 7,
           "type": "AUDIO",
-          "link": 18
+          "link": null
         },
         {
           "name": "fps",
@@ -190,10 +190,10 @@
       "title": "先上传源视频，再运行",
       "properties": {},
       "widgets_values": [
-        "单镜头外观转换测试：先上传 single-shot-source-56f.mp4 到源视频时间轴。模板故意不填写尚未上传的视频路径。确认时间轴出现实际缩略图和 56 帧后再运行。图片1=Aegis三视图；图片2=举盾；图片3=A-team城市外观。无需怪兽图。首轮参数沿用4步Turbo；此模板未在用户ComfyUI实机验证。"
+        "单镜头外观转换测试：先上传 single-shot-source-56f.mp4 到源视频时间轴。模板故意不填写尚未上传的视频路径。确认时间轴出现实际缩略图和 56 帧后再运行。图片1=Aegis三视图；图片2=举盾；图片3=A-team城市外观。无需怪兽图。首轮参数沿用4步Turbo；此模板未在用户ComfyUI实机验证。 静音导出：CreateVideo 的 audio 输入必须留空；保留 Director 的 audio_vae 接线。"
       ],
       "widgets_values_named": {
-        "text": "单镜头外观转换测试：先上传 single-shot-source-56f.mp4 到源视频时间轴。模板故意不填写尚未上传的视频路径。确认时间轴出现实际缩略图和 56 帧后再运行。图片1=Aegis三视图；图片2=举盾；图片3=A-team城市外观。无需怪兽图。首轮参数沿用4步Turbo；此模板未在用户ComfyUI实机验证。"
+        "text": "单镜头外观转换测试：先上传 single-shot-source-56f.mp4 到源视频时间轴。模板故意不填写尚未上传的视频路径。确认时间轴出现实际缩略图和 56 帧后再运行。图片1=Aegis三视图；图片2=举盾；图片3=A-team城市外观。无需怪兽图。首轮参数沿用4步Turbo；此模板未在用户ComfyUI实机验证。 静音导出：CreateVideo 的 audio 输入必须留空；保留 Director 的 audio_vae 接线。"
       },
       "color": "#222",
       "bgcolor": "#000"
@@ -558,9 +558,7 @@
           "name": "audio",
           "shape": 6,
           "type": "AUDIO",
-          "links": [
-            18
-          ]
+          "links": null
         },
         {
           "name": "fps",
@@ -705,14 +703,6 @@
       6,
       0,
       "IMAGE"
-    ],
-    [
-      18,
-      12,
-      1,
-      6,
-      1,
-      "AUDIO"
     ],
     [
       19,

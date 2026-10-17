@@ -41,7 +41,7 @@
 | Seed | 888 / fixed |
 | 输出 | 864×480，24 fps，56 帧 |
 | 段间引导 | 关闭 |
-| 声音 | 静音 |
+| 声音 | 静音；CreateVideo 的 audio 输入不接线 |
 
 保留采样配置是为了减少本轮变化项，不代表已证明 Turbo 适合这个外观转换任务。无需先跑 25 步或叠加新 LoRA。
 
@@ -57,6 +57,18 @@
 背景应有完整 CG 材质，但第一优先级是角色身份与转身速度。此测试不检验撞击力道或击飞，不能仅凭它通过就认定整段战斗可行。
 
 若此单镜头仍明显灰模化、身份跳变或转身被拉长，先停止扩大到四镜头。它说明当前输入与配置未通过基础转换验证；不据此断言 H3 所有配置都不行，也不继续承诺靠更长提示词能解决。
+
+## SaveVideo 报 MemoryError 时：先保住生成缓存
+
+本轮用户日志显示 `segment 1/1 done (56 frames, task=rv2v)`，随后 `Director audio mode: mute`，最后在 `SaveVideo → audio_stream.encode → AudioResampler` 报 `av.error.MemoryError`。采样与 Director 输出已经完成；此堆栈不是 CUDA 采样显存溢出的证据。
+
+已检查的 Director 源码在静音模式下返回零采样 AUDIO 字典。旧模板仍将它连接到 CreateVideo 的可选 audio 输入，这与本次音频重采样报错相符；具体底层触发原因尚未在用户环境复现。
+
+**最小修复：在当前工作流断开 `Director audio → CreateVideo audio` 这一条线，再运行。** images 和 fps 保持连接；Director 的 audio_vae 仍要保留。新版模板已断开这条导出音频线，从而跳过该音频编码路径。
+
+先不要重启、清缓存、换 seed 或改 Director 参数。若上游缓存还在，ComfyUI 可以复用已生成帧，只重做 CreateVideo / SaveVideo；缓存是否仍在不能保证。直接改当前工作流比重新导入模板更有机会保住本轮结果。
+
+无需因这份报错先降低分辨率、减少步数、安装 CGAL/pymeshlab 或更换模型。日志里的其他插件启动警告不在本次失败调用链上。此修复只处理保存环节，不代表生成画面已通过质量验收。
 
 ## 重建
 

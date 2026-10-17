@@ -16,5 +16,7 @@
   ],
   "shield_start_frame": 22,
   "shield_full_frame": 23,
-  "source_upload_required": true
+  "source_upload_required": true,
+  "export_audio_connected": false,
+  "export_fix": "Disconnect optional CreateVideo audio input to bypass empty muted AUDIO encoding; retain Director audio_vae."
 }
