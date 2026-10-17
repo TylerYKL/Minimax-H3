@@ -1,0 +1,23 @@
+subject_definitions:
+<Video 1> is single-shot-source-56f.mp4, a 56-frame, 24-fps source video containing one armored proxy hovering, turning rapidly and deploying a right-arm shield. Its single stationary camera, body position, turn direction and event timing are the editing source.
+<Subject 1> is Aegis, the single character shown from several directions in <Picture 1>. He is 1.88 meters tall, wearing heavy worn gunmetal armor, orange-gold light strips, an orange hexagonal chest core and a sealed cyan visor. The multiple views describe one character, not several people. Use <Picture 2> only for his attached RIGHT-forearm golden honeycomb shield design.
+<Subject 2> is the ruined-city environment visible behind the characters in <Picture 3>: damaged concrete towers, an elevated road, red-moon lighting and cool shadowed metal. Use only its environment appearance. The three characters in that image are not additional cast.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the small faceted armored proxy with finished cinematic 3D CG Aegis and give the static city finished materials, preserving the single shot and the source's rapid turnaround.
+
+retention_analysis:
+<Video 1> (entire shot): partially_preserved - retain camera, framing, 56-frame duration, body position, turn timing and shield onset; replace simplified surfaces and effect guides.
+<Subject 1> (entire shot): attribute_transfer - transfer armor consistently onto all visible body surfaces, including the back, helmet, limbs and shoulders throughout the turn. The shield is visible only after its source activation.
+<Subject 2> (entire shot): attribute_transfer - transfer city materials and lighting onto the existing background arrangement.
+
+detailed_description:
+One uninterrupted fixed medium-wide shot, matching <Video 1>. Aegis fills roughly the central half of the image height, hovering at a constant position above the avenue. Replace every visible faceted proxy body part with the matching articulated armor of <Subject 1> from the first frame onward. Rear armor remains fully detailed before the turn. Foot outlets produce narrow downward orange-white exhaust throughout the clip. No weapon or shield is deployed initially.
+From the start through approximately 0.792 seconds, preserve his rear three-quarter orientation and steady hover. At approximately 0.833 seconds he starts the source's rapid 180-degree turn, completing it by approximately 0.958 seconds. Match this four-frame change of orientation without inserting a cut, a zoom, slow motion or extra rotation. His right forearm comes around with his torso. At approximately 0.917 seconds a golden shield begins opening from that forearm and is fully deployed by approximately 0.958 seconds. Replace the wire guide with a translucent honeycomb energy surface attached to the same forearm. Keep the shield's source size and its position relative to the body.
+After the turn he holds the source's shield-ready orientation until the final frame at 2.333 seconds, with consistent armor identity and continued downward exhaust. Apply weathered concrete, window surfaces and subtle red-moon rim light to the static source environment using <Subject 2>. Maintain a clear silhouette and readable armor. Only one Aegis appears; no titan, impact, flight away, building collapse, captions or watermark are part of this diagnostic.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
