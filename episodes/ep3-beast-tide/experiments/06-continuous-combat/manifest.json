@@ -1,6 +1,6 @@
 {
-  "purpose": "Experimental manual r2v setup, not an importable workflow; does not replace production clip06",
-  "source_duration_seconds": 12,
+  "purpose": "Experimental manual r2v setup, strike-feel restructure (2026-10-15); not an importable workflow; does not replace production clip06",
+  "source_duration_seconds_target": 8.5,
   "editorial_target_seconds": 8,
   "shared_prompt": "common-prompt.txt",
   "shared_references": {
@@ -9,11 +9,19 @@
     "Picture 3": "../../references/states/nyx-aim.png",
     "Picture 4": "../../references/states/lyra-skill.png"
   },
+  "video_reference": {
+    "Video 1": "../06A-video-reference/assets/impact-motion-6.65-7.80.mp4",
+    "note": "Attached to every group; each prompt uses only the time interval it names"
+  },
+  "sampling_note": "Prompt and Video1 changed only; 4 steps / Euler / simple / CFG 1 / LoRA 1 / seed 888 retained. Frame counts pad to the 17k+5 grid at 24fps.",
   "clips": [
     {
       "name": "06A-claw-shield-recoil",
       "prompt": "groups/06A-claw-shield-recoil.txt",
-      "duration_seconds": 4,
+      "complete_prompt": "complete-prompts/06A-claw-shield-recoil.txt",
+      "duration_seconds_target": 2,
+      "expected_frames": 56,
+      "video1_interval_used": "0.00-0.55",
       "local_references": {
         "Picture 5": "../../references/states/aegis-airborne-shield.png"
       }
@@ -21,7 +29,10 @@
     {
       "name": "06B-roll-and-thread",
       "prompt": "groups/06B-roll-and-thread.txt",
-      "duration_seconds": 4,
+      "complete_prompt": "complete-prompts/06B-roll-and-thread.txt",
+      "duration_seconds_target": 2.5,
+      "expected_frames": 73,
+      "video1_interval_used": "0.60-1.13",
       "local_references": {
         "Picture 5": "../../references/states/aegis-airborne-shield.png"
       }
@@ -29,7 +40,10 @@
     {
       "name": "06C-bridge-strike-escape",
       "prompt": "groups/06C-bridge-strike-escape.txt",
-      "duration_seconds": 4,
+      "complete_prompt": "complete-prompts/06C-bridge-strike-escape.txt",
+      "duration_seconds_target": 4,
+      "expected_frames": 107,
+      "video1_interval_used": "contact physics only",
       "local_references": {
         "Picture 5": "../../references/states/aegis-airborne-shield.png"
       }

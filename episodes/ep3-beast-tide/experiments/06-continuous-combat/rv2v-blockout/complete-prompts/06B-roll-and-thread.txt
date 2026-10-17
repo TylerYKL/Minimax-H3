@@ -1,0 +1,33 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter human-sized fighter in broad-shouldered worn dark-gunmetal layered armor with orange-gold light strips, with a sealed cyan visor, an orange hexagonal chest furnace and back and calf thrusters. His attached RIGHT-forearm emitter alternates between a golden honeycomb shield for defense and a broad single-edged golden energy blade approximately 1.8 meters long for attack. Only one full projection is active at a time; his left hand balances or supports his body.
+<Subject 2> is Nyx from <Picture 3>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon has a rectangular dark-purple barrel, twin side rails, violet central channel, hexagonal muzzle and shoulder brace; preserve the same weapon across shots.
+<Subject 3> is Lyra from <Picture 4>, a human-sized medic in dark-teal segmented armor, a hood-shaped armored head covering, cyan-green faceplate, green hexagonal chest core, split long armored skirt, belt and luminous rings around both wrists. Repair filaments originate at the wrist rings. No deployed antenna is part of this reference.
+<Subject 4> is the red-moon ruined city from <Picture 1>: wet rubble avenue, abandoned vehicles, forty-to-sixty-meter towers and a twelve-meter-high elevated highway. The northern avenue is the enemy approach, the southern lane is allied medical support, and the western platform is Nyx's firing position. Bridge damage follows the current group's description.
+<Subject 5> is the horned rock-armored titan from <Picture 2>, thirty meters tall, approximately sixteen times Aegis's height, with charcoal carapace, red molten veins, a central red chest core and a long armored tail rooted at the base of the spine behind the pelvis, ending in a polygonal rock hammer. Both clawed hands are separate and empty. The scale preview supplies creature identity only: its pictured hero is too large. Enforce the stated 30-meter to 1.88-meter scale using common ground depth, cars and building floors. Appearance definitions do not require every subject to appear. The current group's description determines the visible cast, equipment state and persistent damage.
+
+<Video 1> is a gray low-poly 3D block-out previs of THIS shot: a WIDE aerial view where the tumbling fighter crosses the frame at high speed, the titan's arm pursues, the camera pushes forward and then drops to deck height as the fighter threads through the fingertips. It is the motion plate: preserve its exact motion, timing, camera framing, camera movement, on-screen positions and the wide opening; replace the gray low-poly geometry with the cinematic characters described below; do not alter the block-out's action, axis or timing. Add only the effects, lighting and materials described here.
+<Picture 5> supplies Aegis's attached right-forearm shield and flight hardware only. It is a visual equipment reference, not a pose template: the block-out determines the pose.
+
+summary:
+[reference generation] A wide aerial shot shows Aegis already tumbling across the city at high speed; a giant open hand pursues him to the bridge, he fires a correction jet, converts the roll, retracts the shield and threads through the fingertips at deck height.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, 1.88-meter height, right-arm emitter and back/calf thrusters.
+<Subject 5>: fully_preserved - retain the 30-meter titan, separate open hands, intact chest and red core.
+<Subject 4>: partially_preserved - retain the city and the intact highway; the deck remains intact in this shot.
+<Video 1>: strong_reference - preserve motion, timing, framing and the forward camera push; replace only geometry and materials.
+<Picture 5>: weak_reference - equipment and materials only, not the pose.
+
+detailed_description:
+Cinematic 3D CG, physically based worn metal, rough volcanic rock, red moon and cool shadows. One continuous source shot following the block-out; there are no internal cuts, slow motion, captions or speech. Aegis is human-sized, about one sixteenth of the titan's height at equal depth. Only Aegis and the titan appear. Preserve rightward screen travel and the same side of the action axis.
+[Shot 1] WIDE aerial three-quarter oblique shot at roughly 45 degrees, the camera pushing forward and slowly dropping like a tracking drone over the elevated highway. It opens with Aegis already tumbling left to right at high speed, small against the city and the intact bridge, feet raised above his hips, body mid-rotation, the right-arm shield tucked across his upper body. Behind him on the left the titan's nearer arm follows, its second open hand already reaching forward; the gap is large enough to read the distance he has been thrown. Strong directional motion blur follows the travel; columns, rails and abandoned vehicles sweep across the frame.
+0.00–0.80 seconds: The wide tumble carries him across the frame; keep the wide framing through this entire opening. He fires ONE short asymmetric calf-jet burst against the rotation, leaving a kinked exhaust trail that records his orientation; it slows the spin but does not arrest his rightward speed. The camera keeps pushing forward.
+0.80–1.50 seconds: As the second open hand descends toward the bridge edge ahead, Aegis converts the remaining roll into a fast bank along the deck edge; this is a redirection of existing momentum, not a pause or new takeoff. The right-arm shield retracts into the forearm emitter so he can tuck elbows, knees and head close; the emitter produces no blade.
+1.50–2.50 seconds: The camera drops rapidly to bridge-deck height and tracks beside the railing as Aegis threads diagonally through the gap between the descending fingertips and the deck edge; a clear gap surrounds his body, fingers never pass through him, and the palm stays close without touching him. His left hand opens for balance; a short jet burst straightens the flight.
+2.50–3.04 seconds and any tail: End with him still moving toward screen right, the deck intact, the descending open palm filling the left background, no palm-to-concrete contact, no hover, no new pose.
+
+overall_soundscape:
+Continuous rushing air opens over the wide chase, with one short steering jet, then a deep approaching hand whoosh and bridge fixtures rattling. A second short jet marks the redirect; no bridge crash and no impact in this shot.
+
+non_diegetic_music:
+N/A

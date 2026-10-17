@@ -1,0 +1,53 @@
+{
+  "purpose": "Two-layer pipeline: 3D block-out previs (motion/framing/timing) -> r2v rv2v conversion (look/materials/effects). Not an importable workflow; does not replace production clip06.",
+  "pipeline": {
+    "step1": "Author a gray low-poly 3D block-out video per 3d-blockout/*.txt, 24 fps, recommended 960x540, place in ComfyUI/input with *-source-*f.mp4 naming",
+    "step2": "Director: r2v + ref2va model; attach the block-out as Video 1 and Pictures 1-5 as identity; paste groups/ prompt with Shared Params ON"
+  },
+  "shared_references": {
+    "Picture 1": "../../references/A-team.png",
+    "Picture 2": "../../references/states/titan-scale-preview.png",
+    "Picture 3": "../../references/states/nyx-aim.png",
+    "Picture 4": "../../references/states/lyra-skill.png",
+    "Picture 5": "../../references/states/aegis-airborne-shield.png"
+  },
+  "sampling_note": "From minimax_h3_director_turbo_ver.json (2026-10-16): ref2va pruned int8 model, ref2v turbo 4-step LoRA at strength 1, 4 steps / Euler / simple / CFG 1. Keep the last-good LoRA stack; verify in the UI.",
+  "clips": [
+    {
+      "name": "06A-claw-shield-recoil",
+      "blockout_instructions": "3d-blockout/06A-claw-shield-recoil.txt",
+      "blockout_source_video": "06A-palm-strike-source-56f.mp4 (to author; replaces impact-separation-source-56f)",
+      "prompt": "groups/06A-claw-shield-recoil.txt",
+      "complete_prompt": "complete-prompts/06A-claw-shield-recoil.txt",
+      "target_frames": 56,
+      "exported_seconds": 2.33,
+      "editorial_seconds": 2,
+      "video1": "the 3D block-out",
+      "key_fixes": "contact at ~0.6s; open palm; body stays inside frame; no blade"
+    },
+    {
+      "name": "06B-roll-and-thread",
+      "blockout_instructions": "3d-blockout/06B-roll-and-thread.txt",
+      "blockout_source_video": "06B-wide-chase-source-73f.mp4 (to author)",
+      "prompt": "groups/06B-roll-and-thread.txt",
+      "complete_prompt": "complete-prompts/06B-roll-and-thread.txt",
+      "target_frames": 73,
+      "exported_seconds": 3.04,
+      "editorial_seconds": 2.5,
+      "video1": "the 3D block-out",
+      "key_fixes": "wide opening with forward push; distance readable; shield retracts mid-shot; no blade"
+    },
+    {
+      "name": "06C-bridge-strike-escape",
+      "blockout_instructions": "3d-blockout/06C-bridge-strike-escape.txt",
+      "blockout_source_video": "06C-bridge-strike-source-107f.mp4 (to author; replaces overhead-building-source-56f)",
+      "prompt": "groups/06C-bridge-strike-escape.txt",
+      "complete_prompt": "complete-prompts/06C-bridge-strike-escape.txt",
+      "target_frames": 107,
+      "exported_seconds": 4.46,
+      "editorial_seconds": 4,
+      "video1": "the 3D block-out",
+      "key_fixes": "open palm hits bridge (not energy beam); Aegis in foreground as projectile; blade deploys only after 2.4s"
+    }
+  ]
+}

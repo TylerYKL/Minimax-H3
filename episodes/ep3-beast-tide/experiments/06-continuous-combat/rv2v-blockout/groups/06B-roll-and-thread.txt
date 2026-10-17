@@ -1,0 +1,26 @@
+<Video 1> is a gray low-poly 3D block-out previs of THIS shot: a WIDE aerial view where the tumbling fighter crosses the frame at high speed, the titan's arm pursues, the camera pushes forward and then drops to deck height as the fighter threads through the fingertips. It is the motion plate: preserve its exact motion, timing, camera framing, camera movement, on-screen positions and the wide opening; replace the gray low-poly geometry with the cinematic characters described below; do not alter the block-out's action, axis or timing. Add only the effects, lighting and materials described here.
+<Picture 5> supplies Aegis's attached right-forearm shield and flight hardware only. It is a visual equipment reference, not a pose template: the block-out determines the pose.
+
+summary:
+[reference generation] A wide aerial shot shows Aegis already tumbling across the city at high speed; a giant open hand pursues him to the bridge, he fires a correction jet, converts the roll, retracts the shield and threads through the fingertips at deck height.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, 1.88-meter height, right-arm emitter and back/calf thrusters.
+<Subject 5>: fully_preserved - retain the 30-meter titan, separate open hands, intact chest and red core.
+<Subject 4>: partially_preserved - retain the city and the intact highway; the deck remains intact in this shot.
+<Video 1>: strong_reference - preserve motion, timing, framing and the forward camera push; replace only geometry and materials.
+<Picture 5>: weak_reference - equipment and materials only, not the pose.
+
+detailed_description:
+Cinematic 3D CG, physically based worn metal, rough volcanic rock, red moon and cool shadows. One continuous source shot following the block-out; there are no internal cuts, slow motion, captions or speech. Aegis is human-sized, about one sixteenth of the titan's height at equal depth. Only Aegis and the titan appear. Preserve rightward screen travel and the same side of the action axis.
+[Shot 1] WIDE aerial three-quarter oblique shot at roughly 45 degrees, the camera pushing forward and slowly dropping like a tracking drone over the elevated highway. It opens with Aegis already tumbling left to right at high speed, small against the city and the intact bridge, feet raised above his hips, body mid-rotation, the right-arm shield tucked across his upper body. Behind him on the left the titan's nearer arm follows, its second open hand already reaching forward; the gap is large enough to read the distance he has been thrown. Strong directional motion blur follows the travel; columns, rails and abandoned vehicles sweep across the frame.
+0.00–0.80 seconds: The wide tumble carries him across the frame; keep the wide framing through this entire opening. He fires ONE short asymmetric calf-jet burst against the rotation, leaving a kinked exhaust trail that records his orientation; it slows the spin but does not arrest his rightward speed. The camera keeps pushing forward.
+0.80–1.50 seconds: As the second open hand descends toward the bridge edge ahead, Aegis converts the remaining roll into a fast bank along the deck edge; this is a redirection of existing momentum, not a pause or new takeoff. The right-arm shield retracts into the forearm emitter so he can tuck elbows, knees and head close; the emitter produces no blade.
+1.50–2.50 seconds: The camera drops rapidly to bridge-deck height and tracks beside the railing as Aegis threads diagonally through the gap between the descending fingertips and the deck edge; a clear gap surrounds his body, fingers never pass through him, and the palm stays close without touching him. His left hand opens for balance; a short jet burst straightens the flight.
+2.50–3.04 seconds and any tail: End with him still moving toward screen right, the deck intact, the descending open palm filling the left background, no palm-to-concrete contact, no hover, no new pose.
+
+overall_soundscape:
+Continuous rushing air opens over the wide chase, with one short steering jet, then a deep approaching hand whoosh and bridge fixtures rattling. A second short jet marks the redirect; no bridge crash and no impact in this shot.
+
+non_diegetic_music:
+N/A

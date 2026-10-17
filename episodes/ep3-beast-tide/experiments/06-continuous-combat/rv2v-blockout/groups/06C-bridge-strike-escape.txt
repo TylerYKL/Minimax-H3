@@ -1,0 +1,26 @@
+<Video 1> is a gray low-poly 3D block-out previs of THIS shot: an open palm hits the bridge deck, the central span collapses in the same shot, debris throws the foreground fighter forward, and as he clears the falling slabs his emitter extends a blade. It is the motion plate: preserve its exact motion, timing, camera framing, camera movement and on-screen positions, keeping the fighter inside the frame as the foreground projectile; replace the gray low-poly geometry with the cinematic characters described below; do not alter the block-out's action, axis or timing. Add only the effects, lighting and materials described here.
+<Picture 5> supplies Aegis's right-forearm emitter, armor and thrusters only; it is not a pose template: the block-out determines the pose.
+
+summary:
+[reference generation] The pursuing open palm strikes the bridge deck behind Aegis, the central span collapses in the same shot, debris throws him forward inside the frame, and as he clears the falling slabs his right-forearm emitter extends the golden blade for the first time.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, 1.88-meter height, right-arm emitter and back/calf thrusters.
+<Subject 5>: fully_preserved - retain the 30-meter titan, root-attached tail, intact chest and red core.
+<Subject 4>: partially_preserved - retain the city and highway; the bridge changes from intact to broken in this shot.
+<Video 1>: strong_reference - preserve motion, timing, framing and camera surge; replace only geometry and materials.
+<Picture 5>: weak_reference - equipment and materials only, not the pose.
+
+detailed_description:
+Cinematic 3D CG, physically based worn metal, rough volcanic rock, red moon and cool shadows. One continuous source shot following the block-out; no internal cuts, slow motion, captions or speech. Aegis is human-sized, about one sixteenth of the titan's height at equal depth. Only Aegis and the titan appear. Preserve rightward screen travel and the same side of the action axis.
+[Shot 1] WIDE side-tracking three-quarter shot at 30 to 45 degrees oblique, opening with Aegis already speeding left to right just beyond the edge of an intact elevated bridge, his right-forearm projection retracted after the narrow escape. The titan's enormous open palm is descending behind him; the titan stands beyond the bridge, its chest and red core untouched. Frame the descending palm, central deck span, support column and foreground Aegis together.
+0.00–0.30 seconds: No beam, no energy blast; only the descending open palm. The composition holds all four elements together.
+0.30–1.00 seconds: Within the first second the open palm visibly hits the deck behind him. Exactly ONE large impact. Concrete buckles downward at the contact point, a jagged fracture crosses the deck and the central slab separates from its support; keep the break visible in this same shot. Dust begins locally at contact only.
+1.00–2.40 seconds: Large distinct slabs drop under gravity while smaller chips eject; dust spreads only after the deck has visibly broken. The air blast and fragments catch Aegis from behind; his flight path jolts forward and slightly downward, his free left arm throws outward, and a sharp calf-jet correction fires without stopping. The camera surges forward with him, briefly revealing the falling concrete below; a few near-camera fragments streak past while the silhouette and bridge gap stay readable. Nothing comes from the titan's chest, which stays intact.
+2.40–4.46 seconds: As he clears the last falling slab he banks upward toward the outside of the titan's shoulder. The RIGHT-forearm emitter then extends one broad golden single-edged blade along the new flight direction; this is the first and only projection in this shot and the first time the blade appears across the three clips. Finish on fast upward motion with the blade newly deployed, the bridge gap behind and the next approach underway; no chest strike, hover, landing or celebration. The titan remains alive and turning to pursue.
+
+overall_soundscape:
+A heavy palm-on-deck crash within the first second, followed by concrete fracture and falling slab impacts; the jet roar carries forward through the debris with a short steering burst, and a brief energy-blade ignition sounds at the end. No dialogue, no music.
+
+non_diegetic_music:
+N/A

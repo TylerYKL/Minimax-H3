@@ -1,5 +1,7 @@
 # 06A：r2v 动作视频参考测试
 
+> 2026-10-15 更新：本测试已并入重构版三镜头实验。Video 1 现挂载到 06A/06B/06C 三段，各段只借用指定时间区间，以 [../06-continuous-combat/README.md](../06-continuous-combat/README.md) 为准。以下内容为历史记录。
+
 保留ref2va模型与ref2v Turbo LoRA，无需改成fl2v或rv2v。这是详细文字版的新增对照实验，尚未渲染；原06A文件保持不变。
 
 ## 准备好的素材

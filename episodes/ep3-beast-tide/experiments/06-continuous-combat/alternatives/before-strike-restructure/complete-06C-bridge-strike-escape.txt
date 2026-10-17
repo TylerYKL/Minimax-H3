@@ -1,0 +1,30 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>, a 1.88-meter human-sized fighter in broad-shouldered worn dark-gunmetal layered armor with orange-gold light strips, with a sealed cyan visor, an orange hexagonal chest furnace and back and calf thrusters. His attached RIGHT-forearm emitter alternates between a golden honeycomb shield for defense and a broad single-edged golden energy blade approximately 1.8 meters long for attack. Only one full projection is active at a time; his left hand balances or supports his body.
+<Subject 2> is Nyx from <Picture 3>, a human-sized fighter with slender dark-purple and near-black angular armor, a single long helmet crest, a magenta-violet faceplate, a luminous hexagonal chest core, narrow violet conduits and layered rigid skirt armor. Preserve this design from front, side and rear views. His long laser cannon has a rectangular dark-purple barrel, twin side rails, violet central channel, hexagonal muzzle and shoulder brace; preserve the same weapon across shots.
+<Subject 3> is Lyra from <Picture 4>, a human-sized medic in dark-teal segmented armor, a hood-shaped armored head covering, cyan-green faceplate, green hexagonal chest core, split long armored skirt, belt and luminous rings around both wrists. Repair filaments originate at the wrist rings. No deployed antenna is part of this reference.
+<Subject 4> is the red-moon ruined city from <Picture 1>: wet rubble avenue, abandoned vehicles, forty-to-sixty-meter towers and a twelve-meter-high elevated highway. The northern avenue is the enemy approach, the southern lane is allied medical support, and the western platform is Nyx's firing position. Bridge damage follows the current group's description.
+<Subject 5> is the horned rock-armored titan from <Picture 2>, thirty meters tall, approximately sixteen times Aegis's height, with charcoal carapace, red molten veins, a central red chest core and a long armored tail rooted at the base of the spine behind the pelvis, ending in a polygonal rock hammer. Both clawed hands are separate and empty. The scale preview supplies creature identity only: its pictured hero is too large. Enforce the stated 30-meter to 1.88-meter scale using common ground depth, cars and building floors. Appearance definitions do not require every subject to appear. The current group's description determines the visible cast, equipment state and persistent damage.
+
+<Picture 5> supplies Aegis's attached right-forearm shield and recoil posture only. It is a visual equipment reference, not the first frame or a gray-background scene.
+
+summary:
+[reference generation] The pursuing palm hits the bridge behind Aegis; the span collapses and he flies through debris into his next attack.
+
+retention_analysis:
+<Subject 1>: fully_preserved - retain armor identity, 1.88-meter height, attached right-arm emitter and back/calf propulsion.
+<Subject 5>: fully_preserved - retain 30-meter volcanic titan, attached pelvis-rooted tail, intact chest armor and red core.
+<Subject 4>: partially_preserved - retain the city and highway; bridge state follows the shot's explicit timeline.
+<Picture 5>: weak_reference - retain equipment location and recoil mechanics only; motion, framing and projection state follow this shot.
+
+detailed_description:
+Cinematic 3D CG with physically based worn metal, rough volcanic rock, red moon and cool shadows. This is a four-second source shot of an ongoing fight, with rapid acceleration changes and clear contact. Aegis is human-sized, about one sixteenth the titan's height at equal camera depth. Only Aegis and the titan appear. No internal cuts, slow motion, captions or speech. Preserve rightward screen travel and the same side of the action axis.
+[Shot 1] One continuous wide side-tracking shot begins with <Subject 1> already speeding left to right just beyond the edge of an intact elevated bridge. His right-arm projection is retracted after the narrow escape. <Subject 5>'s enormous open palm is already descending behind him, continuing the previous shot. The titan stands outside and beyond the bridge, its chest and red core untouched. Frame the descending palm, central deck span, support column and escaping Aegis together, keeping the same screen direction.
+Within the first second the palm visibly hits the deck behind Aegis. Concrete buckles downward at the contact point, a jagged fracture crosses the deck and the central slab separates from its support. Keep the break visible in this same shot. Large distinct slab pieces drop under gravity, while smaller chips eject outward from the strike. Dust begins locally at contact and spreads after the deck has visibly broken, leaving the opening readable. The falling span exposes a clear gap between the surviving bridge ends.
+The blast of air and fragments catches Aegis from behind. His flight path jolts forward and slightly downward; he throws his free left arm outward, then fires a sharp calf-jet correction to recover without stopping. The camera surges forward with him, briefly revealing falling concrete below. A few near-camera fragments streak past; the main silhouette and bridge gap remain readable. No debris comes from the titan's chest, which stays intact.
+As Aegis clears the last falling slab, he banks upward toward the outside of the giant's shoulder. His RIGHT-forearm emitter extends one broad golden single-edged blade along the new flight direction; the shield stays retracted. Finish on fast upward motion with the blade newly deployed, bridge gap behind him and the next approach still underway. He does not strike the chest, hover, land or celebrate. The titan remains alive and turning to pursue.
+
+overall_soundscape:
+A heavy palm-on-deck crash precedes concrete fracture and falling slab impacts. Carry the jet roar forward through debris, with short steering bursts and a brief energy-blade ignition at the end.
+
+non_diegetic_music:
+N/A
