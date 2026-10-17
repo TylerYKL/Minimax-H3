@@ -1,0 +1,94 @@
+{
+  "previs_rendered": true,
+  "h3_rendered": false,
+  "workflow_tested_in_comfyui": false,
+  "fps": 24,
+  "master_frames": 94,
+  "master_seconds": 3.9166666666666665,
+  "assets": [
+    {
+      "file": "exports/01-ambush-source.mp4",
+      "frames": 56,
+      "fps": 24,
+      "sha256": "2a4aea278c891aac02da4b582f2a62cb9445eef1695f6b00c8f95c95c3ced6c9"
+    },
+    {
+      "file": "exports/02-building-source.mp4",
+      "frames": 56,
+      "fps": 24,
+      "sha256": "6f25b70d540aae0ca8b00cd07131ae33e731ddad841c0a420d591dda52ec3cda"
+    },
+    {
+      "file": "exports/combat-master.mp4",
+      "frames": 94,
+      "fps": 24,
+      "sha256": "b7da9d9eb1e1045315d05804694c150a3a3c5f3d9dc3343fad4cd8e329abb6b0"
+    }
+  ],
+  "shots": [
+    {
+      "id": "01-ambush",
+      "camera": "side",
+      "world_start": 0,
+      "source_frames": 56,
+      "edit_in": 0,
+      "edit_out": 38
+    },
+    {
+      "id": "02-building",
+      "camera": "overhead",
+      "world_start": 38,
+      "source_frames": 56,
+      "edit_in": 0,
+      "edit_out": 56
+    }
+  ],
+  "events": {
+    "claw_entry": 28,
+    "chill_start": 29,
+    "chill_end": 31,
+    "turn_start": 32,
+    "turn_end": 35,
+    "shield_start": 34,
+    "shield_full": 35,
+    "shield_contact": 36,
+    "wall_contact": 41
+  },
+  "source_upload_required": true,
+  "export_audio_connected": false,
+  "reference_slots": [
+    {
+      "index": 0,
+      "imageFile": "沈烈Aegis三视图_去背景-resize.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 1,
+      "imageFile": "aegis-airborne-shield.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 2,
+      "imageFile": "A-team.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 3,
+      "imageFile": "磐甲巨兽三视图_去背景-resize.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    }
+  ],
+  "world_scale_meters": {
+    "aegis": 1.88,
+    "titan": 30,
+    "target_tower": 40
+  }
+}

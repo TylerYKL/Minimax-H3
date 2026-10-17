@@ -1,0 +1,50 @@
+{
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "events": {
+    "claw_entry": 28,
+    "chill_start": 29,
+    "chill_end": 31,
+    "turn_start": 32,
+    "turn_end": 35,
+    "shield_start": 34,
+    "shield_full": 35,
+    "shield_contact": 36,
+    "wall_contact": 41
+  },
+  "motion": {
+    "claw_rest_x": -9,
+    "claw_entry_x": -4.8,
+    "claw_contact_x": -1.97,
+    "flight_x": [
+      0.1,
+      1.2,
+      3.2,
+      6.2,
+      9.2,
+      12.6
+    ],
+    "max_floor_drop": 4.8
+  },
+  "shots": [
+    {
+      "id": "01-ambush",
+      "camera": "side",
+      "world_start": 0,
+      "source_frames": 56,
+      "edit_in": 0,
+      "edit_out": 38
+    },
+    {
+      "id": "02-building",
+      "camera": "overhead",
+      "world_start": 38,
+      "source_frames": 56,
+      "edit_in": 0,
+      "edit_out": 56
+    }
+  ]
+}

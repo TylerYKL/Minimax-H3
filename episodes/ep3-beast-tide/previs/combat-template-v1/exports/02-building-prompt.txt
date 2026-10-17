@@ -1,0 +1,26 @@
+subject_definitions:
+<Video 1> is 02-building-source.mp4, a 56-frame source at 24 fps, lasting 2.333 seconds. Preserve its single camera, body scale, action order and rapid trajectories; replace the simplified geometry and effect guides.
+<Subject 1> is the one Aegis shown in the multiple views of <Picture 1>: a 1.88-meter fighter wearing heavy worn gunmetal armor, orange-gold accents, a cyan visor and an orange hexagonal chest core. <Picture 2> supplies his attached RIGHT-forearm golden honeycomb shield appearance. No sword is active in this sequence.
+<Subject 2> is the ruined-city environment from <Picture 3>, with weathered concrete, dark glazing, red-moon rim light and cool shadows. Transfer only the environment, not the other characters pictured there.
+<Subject 3> is the thirty-meter titan from <Picture 4>: charcoal volcanic armor, red molten fissures, red eyes, horns, an intact red chest core and a tail rooted behind the pelvis with a stone hammer at its end. Both hands are empty. Maintain source anatomy and the sixteen-to-one height ratio.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Transfer finished cinematic 3D CG appearances while retaining the source's rapid combat timing and spatial continuity.
+
+retention_analysis:
+<Video 1> (entire shot): partially_preserved - retain duration, camera, layout, scale, motion and contacts; replace proxy surfaces and effect markers.
+<Subject 1> (where visible): attribute_transfer - transfer consistent armor and attached shield onto the small fighter; preserve source poses rather than reference display poses.
+<Subject 2> (entire shot): attribute_transfer - finish the city surfaces without changing the source layout or damage trajectory.
+<Subject 3> (visible body or striking limb): attribute_transfer - transfer rock appearance without changing scale, limb count or action.
+
+detailed_description:
+Render finished cinematic 3D CG on all visible surfaces from the first frame. Preserve source camera and action timing. Treat thin lines, white flashes and coarse dust volumes as temporary effect guides, not final objects. Do not add slow motion, captions or watermarks.
+Keep the fixed high overhead view: the full thirty-meter giant at left, tiny Aegis in flight near center, and the forty-meter tower at right. Cars and building floors establish scale. The shot begins during knockback; do not replay the attack or introduce a hover. His back leads rightward, his shield stays on his right forearm, and foot jets are dark. Preserve the short white displacement streak without turning it into a separate projectile.
+At approximately 0.125 seconds Aegis penetrates the target facade near its third floor. Replace the orange marker with a compact orange-white contact burst. On the next frame the source wall panels break outward; Aegis and his shield remain concealed inside the breach. Turn the proxy fragments into rubble and glass following their existing trajectories.
+Continue the source's local support failure, upper-floor descent by roughly one floor, falling fragments and growing dust through the final frame. Keep the lower building standing. Replace faceted dust blobs with fine concrete dust while retaining a readable breach and descending roofline. The giant stays in place with its striking arm extended, without a second attack. No camera orbit, cut or recovery.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
