@@ -1,0 +1,27 @@
+subject_definitions:
+<Video 1> is overhead-building-source-56f.mp4, the 56-frame, 24-fps source for one fixed high overhead shot. It begins with a small shielded fighter already airborne after an offscreen impact, then shows rapid rightward flight into a tower and local structural collapse. Preserve its camera, scale, trajectory and event order.
+<Subject 1> is Aegis from <Picture 1>, one 1.88-meter armored fighter with worn heavy gunmetal armor, orange-gold accents, an orange hexagonal chest core and a sealed cyan visor. His attached RIGHT-forearm shield has the golden honeycomb appearance from <Picture 2>. His thruster outlets are dark throughout this shot: his flight is forced knockback. No sword is deployed.
+<Subject 2> is the ruined-city appearance from the environment in <Picture 3>: damaged concrete towers, dark glazing, elevated roads, red-moon light and cool shadows. Transfer only the environment, not the other characters in that reference. Preserve the source target tower on the right and its narrow red corner marker.
+<Subject 3> is the 30-meter rock titan from <Picture 4>: horned charcoal volcanic armor, red molten cracks and eyes, intact circular red chest core, and a tail rooted behind the pelvis ending in a stone hammer. Both hands are empty. Preserve the source's approximately sixteen-to-one body-height ratio; Aegis remains very small in the wide view.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Transfer finished cinematic 3D CG appearances onto its immediate airborne knockback, wall impact, outward rubble and progressive local building collapse.
+
+retention_analysis:
+<Video 1> (entire shot): partially_preserved - retain the stationary overhead camera, 56-frame duration, spatial layout, scale, rapid flight and damage timing. Replace proxy surfaces and effect markers.
+<Subject 1> (opening flight and wall contact): attribute_transfer - transfer armor and attached shield while preserving his small source silhouette and back-leading trajectory. He disappears inside the breach after impact.
+<Subject 2> (entire shot): attribute_transfer - finish city materials and lighting while retaining the source building's local failure and descending upper floors.
+<Subject 3> (entire shot): attribute_transfer - transfer rock appearance onto the full creature, maintaining its position, anatomy and already-extended striking arm.
+
+detailed_description:
+One continuous fixed high overhead shot matching <Video 1>. The complete giant stands at screen left; the forty-meter target tower stands at screen right. Cars, floor spacing and the elevated road establish the scale. Finish the proxy objects in cinematic 3D CG, preserving source geometry placement and readable silhouettes. Keep the roof and damaged floor in frame.
+From the first frame, Aegis is already flying backward toward screen right, away from the giant's extended claw. Do not replay the shield strike or add a hovering pause. Match the source's first four flight frames: his back leads toward the building, his helmet remains oriented toward the attacker, and the right-arm shield travels with him. All foot and calf exhaust is absent. Replace the thin source trail with a brief white motion streak from his actual displacement; keep his tiny silhouette at its leading end. Do not enlarge him or create a second body.
+At approximately 0.167 seconds, source frame 4, Aegis reaches the tower facade at the source impact point, around the third-floor height. His body penetrates the wall. Replace the orange contact marker with a compact orange-white impact burst at that exact point. The burst begins only on wall contact, lasts briefly and gives way to concrete dust; it is not a missile or a separate projectile.
+From approximately 0.208 seconds, remove the source breach panels and throw concrete chunks and broken glazing outward along the source trajectories. Aegis and his shield remain inside the breach, concealed by the wall and debris. The street beneath catches falling fragments. Convert the faceted dust markers into expanding granular concrete dust, leaving the damaged floor and descending roofline readable.
+During the remainder of the shot through 2.333 seconds, match the damaged supports buckling and upper floors descending locally by about one floor, as established by the source. Keep the lower structure standing; do not dissolve the whole building or sink it through the street. Preserve progressive rubble fall, dust expansion and settling. The giant stays at the original location with its arm in follow-through; it does not strike again, walk toward the tower or change size. Keep the camera stationary. No recovery, additional cut, orbit, captions or watermark.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

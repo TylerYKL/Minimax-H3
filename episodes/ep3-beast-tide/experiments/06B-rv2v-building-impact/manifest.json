@@ -1,0 +1,37 @@
+{
+  "previs_rendered": true,
+  "h3_rendered": false,
+  "workflow_tested_in_comfyui": false,
+  "assets": [
+    {
+      "file": "overhead-building-source-56f.mp4",
+      "frames": 56,
+      "fps": 24,
+      "width": 960,
+      "height": 540,
+      "audio": false,
+      "sha256": "3536ff792b50ba4cde0f6f52e19472291b964d231fd9e8418a2703362846ea0e"
+    },
+    {
+      "file": "cut-preview-H3-to-graybox.mp4",
+      "frames": 73,
+      "fps": 24,
+      "width": 864,
+      "height": 480,
+      "audio": false,
+      "sha256": "cf24ee92c8eb89e3e794469725ccfa9ceb372af816a254db1f56b642905bb5e1"
+    }
+  ],
+  "source": "overhead-building-source-56f.mp4",
+  "wall_contact_frame": 4,
+  "breach_frame": 5,
+  "thrusters_active": false,
+  "source_upload_required": true,
+  "export_audio_connected": false,
+  "edit_preview": {
+    "previous_user_video": "06A_rv2v_impact_separation_00001_.mp4",
+    "previous_start_frame_inclusive": 14,
+    "previous_end_frame_exclusive": 31,
+    "next_clip_is_graybox": true
+  }
+}
