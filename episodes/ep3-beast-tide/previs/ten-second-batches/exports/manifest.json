@@ -1,0 +1,92 @@
+{
+  "previs_rendered": true,
+  "h3_rendered": false,
+  "workflow_tested_in_comfyui": false,
+  "preview_frames_per_segment": 240,
+  "h3_frames_per_segment": 243,
+  "fps": 24,
+  "alignment": "H3 17k+5: 240 rounds up to 243; trim last 3 frames, do not retime",
+  "reference_slots": [
+    {
+      "index": 0,
+      "imageFile": "沈烈Aegis三视图_去背景-resize.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 1,
+      "imageFile": "nyx-aim.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 2,
+      "imageFile": "lyra-skill.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 3,
+      "imageFile": "A-team.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 4,
+      "imageFile": "aegis-airborne-shield.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    },
+    {
+      "index": 5,
+      "imageFile": "C-blade-contact.png",
+      "fileName": "",
+      "type": "input",
+      "subfolder": ""
+    }
+  ],
+  "assets": [
+    {
+      "file": "EP3-01-H3-source-243f.mp4",
+      "frames": 243,
+      "fps": 24,
+      "duration_seconds": 10.125,
+      "sha256": "8ace689f09f2bfc7e33ccf009b42d8d8faadc52f695789fff399d3222e14d4da"
+    },
+    {
+      "file": "EP3-01-preview-10s.mp4",
+      "frames": 240,
+      "fps": 24,
+      "duration_seconds": 10.0,
+      "sha256": "6f79be7efc29d04d000145b377ebbd6af7187a7b3d158ca39658a67c9d723af8"
+    },
+    {
+      "file": "EP3-02-H3-source-243f.mp4",
+      "frames": 243,
+      "fps": 24,
+      "duration_seconds": 10.125,
+      "sha256": "ad159c8340cb0d5bdcc36a2b6634e60a995cf2f020c194496386d3693cb7ab8f"
+    },
+    {
+      "file": "EP3-02-preview-10s.mp4",
+      "frames": 240,
+      "fps": 24,
+      "duration_seconds": 10.0,
+      "sha256": "53c5fcf5f820e44fc0329540d1f72eaef35022b75494207512e2eace0d5e8a5a"
+    },
+    {
+      "file": "EP3-first-20s-preview.mp4",
+      "frames": 480,
+      "fps": 24,
+      "duration_seconds": 20.0,
+      "sha256": "8369529c5c128ab110f35bc720b2fbeb48688f30bdb0dce8316b5872325353aa"
+    }
+  ],
+  "episode_plan": "../episode-plan.json",
+  "audio_export_connected": false
+}

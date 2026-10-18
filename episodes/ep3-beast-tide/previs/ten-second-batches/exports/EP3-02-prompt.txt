@@ -1,0 +1,34 @@
+subject_definitions:
+<Video 1> is the provided 243-frame, 24-fps source clip. Its first 240 frames form the ten-second episode segment; the final three frames are continuation handles. Preserve its camera cuts, trajectories, relative scale, contacts and action order. Replace proxy geometry with finished cinematic 3D CG.
+<Subject 1> is Aegis, the single 1.88-meter fighter described by the multiple views in <Picture 1>: heavy gunmetal armor, orange-gold light strips, cyan sealed visor and orange hexagonal chest core. <Picture 5> supplies his RIGHT-forearm honeycomb shield; <Picture 6> supplies only the broad golden energy dao design, not the giant or action in that image. The right emitter alternates between shield and blade; never deploy both full forms together.
+<Subject 2> is Nyx from <Picture 2>, slender purple-black armor, long helmet crest, magenta visor and core, with the same long purple laser cannon. Keep one Nyx on the western flank.
+<Subject 3> is Lyra from <Picture 3>, dark-teal hooded armor, green chest core and luminous wrist emitters. Her thin green repair filaments target the wounded ally. Do not add an antenna or copy her reference pose instead of source movement.
+<Subject 4> is the environment from <Picture 4>: red-moon ruined city, damaged towers, wet rubble avenue, abandoned cars and an intact elevated bridge. Transfer only the environment appearance; the source determines which characters appear.
+<Subject 5> is the source's horde of small quadrupedal rock creatures, roughly waist-high to Aegis, with dark charcoal hides, short horns, claws and tiny red eyes. Keep them consistently small, with four legs and one head each. No thirty-meter titan appears in this segment.
+<Subject 6> is one anonymous wounded ally in plain blue-gray armor at the southern medical cover. Do not turn this ally into a duplicate Aegis, Nyx or Lyra.
+
+summary:
+[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the simplified proxies with the specified CG characters, small-beast horde and ruined-city appearance while retaining the source's sequence and readable physical action.
+
+retention_analysis:
+<Video 1> (all shots): partially_preserved - preserve duration, camera cuts, geography, action timing and relative size; replace proxy surfaces and effect guides.
+<Subject 1> (where visible): attribute_transfer - preserve gunmetal/orange armor, right-arm weapon ownership and source poses.
+<Subject 2> (where visible): attribute_transfer - preserve purple identity and long cannon, following source western-flank movement.
+<Subject 3> (where visible): attribute_transfer - preserve teal hood and wrist-based repair effects, following source rear-line movement.
+<Subject 4> (all shots): attribute_transfer - finish the source city without breaking the intact bridge.
+<Subject 5> (where visible): partially_preserved - finish the small rock-beast appearance while preserving source run cycles and impact trajectories.
+<Subject 6> (medical area): partially_preserved - finish the plain blue-gray armor while retaining the wounded posture.
+
+detailed_description:
+Use cinematic 3D CG, worn metal, rough rock, red-moon rim lighting and cool shadows. North along the avenue is the incoming horde; the southern lane is medical cover and the west platform is Nyx's firing position. Keep weapon contacts and brief recoil readable, without slow motion or new cuts. Gray flashes, colored lines and rings mark effects to replace with light, sparks, energy or water ripples. No captions or watermark.
+[Shot 1] Match the opening western-platform view. Nyx is already on the platform, aiming the same long cannon down toward the approaching small creatures. Fire brief magenta pulses around local 0.500, 1.100 and 1.700 seconds. Each pulse begins at the muzzle, reaches its source target and produces immediate short recoil in that beast; do not add a continuous sweeping beam or a weapon in the beast's hands.
+[Shot 2] At 00:02.400, cut to Aegis intercepting one creature at the front. The right-arm shield retracts at the start of this shot, then the broad energy dao appears around 2.600 seconds. Only one full weapon projection is active. The creature advances into the source strike zone. Around 3.150–3.400 seconds Aegis executes one short diagonal slash; the blade crosses the beast at about 3.300 seconds, producing a small golden impact flash and immediate backward displacement. Finish the slash and retain the dao. Do not repeat it, slow it into a pose or introduce the giant from the blade reference image.
+[Shot 3] At 00:05.000, cut to Lyra at the southern medical cover beside the wounded blue-gray ally. Thin green filaments originate at her wrists and terminate at the damaged shoulder armor. Replace the source line guides with controlled repair energy, keeping the wounded posture and both character identities distinct. The repair runs through roughly 7.800 seconds. Nyx's covering pulse at local 6.200 seconds belongs to the western platform, not Lyra's hands. Near the end of this view the ally and Lyra begin moving farther south along the source path.
+[Shot 4] At 00:07.500, cut low to the puddle and loose road fragments. Around 8.200 seconds concentric water ripples spread and small fragments tremble in place. Convert the cyan ring guides into water-surface ripples, not a protective energy dome. Keep the source ground plane and camera scale.
+[Shot 5] At 00:08.700, cut wide along the avenue. The surviving small beasts part toward both sides as the ground tremor continues; the fallen creatures remain where they were struck. Aegis retains the energy dao, Nyx keeps the western flank, and Lyra and the wounded ally remain in the southern rear. Leave the center lane opening toward the northern threat. Do not reveal a giant, collapse the bridge or restart the horde charge. Continue through the three final handle frames without a fade or additional shot.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

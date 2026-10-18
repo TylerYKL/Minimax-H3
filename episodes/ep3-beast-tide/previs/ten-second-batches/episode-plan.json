@@ -1,0 +1,74 @@
+{
+  "source_story": "../../story.md",
+  "original_duration_seconds": 75,
+  "proposed_duration_seconds": 80,
+  "segment_duration_seconds": 10,
+  "original_story_unchanged": true,
+  "adaptation_note": "十秒等长剪辑草案：整片扩展至80秒，采用已批准的撞楼战斗方向；后六段仅规划。",
+  "segments": [
+    {
+      "id": "01",
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "title": "兽潮压境",
+      "beats": "兽潮逼近、三人守线、盾接第一波、队友分开",
+      "status": "previs_rendered_h3_unverified"
+    },
+    {
+      "id": "02",
+      "start_seconds": 10,
+      "end_seconds": 20,
+      "title": "双线分工",
+      "beats": "Nyx点射、Aegis刀斩漏网小兽、Lyra修复、地面震动",
+      "status": "previs_rendered_h3_unverified"
+    },
+    {
+      "id": "03",
+      "start_seconds": 20,
+      "end_seconds": 30,
+      "title": "巨兽破潮",
+      "beats": "巨足落地、30米全身揭示、核心锁定、Aegis起飞",
+      "status": "planned_only"
+    },
+    {
+      "id": "04",
+      "start_seconds": 30,
+      "end_seconds": 40,
+      "title": "背后突袭与击飞",
+      "beats": "空中接敌、背后寒意、转身举盾、巨爪命中、快速撞楼",
+      "status": "planned_only"
+    },
+    {
+      "id": "05",
+      "start_seconds": 40,
+      "end_seconds": 50,
+      "title": "绕肩双斩",
+      "beats": "从废墟脱出、推进器重启、绕肩掠斩两次、巨兽胸甲留伤",
+      "status": "planned_only"
+    },
+    {
+      "id": "06",
+      "start_seconds": 50,
+      "end_seconds": 60,
+      "title": "巨尾反扑",
+      "beats": "巨尾扫击、盾挡失衡、坠地制动、重新守线",
+      "status": "planned_only"
+    },
+    {
+      "id": "07",
+      "start_seconds": 60,
+      "end_seconds": 70,
+      "title": "不动壁垒",
+      "beats": "南侧领域升起、巨爪压罩、胸炉过载、队友撤离",
+      "status": "planned_only"
+    },
+    {
+      "id": "08",
+      "start_seconds": 70,
+      "end_seconds": 80,
+      "title": "盾裂悬念",
+      "beats": "巨兽退步、领域消散、盾裂、小队归位、烟幕红眼、暗场",
+      "status": "planned_only"
+    }
+  ]
+}

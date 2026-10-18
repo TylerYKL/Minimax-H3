@@ -1,0 +1,818 @@
+{
+  "id": "ef53889c-c9fd-5515-a799-9419fd93373f",
+  "revision": 0,
+  "last_node_id": 17,
+  "last_link_id": 32,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "VAELoader",
+      "pos": [
+        -720,
+        500
+      ],
+      "size": [
+        360,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "title": "Audio VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "VAELoader",
+        "models": [
+          {
+            "name": "minimax_h3_audio_vae_fp32.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_audio_vae_fp32.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+      }
+    },
+    {
+      "id": 8,
+      "type": "PreviewAny",
+      "pos": [
+        1006.1195126617181,
+        90.46763850287226
+      ],
+      "size": [
+        640,
+        200
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Director 运行报告",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 6,
+      "type": "CreateVideo",
+      "pos": [
+        1006.6064265507966,
+        342.40096040896543
+      ],
+      "size": [
+        280,
+        126
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 17
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          },
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "CreateVideo"
+      },
+      "widgets_values": [
+        24,
+        8,
+        "sRGB"
+      ],
+      "widgets_values_named": {
+        "fps": 24,
+        "bit_depth": 8,
+        "color_space": "sRGB"
+      }
+    },
+    {
+      "id": 11,
+      "type": "MarkdownNote",
+      "pos": [
+        -724.3830097138574,
+        658.4727692014667
+      ],
+      "size": [
+        360,
+        320
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "导演台插件地址：",
+      "properties": {},
+      "widgets_values": [
+        "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director"
+      ],
+      "widgets_values_named": {
+        "text": "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 13,
+      "type": "MarkdownNote",
+      "pos": [
+        -677.5318640062727,
+        1021.9142453295678
+      ],
+      "size": [
+        300,
+        512
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "先上传源视频，再运行",
+      "properties": {},
+      "widgets_values": [
+        "EP3 第02段。上传 EP3-02-H3-source-243f.mp4 到 RV2V 源视频时间轴，保留单个243帧片段。生成后裁取前240帧得到10秒，不改播放速度。图片1=Aegis三视图，2=Nyx持炮，3=Lyra技能，4=城市，5=盾，6=刀。CreateVideo audio不接线。十秒多镜头尚未实机验证。"
+      ],
+      "widgets_values_named": {
+        "text": "EP3 第02段。上传 EP3-02-H3-source-243f.mp4 到 RV2V 源视频时间轴，保留单个243帧片段。生成后裁取前240帧得到10秒，不改播放速度。图片1=Aegis三视图，2=Nyx持炮，3=Lyra技能，4=城市，5=盾，6=刀。CreateVideo audio不接线。十秒多镜头尚未实机验证。"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 7,
+      "type": "SaveVideo",
+      "pos": [
+        1310.6007923489485,
+        347.11800275100524
+      ],
+      "size": [
+        619.371811810659,
+        106
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "SaveVideo"
+      },
+      "widgets_values": [
+        "video/EP3_10s_02",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "video/EP3_10s_02",
+        "format": "auto",
+        "format.codec": "auto",
+        "codec": "auto"
+      }
+    },
+    {
+      "id": 3,
+      "type": "VAELoader",
+      "pos": [
+        -720,
+        380
+      ],
+      "size": [
+        360,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "title": "Video VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "VAELoader",
+        "models": [
+          {
+            "name": "minimax_h3_video_vae_fp16.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_video_vae_int8_convrot.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+      }
+    },
+    {
+      "id": 2,
+      "type": "CLIPLoader",
+      "pos": [
+        -720,
+        220
+      ],
+      "size": [
+        360,
+        106
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "title": "CLIP (minimax / Qwen3-VL)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "CLIPLoader",
+        "models": [
+          {
+            "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "directory": "text_encoders"
+          }
+        ]
+      },
+      "widgets_values": [
+        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "minimax",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "default"
+      }
+    },
+    {
+      "id": 1,
+      "type": "UNETLoader",
+      "pos": [
+        -720,
+        80
+      ],
+      "size": [
+        360,
+        82
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            31
+          ]
+        }
+      ],
+      "title": "MiniMax H3 UNET",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "UNETLoader",
+        "models": [
+          {
+            "name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "directory": "diffusion_models"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    {
+      "id": 16,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        -197.89013796604354,
+        -169.49871455379616
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        1
+      ],
+      "widgets_values_named": {
+        "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "strength_model": 1
+      }
+    },
+    {
+      "id": 17,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        155.12640375310855,
+        -158.26233627563045
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            29
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "H3_Combat_V2.safetensors",
+        0.4
+      ],
+      "widgets_values_named": {
+        "lora_name": "H3_Combat_V2.safetensors",
+        "strength_model": 0.4
+      }
+    },
+    {
+      "id": 12,
+      "type": "MiniMaxH3Director",
+      "pos": [
+        -305.80147156628084,
+        103.10439081429395
+      ],
+      "size": [
+        1240.1726593472085,
+        1672
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 29
+        },
+        {
+          "name": "video_vae",
+          "type": "VAE",
+          "link": 15
+        },
+        {
+          "name": "audio_vae",
+          "type": "VAE",
+          "link": 13
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 16
+        },
+        {
+          "name": "i2v_groups",
+          "shape": 7,
+          "type": "MMX_DIR_GROUP",
+          "link": null
+        },
+        {
+          "name": "r2v_groups",
+          "shape": 7,
+          "type": "MMX_DIR_GROUP",
+          "link": null
+        },
+        {
+          "name": "semantic_bridge",
+          "shape": 7,
+          "type": "MMX_DIR_SEMANTIC_BRIDGE",
+          "link": null
+        },
+        {
+          "name": "selflift",
+          "shape": 7,
+          "type": "MMX_DIR_SELFLIFT",
+          "link": null
+        },
+        {
+          "name": "refine",
+          "shape": 7,
+          "type": "MMX_DIR_REFINE",
+          "link": null
+        },
+        {
+          "name": "face_refine",
+          "shape": 7,
+          "type": "MMX_DIR_FACE_REFINE",
+          "link": null
+        },
+        {
+          "name": "sigmas",
+          "shape": 7,
+          "type": "SIGMAS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": [
+            17
+          ]
+        },
+        {
+          "name": "audio",
+          "shape": 6,
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "source_images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "report",
+          "type": "STRING",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "images_pre_refine",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "images_pre_face_refine",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "minimax-h3-director",
+        "ver": "a8f57b8e23c46ee28fdb96796510fa7b4f3b1fbb",
+        "Node name for S&R": "MiniMaxH3Director"
+      },
+      "widgets_values": [
+        "rv2v — 参考素材改视频(Reference Video Edit)",
+        "subject_definitions:\n<Video 1> is the provided 243-frame, 24-fps source clip. Its first 240 frames form the ten-second episode segment; the final three frames are continuation handles. Preserve its camera cuts, trajectories, relative scale, contacts and action order. Replace proxy geometry with finished cinematic 3D CG.\n<Subject 1> is Aegis, the single 1.88-meter fighter described by the multiple views in <Picture 1>: heavy gunmetal armor, orange-gold light strips, cyan sealed visor and orange hexagonal chest core. <Picture 5> supplies his RIGHT-forearm honeycomb shield; <Picture 6> supplies only the broad golden energy dao design, not the giant or action in that image. The right emitter alternates between shield and blade; never deploy both full forms together.\n<Subject 2> is Nyx from <Picture 2>, slender purple-black armor, long helmet crest, magenta visor and core, with the same long purple laser cannon. Keep one Nyx on the western flank.\n<Subject 3> is Lyra from <Picture 3>, dark-teal hooded armor, green chest core and luminous wrist emitters. Her thin green repair filaments target the wounded ally. Do not add an antenna or copy her reference pose instead of source movement.\n<Subject 4> is the environment from <Picture 4>: red-moon ruined city, damaged towers, wet rubble avenue, abandoned cars and an intact elevated bridge. Transfer only the environment appearance; the source determines which characters appear.\n<Subject 5> is the source's horde of small quadrupedal rock creatures, roughly waist-high to Aegis, with dark charcoal hides, short horns, claws and tiny red eyes. Keep them consistently small, with four legs and one head each. No thirty-meter titan appears in this segment.\n<Subject 6> is one anonymous wounded ally in plain blue-gray armor at the southern medical cover. Do not turn this ally into a duplicate Aegis, Nyx or Lyra.\n\nsummary:\n[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the simplified proxies with the specified CG characters, small-beast horde and ruined-city appearance while retaining the source's sequence and readable physical action.\n\nretention_analysis:\n<Video 1> (all shots): partially_preserved - preserve duration, camera cuts, geography, action timing and relative size; replace proxy surfaces and effect guides.\n<Subject 1> (where visible): attribute_transfer - preserve gunmetal/orange armor, right-arm weapon ownership and source poses.\n<Subject 2> (where visible): attribute_transfer - preserve purple identity and long cannon, following source western-flank movement.\n<Subject 3> (where visible): attribute_transfer - preserve teal hood and wrist-based repair effects, following source rear-line movement.\n<Subject 4> (all shots): attribute_transfer - finish the source city without breaking the intact bridge.\n<Subject 5> (where visible): partially_preserved - finish the small rock-beast appearance while preserving source run cycles and impact trajectories.\n<Subject 6> (medical area): partially_preserved - finish the plain blue-gray armor while retaining the wounded posture.\n\ndetailed_description:\nUse cinematic 3D CG, worn metal, rough rock, red-moon rim lighting and cool shadows. North along the avenue is the incoming horde; the southern lane is medical cover and the west platform is Nyx's firing position. Keep weapon contacts and brief recoil readable, without slow motion or new cuts. Gray flashes, colored lines and rings mark effects to replace with light, sparks, energy or water ripples. No captions or watermark.\n[Shot 1] Match the opening western-platform view. Nyx is already on the platform, aiming the same long cannon down toward the approaching small creatures. Fire brief magenta pulses around local 0.500, 1.100 and 1.700 seconds. Each pulse begins at the muzzle, reaches its source target and produces immediate short recoil in that beast; do not add a continuous sweeping beam or a weapon in the beast's hands.\n[Shot 2] At 00:02.400, cut to Aegis intercepting one creature at the front. The right-arm shield retracts at the start of this shot, then the broad energy dao appears around 2.600 seconds. Only one full weapon projection is active. The creature advances into the source strike zone. Around 3.150–3.400 seconds Aegis executes one short diagonal slash; the blade crosses the beast at about 3.300 seconds, producing a small golden impact flash and immediate backward displacement. Finish the slash and retain the dao. Do not repeat it, slow it into a pose or introduce the giant from the blade reference image.\n[Shot 3] At 00:05.000, cut to Lyra at the southern medical cover beside the wounded blue-gray ally. Thin green filaments originate at her wrists and terminate at the damaged shoulder armor. Replace the source line guides with controlled repair energy, keeping the wounded posture and both character identities distinct. The repair runs through roughly 7.800 seconds. Nyx's covering pulse at local 6.200 seconds belongs to the western platform, not Lyra's hands. Near the end of this view the ally and Lyra begin moving farther south along the source path.\n[Shot 4] At 00:07.500, cut low to the puddle and loose road fragments. Around 8.200 seconds concentric water ripples spread and small fragments tremble in place. Convert the cyan ring guides into water-surface ripples, not a protective energy dome. Keep the source ground plane and camera scale.\n[Shot 5] At 00:08.700, cut wide along the avenue. The surviving small beasts part toward both sides as the ground tremor continues; the fallen creatures remain where they were struck. Aegis retains the energy dao, Nyx keeps the western flank, and Lyra and the wounded ally remain in the southern rear. Leave the center lane opening toward the northern threat. Do not reveal a giant, collapse the bridge or restart the horde charge. Continue through the three final handle frames without a fade or additional shot.\n\noverall_soundscape:\nN/A\n\nnon_diegetic_music:\nN/A\n",
+        "采样设置",
+        1,
+        888,
+        "fixed",
+        24,
+        864,
+        480,
+        864,
+        243,
+        "{\"version\": 5, \"editMode\": \"global\", \"timelineMode\": \"video\", \"totalFrames\": 243, \"frameRate\": 24, \"width\": 864, \"height\": 480, \"refMaxSize\": 864, \"video\": {\"fileName\": \"\", \"videoFile\": \"\", \"subfolder\": \"\", \"type\": \"input\", \"frames\": [], \"frameMap\": []}, \"videoClips\": [], \"output\": {\"mode\": \"fixed\", \"aspectRatio\": \"16:9 (宽屏)\", \"megapixels\": 0.4, \"multiple\": 32, \"longEdge\": 864, \"width\": 864, \"height\": 480, \"maxExportFrames\": 0, \"exportMode\": \"all\", \"audioMode\": \"mute\", \"continuityEnabled\": false, \"exportSourceImages\": false}, \"segments\": [{\"id\": \"EP3-02\", \"start\": 0, \"length\": 243, \"frameCount\": 243, \"durationSec\": 10.125, \"prompt\": \"\", \"taskType\": \"\", \"refs\": [], \"refVideos\": [], \"refAudios\": [], \"continuityFromPrev\": false}], \"gen\": {\"defaultFrameCount\": 243}, \"runSelectEnabled\": false, \"runSelection\": [], \"global\": {\"taskType\": \"rv2v — 参考素材改视频(Reference Video Edit)\", \"prompt\": \"subject_definitions:\\n<Video 1> is the provided 243-frame, 24-fps source clip. Its first 240 frames form the ten-second episode segment; the final three frames are continuation handles. Preserve its camera cuts, trajectories, relative scale, contacts and action order. Replace proxy geometry with finished cinematic 3D CG.\\n<Subject 1> is Aegis, the single 1.88-meter fighter described by the multiple views in <Picture 1>: heavy gunmetal armor, orange-gold light strips, cyan sealed visor and orange hexagonal chest core. <Picture 5> supplies his RIGHT-forearm honeycomb shield; <Picture 6> supplies only the broad golden energy dao design, not the giant or action in that image. The right emitter alternates between shield and blade; never deploy both full forms together.\\n<Subject 2> is Nyx from <Picture 2>, slender purple-black armor, long helmet crest, magenta visor and core, with the same long purple laser cannon. Keep one Nyx on the western flank.\\n<Subject 3> is Lyra from <Picture 3>, dark-teal hooded armor, green chest core and luminous wrist emitters. Her thin green repair filaments target the wounded ally. Do not add an antenna or copy her reference pose instead of source movement.\\n<Subject 4> is the environment from <Picture 4>: red-moon ruined city, damaged towers, wet rubble avenue, abandoned cars and an intact elevated bridge. Transfer only the environment appearance; the source determines which characters appear.\\n<Subject 5> is the source's horde of small quadrupedal rock creatures, roughly waist-high to Aegis, with dark charcoal hides, short horns, claws and tiny red eyes. Keep them consistently small, with four legs and one head each. No thirty-meter titan appears in this segment.\\n<Subject 6> is one anonymous wounded ally in plain blue-gray armor at the southern medical cover. Do not turn this ally into a duplicate Aegis, Nyx or Lyra.\\n\\nsummary:\\n[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the simplified proxies with the specified CG characters, small-beast horde and ruined-city appearance while retaining the source's sequence and readable physical action.\\n\\nretention_analysis:\\n<Video 1> (all shots): partially_preserved - preserve duration, camera cuts, geography, action timing and relative size; replace proxy surfaces and effect guides.\\n<Subject 1> (where visible): attribute_transfer - preserve gunmetal/orange armor, right-arm weapon ownership and source poses.\\n<Subject 2> (where visible): attribute_transfer - preserve purple identity and long cannon, following source western-flank movement.\\n<Subject 3> (where visible): attribute_transfer - preserve teal hood and wrist-based repair effects, following source rear-line movement.\\n<Subject 4> (all shots): attribute_transfer - finish the source city without breaking the intact bridge.\\n<Subject 5> (where visible): partially_preserved - finish the small rock-beast appearance while preserving source run cycles and impact trajectories.\\n<Subject 6> (medical area): partially_preserved - finish the plain blue-gray armor while retaining the wounded posture.\\n\\ndetailed_description:\\nUse cinematic 3D CG, worn metal, rough rock, red-moon rim lighting and cool shadows. North along the avenue is the incoming horde; the southern lane is medical cover and the west platform is Nyx's firing position. Keep weapon contacts and brief recoil readable, without slow motion or new cuts. Gray flashes, colored lines and rings mark effects to replace with light, sparks, energy or water ripples. No captions or watermark.\\n[Shot 1] Match the opening western-platform view. Nyx is already on the platform, aiming the same long cannon down toward the approaching small creatures. Fire brief magenta pulses around local 0.500, 1.100 and 1.700 seconds. Each pulse begins at the muzzle, reaches its source target and produces immediate short recoil in that beast; do not add a continuous sweeping beam or a weapon in the beast's hands.\\n[Shot 2] At 00:02.400, cut to Aegis intercepting one creature at the front. The right-arm shield retracts at the start of this shot, then the broad energy dao appears around 2.600 seconds. Only one full weapon projection is active. The creature advances into the source strike zone. Around 3.150–3.400 seconds Aegis executes one short diagonal slash; the blade crosses the beast at about 3.300 seconds, producing a small golden impact flash and immediate backward displacement. Finish the slash and retain the dao. Do not repeat it, slow it into a pose or introduce the giant from the blade reference image.\\n[Shot 3] At 00:05.000, cut to Lyra at the southern medical cover beside the wounded blue-gray ally. Thin green filaments originate at her wrists and terminate at the damaged shoulder armor. Replace the source line guides with controlled repair energy, keeping the wounded posture and both character identities distinct. The repair runs through roughly 7.800 seconds. Nyx's covering pulse at local 6.200 seconds belongs to the western platform, not Lyra's hands. Near the end of this view the ally and Lyra begin moving farther south along the source path.\\n[Shot 4] At 00:07.500, cut low to the puddle and loose road fragments. Around 8.200 seconds concentric water ripples spread and small fragments tremble in place. Convert the cyan ring guides into water-surface ripples, not a protective energy dome. Keep the source ground plane and camera scale.\\n[Shot 5] At 00:08.700, cut wide along the avenue. The surviving small beasts part toward both sides as the ground tremor continues; the fallen creatures remain where they were struck. Aegis retains the energy dao, Nyx keeps the western flank, and Lyra and the wounded ally remain in the southern rear. Leave the center lane opening toward the northern threat. Do not reveal a giant, collapse the bridge or restart the horde charge. Continue through the three final handle frames without a fade or additional shot.\\n\\noverall_soundscape:\\nN/A\\n\\nnon_diegetic_music:\\nN/A\\n\", \"refs\": [{\"index\": 0, \"imageFile\": \"沈烈Aegis三视图_去背景-resize.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 1, \"imageFile\": \"nyx-aim.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 2, \"imageFile\": \"lyra-skill.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 3, \"imageFile\": \"A-team.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 4, \"imageFile\": \"aegis-airborne-shield.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 5, \"imageFile\": \"C-blade-contact.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}], \"refAudios\": [], \"refVideos\": [], \"referenceVideo\": {}, \"continuousReference\": false}}",
+        "高级采样",
+        4,
+        "euler",
+        "simple",
+        12,
+        3,
+        false,
+        false,
+        "Ollama",
+        false,
+        false,
+        false,
+        "raw",
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "task_type": "rv2v — 参考素材改视频(Reference Video Edit)",
+        "global_prompt": "subject_definitions:\n<Video 1> is the provided 243-frame, 24-fps source clip. Its first 240 frames form the ten-second episode segment; the final three frames are continuation handles. Preserve its camera cuts, trajectories, relative scale, contacts and action order. Replace proxy geometry with finished cinematic 3D CG.\n<Subject 1> is Aegis, the single 1.88-meter fighter described by the multiple views in <Picture 1>: heavy gunmetal armor, orange-gold light strips, cyan sealed visor and orange hexagonal chest core. <Picture 5> supplies his RIGHT-forearm honeycomb shield; <Picture 6> supplies only the broad golden energy dao design, not the giant or action in that image. The right emitter alternates between shield and blade; never deploy both full forms together.\n<Subject 2> is Nyx from <Picture 2>, slender purple-black armor, long helmet crest, magenta visor and core, with the same long purple laser cannon. Keep one Nyx on the western flank.\n<Subject 3> is Lyra from <Picture 3>, dark-teal hooded armor, green chest core and luminous wrist emitters. Her thin green repair filaments target the wounded ally. Do not add an antenna or copy her reference pose instead of source movement.\n<Subject 4> is the environment from <Picture 4>: red-moon ruined city, damaged towers, wet rubble avenue, abandoned cars and an intact elevated bridge. Transfer only the environment appearance; the source determines which characters appear.\n<Subject 5> is the source's horde of small quadrupedal rock creatures, roughly waist-high to Aegis, with dark charcoal hides, short horns, claws and tiny red eyes. Keep them consistently small, with four legs and one head each. No thirty-meter titan appears in this segment.\n<Subject 6> is one anonymous wounded ally in plain blue-gray armor at the southern medical cover. Do not turn this ally into a duplicate Aegis, Nyx or Lyra.\n\nsummary:\n[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the simplified proxies with the specified CG characters, small-beast horde and ruined-city appearance while retaining the source's sequence and readable physical action.\n\nretention_analysis:\n<Video 1> (all shots): partially_preserved - preserve duration, camera cuts, geography, action timing and relative size; replace proxy surfaces and effect guides.\n<Subject 1> (where visible): attribute_transfer - preserve gunmetal/orange armor, right-arm weapon ownership and source poses.\n<Subject 2> (where visible): attribute_transfer - preserve purple identity and long cannon, following source western-flank movement.\n<Subject 3> (where visible): attribute_transfer - preserve teal hood and wrist-based repair effects, following source rear-line movement.\n<Subject 4> (all shots): attribute_transfer - finish the source city without breaking the intact bridge.\n<Subject 5> (where visible): partially_preserved - finish the small rock-beast appearance while preserving source run cycles and impact trajectories.\n<Subject 6> (medical area): partially_preserved - finish the plain blue-gray armor while retaining the wounded posture.\n\ndetailed_description:\nUse cinematic 3D CG, worn metal, rough rock, red-moon rim lighting and cool shadows. North along the avenue is the incoming horde; the southern lane is medical cover and the west platform is Nyx's firing position. Keep weapon contacts and brief recoil readable, without slow motion or new cuts. Gray flashes, colored lines and rings mark effects to replace with light, sparks, energy or water ripples. No captions or watermark.\n[Shot 1] Match the opening western-platform view. Nyx is already on the platform, aiming the same long cannon down toward the approaching small creatures. Fire brief magenta pulses around local 0.500, 1.100 and 1.700 seconds. Each pulse begins at the muzzle, reaches its source target and produces immediate short recoil in that beast; do not add a continuous sweeping beam or a weapon in the beast's hands.\n[Shot 2] At 00:02.400, cut to Aegis intercepting one creature at the front. The right-arm shield retracts at the start of this shot, then the broad energy dao appears around 2.600 seconds. Only one full weapon projection is active. The creature advances into the source strike zone. Around 3.150–3.400 seconds Aegis executes one short diagonal slash; the blade crosses the beast at about 3.300 seconds, producing a small golden impact flash and immediate backward displacement. Finish the slash and retain the dao. Do not repeat it, slow it into a pose or introduce the giant from the blade reference image.\n[Shot 3] At 00:05.000, cut to Lyra at the southern medical cover beside the wounded blue-gray ally. Thin green filaments originate at her wrists and terminate at the damaged shoulder armor. Replace the source line guides with controlled repair energy, keeping the wounded posture and both character identities distinct. The repair runs through roughly 7.800 seconds. Nyx's covering pulse at local 6.200 seconds belongs to the western platform, not Lyra's hands. Near the end of this view the ally and Lyra begin moving farther south along the source path.\n[Shot 4] At 00:07.500, cut low to the puddle and loose road fragments. Around 8.200 seconds concentric water ripples spread and small fragments tremble in place. Convert the cyan ring guides into water-surface ripples, not a protective energy dome. Keep the source ground plane and camera scale.\n[Shot 5] At 00:08.700, cut wide along the avenue. The surviving small beasts part toward both sides as the ground tremor continues; the fallen creatures remain where they were struck. Aegis retains the energy dao, Nyx keeps the western flank, and Lyra and the wounded ally remain in the southern rear. Leave the center lane opening toward the northern threat. Do not reveal a giant, collapse the bridge or restart the horde charge. Continue through the three final handle frames without a fade or additional shot.\n\noverall_soundscape:\nN/A\n\nnon_diegetic_music:\nN/A\n",
+        "bd_grp_sample": "采样设置",
+        "cfg": 1,
+        "seed": 888,
+        "control_after_generate": "fixed",
+        "frame_rate": 24,
+        "width": 864,
+        "height": 480,
+        "ref_max_size": 864,
+        "total_frames": 243,
+        "timeline_data": "{\"version\": 5, \"editMode\": \"global\", \"timelineMode\": \"video\", \"totalFrames\": 243, \"frameRate\": 24, \"width\": 864, \"height\": 480, \"refMaxSize\": 864, \"video\": {\"fileName\": \"\", \"videoFile\": \"\", \"subfolder\": \"\", \"type\": \"input\", \"frames\": [], \"frameMap\": []}, \"videoClips\": [], \"output\": {\"mode\": \"fixed\", \"aspectRatio\": \"16:9 (宽屏)\", \"megapixels\": 0.4, \"multiple\": 32, \"longEdge\": 864, \"width\": 864, \"height\": 480, \"maxExportFrames\": 0, \"exportMode\": \"all\", \"audioMode\": \"mute\", \"continuityEnabled\": false, \"exportSourceImages\": false}, \"segments\": [{\"id\": \"EP3-02\", \"start\": 0, \"length\": 243, \"frameCount\": 243, \"durationSec\": 10.125, \"prompt\": \"\", \"taskType\": \"\", \"refs\": [], \"refVideos\": [], \"refAudios\": [], \"continuityFromPrev\": false}], \"gen\": {\"defaultFrameCount\": 243}, \"runSelectEnabled\": false, \"runSelection\": [], \"global\": {\"taskType\": \"rv2v — 参考素材改视频(Reference Video Edit)\", \"prompt\": \"subject_definitions:\\n<Video 1> is the provided 243-frame, 24-fps source clip. Its first 240 frames form the ten-second episode segment; the final three frames are continuation handles. Preserve its camera cuts, trajectories, relative scale, contacts and action order. Replace proxy geometry with finished cinematic 3D CG.\\n<Subject 1> is Aegis, the single 1.88-meter fighter described by the multiple views in <Picture 1>: heavy gunmetal armor, orange-gold light strips, cyan sealed visor and orange hexagonal chest core. <Picture 5> supplies his RIGHT-forearm honeycomb shield; <Picture 6> supplies only the broad golden energy dao design, not the giant or action in that image. The right emitter alternates between shield and blade; never deploy both full forms together.\\n<Subject 2> is Nyx from <Picture 2>, slender purple-black armor, long helmet crest, magenta visor and core, with the same long purple laser cannon. Keep one Nyx on the western flank.\\n<Subject 3> is Lyra from <Picture 3>, dark-teal hooded armor, green chest core and luminous wrist emitters. Her thin green repair filaments target the wounded ally. Do not add an antenna or copy her reference pose instead of source movement.\\n<Subject 4> is the environment from <Picture 4>: red-moon ruined city, damaged towers, wet rubble avenue, abandoned cars and an intact elevated bridge. Transfer only the environment appearance; the source determines which characters appear.\\n<Subject 5> is the source's horde of small quadrupedal rock creatures, roughly waist-high to Aegis, with dark charcoal hides, short horns, claws and tiny red eyes. Keep them consistently small, with four legs and one head each. No thirty-meter titan appears in this segment.\\n<Subject 6> is one anonymous wounded ally in plain blue-gray armor at the southern medical cover. Do not turn this ally into a duplicate Aegis, Nyx or Lyra.\\n\\nsummary:\\n[video editing + reference generation] The target video is an edited version of <Video 1>. Replace the simplified proxies with the specified CG characters, small-beast horde and ruined-city appearance while retaining the source's sequence and readable physical action.\\n\\nretention_analysis:\\n<Video 1> (all shots): partially_preserved - preserve duration, camera cuts, geography, action timing and relative size; replace proxy surfaces and effect guides.\\n<Subject 1> (where visible): attribute_transfer - preserve gunmetal/orange armor, right-arm weapon ownership and source poses.\\n<Subject 2> (where visible): attribute_transfer - preserve purple identity and long cannon, following source western-flank movement.\\n<Subject 3> (where visible): attribute_transfer - preserve teal hood and wrist-based repair effects, following source rear-line movement.\\n<Subject 4> (all shots): attribute_transfer - finish the source city without breaking the intact bridge.\\n<Subject 5> (where visible): partially_preserved - finish the small rock-beast appearance while preserving source run cycles and impact trajectories.\\n<Subject 6> (medical area): partially_preserved - finish the plain blue-gray armor while retaining the wounded posture.\\n\\ndetailed_description:\\nUse cinematic 3D CG, worn metal, rough rock, red-moon rim lighting and cool shadows. North along the avenue is the incoming horde; the southern lane is medical cover and the west platform is Nyx's firing position. Keep weapon contacts and brief recoil readable, without slow motion or new cuts. Gray flashes, colored lines and rings mark effects to replace with light, sparks, energy or water ripples. No captions or watermark.\\n[Shot 1] Match the opening western-platform view. Nyx is already on the platform, aiming the same long cannon down toward the approaching small creatures. Fire brief magenta pulses around local 0.500, 1.100 and 1.700 seconds. Each pulse begins at the muzzle, reaches its source target and produces immediate short recoil in that beast; do not add a continuous sweeping beam or a weapon in the beast's hands.\\n[Shot 2] At 00:02.400, cut to Aegis intercepting one creature at the front. The right-arm shield retracts at the start of this shot, then the broad energy dao appears around 2.600 seconds. Only one full weapon projection is active. The creature advances into the source strike zone. Around 3.150–3.400 seconds Aegis executes one short diagonal slash; the blade crosses the beast at about 3.300 seconds, producing a small golden impact flash and immediate backward displacement. Finish the slash and retain the dao. Do not repeat it, slow it into a pose or introduce the giant from the blade reference image.\\n[Shot 3] At 00:05.000, cut to Lyra at the southern medical cover beside the wounded blue-gray ally. Thin green filaments originate at her wrists and terminate at the damaged shoulder armor. Replace the source line guides with controlled repair energy, keeping the wounded posture and both character identities distinct. The repair runs through roughly 7.800 seconds. Nyx's covering pulse at local 6.200 seconds belongs to the western platform, not Lyra's hands. Near the end of this view the ally and Lyra begin moving farther south along the source path.\\n[Shot 4] At 00:07.500, cut low to the puddle and loose road fragments. Around 8.200 seconds concentric water ripples spread and small fragments tremble in place. Convert the cyan ring guides into water-surface ripples, not a protective energy dome. Keep the source ground plane and camera scale.\\n[Shot 5] At 00:08.700, cut wide along the avenue. The surviving small beasts part toward both sides as the ground tremor continues; the fallen creatures remain where they were struck. Aegis retains the energy dao, Nyx keeps the western flank, and Lyra and the wounded ally remain in the southern rear. Leave the center lane opening toward the northern threat. Do not reveal a giant, collapse the bridge or restart the horde charge. Continue through the three final handle frames without a fade or additional shot.\\n\\noverall_soundscape:\\nN/A\\n\\nnon_diegetic_music:\\nN/A\\n\", \"refs\": [{\"index\": 0, \"imageFile\": \"沈烈Aegis三视图_去背景-resize.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 1, \"imageFile\": \"nyx-aim.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 2, \"imageFile\": \"lyra-skill.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 3, \"imageFile\": \"A-team.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 4, \"imageFile\": \"aegis-airborne-shield.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}, {\"index\": 5, \"imageFile\": \"C-blade-contact.png\", \"fileName\": \"\", \"type\": \"input\", \"subfolder\": \"\"}], \"refAudios\": [], \"refVideos\": [], \"referenceVideo\": {}, \"continuousReference\": false}}",
+        "bd_grp_advanced": "高级采样",
+        "steps": 4,
+        "sampler": "euler",
+        "scheduler": "simple",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "export_source_images": false,
+        "export_pre_face_refine": false,
+        "bd_grp_perf": "Ollama",
+        "clear_vram_between_segments": false,
+        "clear_vram_before_refine": false,
+        "clear_vram_before_face_refine": false,
+        "cache_frames_codec": "raw",
+        "cache_name": "",
+        "minimax_director_ui": ""
+      }
+    }
+  ],
+  "links": [
+    [
+      9,
+      6,
+      0,
+      7,
+      0,
+      "VIDEO"
+    ],
+    [
+      13,
+      4,
+      0,
+      12,
+      2,
+      "VAE"
+    ],
+    [
+      15,
+      3,
+      0,
+      12,
+      1,
+      "VAE"
+    ],
+    [
+      16,
+      2,
+      0,
+      12,
+      3,
+      "CLIP"
+    ],
+    [
+      17,
+      12,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      12,
+      2,
+      6,
+      2,
+      "FLOAT"
+    ],
+    [
+      20,
+      12,
+      5,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      29,
+      17,
+      0,
+      12,
+      0,
+      "MODEL"
+    ],
+    [
+      31,
+      1,
+      0,
+      16,
+      0,
+      "MODEL"
+    ],
+    [
+      32,
+      16,
+      0,
+      17,
+      0,
+      "MODEL"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "模型加载 (MiniMax H3)",
+      "bounding": [
+        -760,
+        40,
+        440,
+        560
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "MiniMax H3 Director",
+      "bounding": [
+        -320,
+        40,
+        1120,
+        960
+      ],
+      "color": "#8A8",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "输出",
+      "bounding": [
+        959.7884550354713,
+        38.736816353831586,
+        760,
+        760
+      ],
+      "color": "#b58",
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "加速模块（用就开启，不用可以关掉）",
+      "bounding": [
+        -232.17580618807037,
+        -257.8403935307404,
+        696.8626780790273,
+        222.74509026022088
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "frontendVersion": "1.51.10",
+    "note": "MiniMax H3 Director · t2v",
+    "ds": {
+      "scale": 0.7727272727272978,
+      "offset": [
+        1218.1888106747235,
+        -372.52355266709606
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4,
+  "seed_widgets": {
+    "12": 4
+  }
+}

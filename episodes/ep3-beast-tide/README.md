@@ -4,6 +4,7 @@
 
 新版使用说明见 [Shared Params 配置](director-shared/README.md) 和 [参考图分配表](director-shared/REFERENCE-MAP.md)。固定共享 Picture 1–4，各组局部图从 Picture 5 开始。完整 prompts/ 与共享版使用相同编号，但只能二选一，避免重复公共定义。
 
+- [每段十秒方案：第 01、02 段灰模与 H3 测试包](previs/ten-second-batches/README.md)
 - [可复用战斗预演模板 v1：整段时间线与自动导出](previs/combat-template-v1/README.md)
 - [完整故事与台词](story.md)
 - [素材映射](manifest.json)
