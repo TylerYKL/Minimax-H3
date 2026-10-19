@@ -1,0 +1,71 @@
+{
+  "images_generated": true,
+  "h3_video_rendered": false,
+  "workflows_runtime_tested": false,
+  "shots": [
+    {
+      "id": "A-pov",
+      "title": "Aegis第一人称",
+      "frames": 56,
+      "fps": 24,
+      "start": {
+        "imageFile": "A-pov-start.png",
+        "width": 1672,
+        "height": 941
+      },
+      "end": {
+        "imageFile": "A-pov-end.png",
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "B-beast-ots",
+      "title": "怪兽肩后反打",
+      "frames": 56,
+      "fps": 24,
+      "start": {
+        "imageFile": "B-beast-ots-start.png",
+        "width": 1672,
+        "height": 941
+      },
+      "end": {
+        "imageFile": "B-beast-ots-end.png",
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "C-ground",
+      "title": "贴地侧拍",
+      "frames": 56,
+      "fps": 24,
+      "start": {
+        "imageFile": "C-ground-start.png",
+        "width": 1672,
+        "height": 941
+      },
+      "end": {
+        "imageFile": "C-ground-end.png",
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "id": "D-overhead",
+      "title": "高位俯拍",
+      "frames": 39,
+      "fps": 24,
+      "start": {
+        "imageFile": "D-overhead-start.png",
+        "width": 1672,
+        "height": 941
+      },
+      "end": {
+        "imageFile": "D-overhead-end.png",
+        "width": 1672,
+        "height": 941
+      }
+    }
+  ]
+}
