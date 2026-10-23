@@ -1,0 +1,90 @@
+{
+  "fps": 24,
+  "frames": 240,
+  "duration": 10,
+  "retimed": false,
+  "audio": false,
+  "shots": [
+    {
+      "source": "main",
+      "source_file": "fl2v-single-10s/render-review/source-243f.mp4",
+      "source_start_frame": 0,
+      "source_end_exclusive": 9,
+      "output_start_frame": 0,
+      "output_end_exclusive": 9,
+      "description": "侧面：扑进"
+    },
+    {
+      "source": "A",
+      "source_file": "fl2v-camera-angles/render-review/sources/A.mp4",
+      "source_start_frame": 6,
+      "source_end_exclusive": 33,
+      "output_start_frame": 9,
+      "output_end_exclusive": 36,
+      "description": "第一人称：撞盾与反弹"
+    },
+    {
+      "source": "main",
+      "source_file": "fl2v-single-10s/render-review/source-243f.mp4",
+      "source_start_frame": 36,
+      "source_end_exclusive": 86,
+      "output_start_frame": 36,
+      "output_end_exclusive": 86,
+      "description": "侧面：落地、再扑与收盾"
+    },
+    {
+      "source": "B",
+      "source_file": "fl2v-camera-angles/render-review/sources/B.mp4",
+      "source_start_frame": 0,
+      "source_end_exclusive": 14,
+      "output_start_frame": 86,
+      "output_end_exclusive": 100,
+      "description": "怪兽肩后：挥刀命中"
+    },
+    {
+      "source": "main",
+      "source_file": "fl2v-single-10s/render-review/source-243f.mp4",
+      "source_start_frame": 123,
+      "source_end_exclusive": 145,
+      "output_start_frame": 100,
+      "output_end_exclusive": 122,
+      "description": "侧面：命中后的击飞"
+    },
+    {
+      "source": "C",
+      "source_file": "fl2v-camera-angles/render-review/sources/C.mp4",
+      "source_start_frame": 4,
+      "source_end_exclusive": 31,
+      "output_start_frame": 122,
+      "output_end_exclusive": 149,
+      "description": "贴地：撞路障与落地"
+    },
+    {
+      "source": "main",
+      "source_file": "fl2v-single-10s/render-review/source-243f.mp4",
+      "source_start_frame": 177,
+      "source_end_exclusive": 218,
+      "output_start_frame": 149,
+      "output_end_exclusive": 190,
+      "description": "侧面：恢复与换盾"
+    },
+    {
+      "source": "D",
+      "source_file": "fl2v-camera-angles/render-review/sources/D.mp4",
+      "source_start_frame": 0,
+      "source_end_exclusive": 25,
+      "output_start_frame": 190,
+      "output_end_exclusive": 215,
+      "description": "俯拍：交代位置"
+    },
+    {
+      "source": "main",
+      "source_file": "fl2v-single-10s/render-review/source-243f.mp4",
+      "source_start_frame": 218,
+      "source_end_exclusive": 243,
+      "output_start_frame": 215,
+      "output_end_exclusive": 240,
+      "description": "侧面：收尾"
+    }
+  ]
+}
