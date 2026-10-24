@@ -1,0 +1,818 @@
+{
+  "id": "abe174d1-4bea-4079-bc8b-1c2f97c2b624",
+  "revision": 0,
+  "last_node_id": 17,
+  "last_link_id": 32,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "VAELoader",
+      "pos": [
+        -720,
+        500
+      ],
+      "size": [
+        360,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "title": "Audio VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "VAELoader",
+        "models": [
+          {
+            "name": "minimax_h3_audio_vae_fp32.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_audio_vae_fp32.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+      }
+    },
+    {
+      "id": 8,
+      "type": "PreviewAny",
+      "pos": [
+        1006.1195126617181,
+        90.46763850287226
+      ],
+      "size": [
+        640,
+        200
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Director 运行报告",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 6,
+      "type": "CreateVideo",
+      "pos": [
+        1006.6064265507966,
+        342.40096040896543
+      ],
+      "size": [
+        280,
+        126
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 17
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          },
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "CreateVideo"
+      },
+      "widgets_values": [
+        24,
+        8,
+        "sRGB"
+      ],
+      "widgets_values_named": {
+        "fps": 24,
+        "bit_depth": 8,
+        "color_space": "sRGB"
+      }
+    },
+    {
+      "id": 11,
+      "type": "MarkdownNote",
+      "pos": [
+        -724.3830097138574,
+        658.4727692014667
+      ],
+      "size": [
+        360,
+        320
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "导演台插件地址：",
+      "properties": {},
+      "widgets_values": [
+        "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director"
+      ],
+      "widgets_values_named": {
+        "text": "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 13,
+      "type": "MarkdownNote",
+      "pos": [
+        -677.5318640062727,
+        1021.9142453295678
+      ],
+      "size": [
+        300,
+        512
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "先上传源视频，再运行",
+      "properties": {},
+      "widgets_values": [
+        "V3四镜头：落脚、全身、远景起飞、侧面跟拍。按编号上传首尾图。界面秒数2 / 1.3 / 3 / 3；输出56 / 39 / 73 / 73帧，共241帧约10.04秒。FL2VA25步。优先测试01与04。"
+      ],
+      "widgets_values_named": {
+        "text": "V3四镜头：落脚、全身、远景起飞、侧面跟拍。按编号上传首尾图。界面秒数2 / 1.3 / 3 / 3；输出56 / 39 / 73 / 73帧，共241帧约10.04秒。FL2VA25步。优先测试01与04。"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 7,
+      "type": "SaveVideo",
+      "pos": [
+        1310.6007923489485,
+        347.11800275100524
+      ],
+      "size": [
+        619.371811810659,
+        106
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "SaveVideo"
+      },
+      "widgets_values": [
+        "video/EP3_titan_V3_ALL-4-shots",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "video/EP3_titan_V3_ALL-4-shots",
+        "format": "auto",
+        "format.codec": "auto",
+        "codec": "auto"
+      }
+    },
+    {
+      "id": 3,
+      "type": "VAELoader",
+      "pos": [
+        -720,
+        380
+      ],
+      "size": [
+        360,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "title": "Video VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "VAELoader",
+        "models": [
+          {
+            "name": "minimax_h3_video_vae_fp16.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_video_vae_int8_convrot.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+      }
+    },
+    {
+      "id": 2,
+      "type": "CLIPLoader",
+      "pos": [
+        -720,
+        220
+      ],
+      "size": [
+        360,
+        106
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "title": "CLIP (minimax / Qwen3-VL)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "CLIPLoader",
+        "models": [
+          {
+            "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "directory": "text_encoders"
+          }
+        ]
+      },
+      "widgets_values": [
+        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "minimax",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "default"
+      }
+    },
+    {
+      "id": 1,
+      "type": "UNETLoader",
+      "pos": [
+        -720,
+        80
+      ],
+      "size": [
+        360,
+        82
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            31
+          ]
+        }
+      ],
+      "title": "MiniMax H3 UNET",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "UNETLoader",
+        "models": [
+          {
+            "name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "directory": "diffusion_models"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    {
+      "id": 16,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        -197.89013796604354,
+        -169.49871455379616
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        1
+      ],
+      "widgets_values_named": {
+        "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "strength_model": 1
+      }
+    },
+    {
+      "id": 17,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        155.12640375310855,
+        -158.26233627563045
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            29
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "H3_Combat_V2.safetensors",
+        0.4
+      ],
+      "widgets_values_named": {
+        "lora_name": "H3_Combat_V2.safetensors",
+        "strength_model": 0.4
+      }
+    },
+    {
+      "id": 12,
+      "type": "MiniMaxH3Director",
+      "pos": [
+        -305.80147156628084,
+        103.10439081429395
+      ],
+      "size": [
+        1240.1726593472085,
+        1672
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 29
+        },
+        {
+          "name": "video_vae",
+          "type": "VAE",
+          "link": 15
+        },
+        {
+          "name": "audio_vae",
+          "type": "VAE",
+          "link": 13
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 16
+        },
+        {
+          "name": "i2v_groups",
+          "shape": 7,
+          "type": "MMX_DIR_GROUP",
+          "link": null
+        },
+        {
+          "name": "r2v_groups",
+          "shape": 7,
+          "type": "MMX_DIR_GROUP",
+          "link": null
+        },
+        {
+          "name": "semantic_bridge",
+          "shape": 7,
+          "type": "MMX_DIR_SEMANTIC_BRIDGE",
+          "link": null
+        },
+        {
+          "name": "selflift",
+          "shape": 7,
+          "type": "MMX_DIR_SELFLIFT",
+          "link": null
+        },
+        {
+          "name": "refine",
+          "shape": 7,
+          "type": "MMX_DIR_REFINE",
+          "link": null
+        },
+        {
+          "name": "face_refine",
+          "shape": 7,
+          "type": "MMX_DIR_FACE_REFINE",
+          "link": null
+        },
+        {
+          "name": "sigmas",
+          "shape": 7,
+          "type": "SIGMAS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": [
+            17
+          ]
+        },
+        {
+          "name": "audio",
+          "shape": 6,
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "source_images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "report",
+          "type": "STRING",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "images_pre_refine",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "images_pre_face_refine",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "minimax-h3-director",
+        "ver": "a8f57b8e23c46ee28fdb96796510fa7b4f3b1fbb",
+        "Node name for S&R": "MiniMaxH3Director"
+      },
+      "widgets_values": [
+        "fl2v — 首尾帧生视频(First-Last Frame)",
+        "电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。",
+        "采样设置",
+        1.0,
+        888,
+        "fixed",
+        24,
+        864,
+        480,
+        864,
+        241,
+        "{\"version\": 5, \"editMode\": \"segment\", \"timelineMode\": \"fl2v\", \"totalFrames\": 241, \"frameRate\": 24, \"width\": 864, \"height\": 480, \"refMaxSize\": 864, \"video\": {\"fileName\": \"\", \"videoFile\": \"\", \"subfolder\": \"\", \"type\": \"input\", \"frames\": [], \"frameMap\": []}, \"videoClips\": [], \"output\": {\"mode\": \"fixed\", \"aspectRatio\": \"16:9 (宽屏)\", \"megapixels\": 0.4, \"multiple\": 32, \"longEdge\": 864, \"width\": 864, \"height\": 480, \"maxExportFrames\": 0, \"exportMode\": \"all\", \"audioMode\": \"mute\", \"continuityEnabled\": false, \"exportSourceImages\": false}, \"segments\": [{\"id\": \"01-foot\", \"start\": 0, \"length\": 56, \"frameCount\": 56, \"durationSec\": 2, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n极低侧前方固定机位，近拍巨足、小腿与左侧轿车。巨足具有厚实脚跟、水平足底与三枚向前伸出的趾爪。开场脚底贴近路面，立即向下踏落。前0.4秒，脚底和脚跟压到同一柏油平面，踝部随承重下沉，三枚趾爪落稳。接着细裂纹从接触处向外延伸，水花和砂砾朝两侧短促喷开。摄影机在触地一刻短震，随后稳定。后半段脚底持续承重，少量碎石落回地面，足底接触线清晰，汽车保持原位。落脚动作短促有力，以实时速度完成。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 0, \"genImage\": {\"imageFile\": \"01-foot-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"01-foot-start.png\", \"endImage\": {\"imageFile\": \"01-foot-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"02-scale\", \"start\": 56, \"length\": 39, \"frameCount\": 39, \"durationSec\": 1.3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n低机位全身远景，巨兽角尖、双脚以及脚边的小型Aegis一起入画。摄影机固定，巨兽将身体重量压稳，头部低下锁定脚边战士，肩甲轻微前压，指爪略收拢。Aegis仰头观察。尘土缓缓沉降，汽车、街灯和楼层共同呈现巨兽的庞大体积。镜头以简短清晰的体型展示连接起飞。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 1, \"genImage\": {\"imageFile\": \"02-scale-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"02-scale-start.png\", \"endImage\": {\"imageFile\": \"02-scale-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"03-launch\", \"start\": 95, \"length\": 73, \"frameCount\": 73, \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n侧前方固定远景，巨兽位于左侧，Aegis位于右下方街道，右手握橙金色能量大刀，左手张开平衡。开场背部和小腿喷流立即增强，双脚蹬离地面，水与尘土向外推开。前半秒完成离地，随后沿左上方斜线连续加速，迅速越过巨兽膝部和腰部高度。身体前倾，刀刃朝左上方，双腿顺着飞行方向收拢，喷流指向右下方。末段沿同一方向接近巨兽胸口侧前方，人物处在更远景深，投影随距离自然缩小，胸甲表面保持完整。镜头结束时人物仍沿左上方前进，动作衔接下一段侧面跟拍。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 2, \"genImage\": {\"imageFile\": \"03-launch-start.png\", \"width\": 1672, \"height\": 940}, \"imageFile\": \"03-launch-start.png\", \"endImage\": {\"imageFile\": \"03-launch-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"04-follow\", \"start\": 168, \"length\": 73, \"frameCount\": 73, \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n镜头切到Aegis侧前方的空中中景，摄影机与人物同速沿左上方跟拍，人物完整身体保持在画面中部，约占画面高度一半。右手紧握橙金色能量大刀，右手将刀架在右肩上方，刀尖朝画面右上方随身携带，左手张开控制平衡。开场延续上升动势，双膝收起；随后髋部伸展，双腿向后伸直，背部和小腿喷流朝右下方集中喷射，身体进一步前倾加速。巨兽的巨大岩甲和红色裂隙从人物身后向右下方快速掠过，远处楼层产生清楚视差。末段左肩略向飞行方向压低，沿巨兽胸口外侧掠行，刀刃和身体轮廓清晰，尾帧保留向左上方飞行的动势。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 3, \"genImage\": {\"imageFile\": \"04-follow-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"04-follow-start.png\", \"endImage\": {\"imageFile\": \"04-follow-end.png\", \"width\": 1672, \"height\": 941}}], \"gen\": {\"defaultFrameCount\": 56}, \"runSelectEnabled\": false, \"runSelection\": [], \"global\": {\"taskType\": \"fl2v — 首尾帧生视频(First-Last Frame)\", \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\", \"refs\": [], \"referenceVideo\": {}, \"continuousReference\": false, \"genImage\": {\"imageFile\": \"\"}}, \"durationSec\": 9.3, \"shots\": [{\"id\": \"01-foot\", \"durationSec\": 2, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n极低侧前方固定机位，近拍巨足、小腿与左侧轿车。巨足具有厚实脚跟、水平足底与三枚向前伸出的趾爪。开场脚底贴近路面，立即向下踏落。前0.4秒，脚底和脚跟压到同一柏油平面，踝部随承重下沉，三枚趾爪落稳。接着细裂纹从接触处向外延伸，水花和砂砾朝两侧短促喷开。摄影机在触地一刻短震，随后稳定。后半段脚底持续承重，少量碎石落回地面，足底接触线清晰，汽车保持原位。落脚动作短促有力，以实时速度完成。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"01-foot-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"01-foot-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"02-scale\", \"durationSec\": 1.3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n低机位全身远景，巨兽角尖、双脚以及脚边的小型Aegis一起入画。摄影机固定，巨兽将身体重量压稳，头部低下锁定脚边战士，肩甲轻微前压，指爪略收拢。Aegis仰头观察。尘土缓缓沉降，汽车、街灯和楼层共同呈现巨兽的庞大体积。镜头以简短清晰的体型展示连接起飞。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"02-scale-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"02-scale-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"03-launch\", \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n侧前方固定远景，巨兽位于左侧，Aegis位于右下方街道，右手握橙金色能量大刀，左手张开平衡。开场背部和小腿喷流立即增强，双脚蹬离地面，水与尘土向外推开。前半秒完成离地，随后沿左上方斜线连续加速，迅速越过巨兽膝部和腰部高度。身体前倾，刀刃朝左上方，双腿顺着飞行方向收拢，喷流指向右下方。末段沿同一方向接近巨兽胸口侧前方，人物处在更远景深，投影随距离自然缩小，胸甲表面保持完整。镜头结束时人物仍沿左上方前进，动作衔接下一段侧面跟拍。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"03-launch-start.png\", \"width\": 1672, \"height\": 940}, \"endImage\": {\"imageFile\": \"03-launch-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"04-follow\", \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n镜头切到Aegis侧前方的空中中景，摄影机与人物同速沿左上方跟拍，人物完整身体保持在画面中部，约占画面高度一半。右手紧握橙金色能量大刀，右手将刀架在右肩上方，刀尖朝画面右上方随身携带，左手张开控制平衡。开场延续上升动势，双膝收起；随后髋部伸展，双腿向后伸直，背部和小腿喷流朝右下方集中喷射，身体进一步前倾加速。巨兽的巨大岩甲和红色裂隙从人物身后向右下方快速掠过，远处楼层产生清楚视差。末段左肩略向飞行方向压低，沿巨兽胸口外侧掠行，刀刃和身体轮廓清晰，尾帧保留向左上方飞行的动势。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"04-follow-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"04-follow-end.png\", \"width\": 1672, \"height\": 941}}], \"keyframes\": []}",
+        "高级采样",
+        25,
+        "res_multistep",
+        "simple",
+        12,
+        3,
+        false,
+        false,
+        "Ollama",
+        false,
+        false,
+        false,
+        "raw",
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "task_type": "fl2v — 首尾帧生视频(First-Last Frame)",
+        "global_prompt": "电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。",
+        "bd_grp_sample": "采样设置",
+        "cfg": 1.0,
+        "seed": 888,
+        "control_after_generate": "fixed",
+        "frame_rate": 24,
+        "width": 864,
+        "height": 480,
+        "ref_max_size": 864,
+        "total_frames": 241,
+        "timeline_data": "{\"version\": 5, \"editMode\": \"segment\", \"timelineMode\": \"fl2v\", \"totalFrames\": 241, \"frameRate\": 24, \"width\": 864, \"height\": 480, \"refMaxSize\": 864, \"video\": {\"fileName\": \"\", \"videoFile\": \"\", \"subfolder\": \"\", \"type\": \"input\", \"frames\": [], \"frameMap\": []}, \"videoClips\": [], \"output\": {\"mode\": \"fixed\", \"aspectRatio\": \"16:9 (宽屏)\", \"megapixels\": 0.4, \"multiple\": 32, \"longEdge\": 864, \"width\": 864, \"height\": 480, \"maxExportFrames\": 0, \"exportMode\": \"all\", \"audioMode\": \"mute\", \"continuityEnabled\": false, \"exportSourceImages\": false}, \"segments\": [{\"id\": \"01-foot\", \"start\": 0, \"length\": 56, \"frameCount\": 56, \"durationSec\": 2, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n极低侧前方固定机位，近拍巨足、小腿与左侧轿车。巨足具有厚实脚跟、水平足底与三枚向前伸出的趾爪。开场脚底贴近路面，立即向下踏落。前0.4秒，脚底和脚跟压到同一柏油平面，踝部随承重下沉，三枚趾爪落稳。接着细裂纹从接触处向外延伸，水花和砂砾朝两侧短促喷开。摄影机在触地一刻短震，随后稳定。后半段脚底持续承重，少量碎石落回地面，足底接触线清晰，汽车保持原位。落脚动作短促有力，以实时速度完成。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 0, \"genImage\": {\"imageFile\": \"01-foot-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"01-foot-start.png\", \"endImage\": {\"imageFile\": \"01-foot-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"02-scale\", \"start\": 56, \"length\": 39, \"frameCount\": 39, \"durationSec\": 1.3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n低机位全身远景，巨兽角尖、双脚以及脚边的小型Aegis一起入画。摄影机固定，巨兽将身体重量压稳，头部低下锁定脚边战士，肩甲轻微前压，指爪略收拢。Aegis仰头观察。尘土缓缓沉降，汽车、街灯和楼层共同呈现巨兽的庞大体积。镜头以简短清晰的体型展示连接起飞。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 1, \"genImage\": {\"imageFile\": \"02-scale-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"02-scale-start.png\", \"endImage\": {\"imageFile\": \"02-scale-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"03-launch\", \"start\": 95, \"length\": 73, \"frameCount\": 73, \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n侧前方固定远景，巨兽位于左侧，Aegis位于右下方街道，右手握橙金色能量大刀，左手张开平衡。开场背部和小腿喷流立即增强，双脚蹬离地面，水与尘土向外推开。前半秒完成离地，随后沿左上方斜线连续加速，迅速越过巨兽膝部和腰部高度。身体前倾，刀刃朝左上方，双腿顺着飞行方向收拢，喷流指向右下方。末段沿同一方向接近巨兽胸口侧前方，人物处在更远景深，投影随距离自然缩小，胸甲表面保持完整。镜头结束时人物仍沿左上方前进，动作衔接下一段侧面跟拍。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 2, \"genImage\": {\"imageFile\": \"03-launch-start.png\", \"width\": 1672, \"height\": 940}, \"imageFile\": \"03-launch-start.png\", \"endImage\": {\"imageFile\": \"03-launch-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"04-follow\", \"start\": 168, \"length\": 73, \"frameCount\": 73, \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n镜头切到Aegis侧前方的空中中景，摄影机与人物同速沿左上方跟拍，人物完整身体保持在画面中部，约占画面高度一半。右手紧握橙金色能量大刀，右手将刀架在右肩上方，刀尖朝画面右上方随身携带，左手张开控制平衡。开场延续上升动势，双膝收起；随后髋部伸展，双腿向后伸直，背部和小腿喷流朝右下方集中喷射，身体进一步前倾加速。巨兽的巨大岩甲和红色裂隙从人物身后向右下方快速掠过，远处楼层产生清楚视差。末段左肩略向飞行方向压低，沿巨兽胸口外侧掠行，刀刃和身体轮廓清晰，尾帧保留向左上方飞行的动势。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 3, \"genImage\": {\"imageFile\": \"04-follow-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"04-follow-start.png\", \"endImage\": {\"imageFile\": \"04-follow-end.png\", \"width\": 1672, \"height\": 941}}], \"gen\": {\"defaultFrameCount\": 56}, \"runSelectEnabled\": false, \"runSelection\": [], \"global\": {\"taskType\": \"fl2v — 首尾帧生视频(First-Last Frame)\", \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\", \"refs\": [], \"referenceVideo\": {}, \"continuousReference\": false, \"genImage\": {\"imageFile\": \"\"}}, \"durationSec\": 9.3, \"shots\": [{\"id\": \"01-foot\", \"durationSec\": 2, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n极低侧前方固定机位，近拍巨足、小腿与左侧轿车。巨足具有厚实脚跟、水平足底与三枚向前伸出的趾爪。开场脚底贴近路面，立即向下踏落。前0.4秒，脚底和脚跟压到同一柏油平面，踝部随承重下沉，三枚趾爪落稳。接着细裂纹从接触处向外延伸，水花和砂砾朝两侧短促喷开。摄影机在触地一刻短震，随后稳定。后半段脚底持续承重，少量碎石落回地面，足底接触线清晰，汽车保持原位。落脚动作短促有力，以实时速度完成。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"01-foot-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"01-foot-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"02-scale\", \"durationSec\": 1.3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n低机位全身远景，巨兽角尖、双脚以及脚边的小型Aegis一起入画。摄影机固定，巨兽将身体重量压稳，头部低下锁定脚边战士，肩甲轻微前压，指爪略收拢。Aegis仰头观察。尘土缓缓沉降，汽车、街灯和楼层共同呈现巨兽的庞大体积。镜头以简短清晰的体型展示连接起飞。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"02-scale-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"02-scale-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"03-launch\", \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n侧前方固定远景，巨兽位于左侧，Aegis位于右下方街道，右手握橙金色能量大刀，左手张开平衡。开场背部和小腿喷流立即增强，双脚蹬离地面，水与尘土向外推开。前半秒完成离地，随后沿左上方斜线连续加速，迅速越过巨兽膝部和腰部高度。身体前倾，刀刃朝左上方，双腿顺着飞行方向收拢，喷流指向右下方。末段沿同一方向接近巨兽胸口侧前方，人物处在更远景深，投影随距离自然缩小，胸甲表面保持完整。镜头结束时人物仍沿左上方前进，动作衔接下一段侧面跟拍。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"03-launch-start.png\", \"width\": 1672, \"height\": 940}, \"endImage\": {\"imageFile\": \"03-launch-end.png\", \"width\": 1672, \"height\": 941}}, {\"id\": \"04-follow\", \"durationSec\": 3, \"prompt\": \"电影级三维CG，红月照亮湿润废墟街道。磐甲巨兽身高30米，黑色岩甲、红色裂隙、双角和红色胸核。Aegis身高1.88米，黑灰橙金装甲、青蓝面罩。角色造型、光照和材质沿用当前首尾图，物体保持稳定体积。每组呈现一段连续动作，分组边界直接切镜。\\n\\n镜头切到Aegis侧前方的空中中景，摄影机与人物同速沿左上方跟拍，人物完整身体保持在画面中部，约占画面高度一半。右手紧握橙金色能量大刀，右手将刀架在右肩上方，刀尖朝画面右上方随身携带，左手张开控制平衡。开场延续上升动势，双膝收起；随后髋部伸展，双腿向后伸直，背部和小腿喷流朝右下方集中喷射，身体进一步前倾加速。巨兽的巨大岩甲和红色裂隙从人物身后向右下方快速掠过，远处楼层产生清楚视差。末段左肩略向飞行方向压低，沿巨兽胸口外侧掠行，刀刃和身体轮廓清晰，尾帧保留向左上方飞行的动势。\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"04-follow-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"04-follow-end.png\", \"width\": 1672, \"height\": 941}}], \"keyframes\": []}",
+        "bd_grp_advanced": "高级采样",
+        "steps": 25,
+        "sampler": "res_multistep",
+        "scheduler": "simple",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "export_source_images": false,
+        "export_pre_face_refine": false,
+        "bd_grp_perf": "Ollama",
+        "clear_vram_between_segments": false,
+        "clear_vram_before_refine": false,
+        "clear_vram_before_face_refine": false,
+        "cache_frames_codec": "raw",
+        "cache_name": "",
+        "minimax_director_ui": ""
+      }
+    }
+  ],
+  "links": [
+    [
+      9,
+      6,
+      0,
+      7,
+      0,
+      "VIDEO"
+    ],
+    [
+      13,
+      4,
+      0,
+      12,
+      2,
+      "VAE"
+    ],
+    [
+      15,
+      3,
+      0,
+      12,
+      1,
+      "VAE"
+    ],
+    [
+      16,
+      2,
+      0,
+      12,
+      3,
+      "CLIP"
+    ],
+    [
+      17,
+      12,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      12,
+      2,
+      6,
+      2,
+      "FLOAT"
+    ],
+    [
+      20,
+      12,
+      5,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      29,
+      17,
+      0,
+      12,
+      0,
+      "MODEL"
+    ],
+    [
+      31,
+      1,
+      0,
+      16,
+      0,
+      "MODEL"
+    ],
+    [
+      32,
+      16,
+      0,
+      17,
+      0,
+      "MODEL"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "模型加载 (MiniMax H3)",
+      "bounding": [
+        -760,
+        40,
+        440,
+        560
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "MiniMax H3 Director",
+      "bounding": [
+        -320,
+        40,
+        1120,
+        960
+      ],
+      "color": "#8A8",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "输出",
+      "bounding": [
+        959.7884550354713,
+        38.736816353831586,
+        760,
+        760
+      ],
+      "color": "#b58",
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "加速模块（用就开启，不用可以关掉）",
+      "bounding": [
+        -232.17580618807037,
+        -257.8403935307404,
+        696.8626780790273,
+        222.74509026022088
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "frontendVersion": "1.51.10",
+    "note": "MiniMax H3 Director · t2v",
+    "ds": {
+      "scale": 0.7727272727272978,
+      "offset": [
+        1218.1888106747235,
+        -372.52355266709606
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4,
+  "seed_widgets": {
+    "12": 4
+  }
+}
