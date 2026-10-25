@@ -1,0 +1,8 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] Cinematic 3D CG, a fixed elevated wide view over the red-moon ruined city. A damaged concrete office tower stands at screen-left, identified by its rooftop antenna, columns and exposed floor slabs. The titan's giant hand occupies the right edge after its strike. Aegis, a 1.88-meter black gunmetal armored warrior with orange chest core, cyan visor and golden forearm shield, is already separated from the hand in the opening image. His helmet and chest face screen-right toward the attacker; his back leads toward the building on screen-left.
+The transmitted blow hurls his entire body rapidly toward screen-left across the street canyon. His shoulders and hips travel together, his boots trail right, and the forearm shield stays close to his chest. A thin white-orange streak follows behind him toward screen-right. His body translates across the fixed window grid and distant towers, preserving its armor and human scale. The camera holds its position and lens, revealing the full flight route and destination. Maintain fast backward momentum throughout the shot. Reach the ending image with his back immediately beside the designated facade bay, still moving into the building.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A

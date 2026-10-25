@@ -1,0 +1,60 @@
+{
+  "h3_rendered": false,
+  "hud_damage_percent_placeholder": 78,
+  "shots": [
+    {
+      "id": "01-flight",
+      "duration": 1.3,
+      "frames": 39,
+      "refs": [
+        {
+          "imageFile": "01-flight-start.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "imageFile": "01-flight-end.png",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.\n\nintegrated_multimodal_description: [Shot 1] Cinematic 3D CG, a fixed elevated wide view over the red-moon ruined city. A damaged concrete office tower stands at screen-left, identified by its rooftop antenna, columns and exposed floor slabs. The titan's giant hand occupies the right edge after its strike. Aegis, a 1.88-meter black gunmetal armored warrior with orange chest core, cyan visor and golden forearm shield, is already separated from the hand in the opening image. His helmet and chest face screen-right toward the attacker; his back leads toward the building on screen-left.\nThe transmitted blow hurls his entire body rapidly toward screen-left across the street canyon. His shoulders and hips travel together, his boots trail right, and the forearm shield stays close to his chest. A thin white-orange streak follows behind him toward screen-right. His body translates across the fixed window grid and distant towers, preserving its armor and human scale. The camera holds its position and lens, revealing the full flight route and destination. Maintain fast backward momentum throughout the shot. Reach the ending image with his back immediately beside the designated facade bay, still moving into the building.\n\noverall_soundscape: N/A\n\nnon_diegetic_music: N/A\n"
+    },
+    {
+      "id": "02-collision",
+      "duration": 2,
+      "frames": 56,
+      "refs": [
+        {
+          "imageFile": "02-collision-start.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "imageFile": "02-collision-end.png",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 2.33-second mark of the target video.\n\nintegrated_multimodal_description: [Shot 1] Cinematic 3D CG, continue the same elevated wide camera and exact building geometry from the opening frame. Aegis is moving backward toward screen-left, his back immediately beside the damaged office facade. His back and shoulder strike the wall first. The outer concrete panel breaks inward around his armor, glass bursts from the adjacent window bay, and his body enters the room behind the facade. A compact orange-white impact flash originates at this contact point and briefly lights the interior.\nThe collision sends fractures from the opening into the neighboring slab supports. The local slab breaks at its attachments and tilts downward; exposed reinforcement bends. Concrete chunks and glass fragments eject from the impact floor toward the street and then fall under gravity. Grey dust expands outward from the new opening, with the largest debris moving in readable arcs. Aegis's orange armor glow and cyan visor remain partly visible deep in the opening. The camera gives one brief small-amplitude impact jolt and settles into the same wide composition. The connected structure surrounding the damaged bays stays recognizable. Finish with the localized floor collapse, descending debris and expanding dust matching the ending frame.\n\noverall_soundscape: N/A\n\nnon_diegetic_music: N/A\n"
+    },
+    {
+      "id": "03-nyx",
+      "duration": 1.3,
+      "frames": 39,
+      "refs": [
+        {
+          "imageFile": "03-nyx-start.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "imageFile": "03-nyx-end.png",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.\n\nintegrated_multimodal_description: [Shot 1] Cinematic 3D CG, a tight medium close-up of Nyx in purple-black segmented armor, long violet helmet crest, fully closed solid faceplate and purple hexagonal chest core. Nyx occupies the left half of the frame, with the long rifle lowered diagonally across the bottom. Preserve the exact helmet, weapon, hand placement and blurred red-moon city from the reference frames. The right third remains softly blurred smoke and distant buildings.\nNyx reacts to Aegis's collision outside screen-left: the helmet turns sharply toward the upper-left and then fixes on that location. The shoulders tense, the torso leans slightly forward and the right fingers tighten around the rifle grip; the left fingers flex beneath the barrel. The body pauses briefly in alarm, poised to move toward the teammate. A thin red warning accent travels around the rim of the violet faceplate, and warm orange reflected light briefly brightens the left helmet edge. Keep the faceplate solid and closed, with mechanical panels and glowing seams fully coherent. The camera holds its framing, revealing the head turn, tense grip and forward intention. End in the supplied concerned alert posture.\n\noverall_soundscape: N/A\n\nnon_diegetic_music: N/A\n"
+    }
+  ]
+}

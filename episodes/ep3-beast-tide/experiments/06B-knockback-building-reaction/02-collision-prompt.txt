@@ -1,0 +1,8 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 2.33-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] Cinematic 3D CG, continue the same elevated wide camera and exact building geometry from the opening frame. Aegis is moving backward toward screen-left, his back immediately beside the damaged office facade. His back and shoulder strike the wall first. The outer concrete panel breaks inward around his armor, glass bursts from the adjacent window bay, and his body enters the room behind the facade. A compact orange-white impact flash originates at this contact point and briefly lights the interior.
+The collision sends fractures from the opening into the neighboring slab supports. The local slab breaks at its attachments and tilts downward; exposed reinforcement bends. Concrete chunks and glass fragments eject from the impact floor toward the street and then fall under gravity. Grey dust expands outward from the new opening, with the largest debris moving in readable arcs. Aegis's orange armor glow and cyan visor remain partly visible deep in the opening. The camera gives one brief small-amplitude impact jolt and settles into the same wide composition. The connected structure surrounding the damaged bays stays recognizable. Finish with the localized floor collapse, descending debris and expanding dust matching the ending frame.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A
