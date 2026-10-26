@@ -1,0 +1,10 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 2.33-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] bunny_crisp_motion. Cinematic 3D CG, continue the same elevated wide view, office facade and floor positions from the opening frame. Aegis enters with leftward momentum and his back leading toward the wall. His golden shield remains close to the supporting forearm. The rooftop antenna, moon and neighboring towers establish stable geography.
+His back and shoulder immediately strike the concrete panel at the designated window bay. At that contact, his torso compresses slightly, the panel fractures inward, and his momentum carries his armored body through the opening. Glass bursts from the same bay. A concentrated orange-white flash starts at the collision point, briefly illuminating the interior and then resolving into sparks. The body is partly visible within the newly opened room as the surrounding concrete breaks.
+Cracks propagate from the impact bay into the adjacent slab attachments. The local floor edge loses support, rotates downward around its remaining connections, and pulls exposed reinforcement into bent arcs. Large concrete pieces detach from those broken edges and move outward toward screen-right before descending into the street. Smaller fragments and glass follow separate falling paths. Grey dust expands from the opening after the impact, with enough visibility to read the damaged floor outline. Aegis's orange armor glow and cyan visor remain partly visible inside the dust.
+The camera gives a brief small-amplitude jolt at contact and settles into its original view. Preserve the connected building structure around the localized damage. Reach the final reference as the broken slab tilts down and fragments continue falling. A single causal sequence: body contact, wall failure, interior flash, local support failure, falling debris.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A

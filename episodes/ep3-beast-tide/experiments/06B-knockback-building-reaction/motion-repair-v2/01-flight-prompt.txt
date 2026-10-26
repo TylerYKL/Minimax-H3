@@ -1,0 +1,9 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] bunny_crisp_motion. Cinematic 3D CG, a single elevated wide shot with a fixed camera and focal length. Match the reference city's red moon, left office tower, rooftop antenna and exposed floor grid. The titan hand remains at the right edge. Aegis is already airborne and separated from that hand. Preserve his 1.88-meter human scale, black gunmetal armor, orange chest core, cyan visor and attached golden forearm shield.
+Aegis is being thrown backward by the previous impact. His chest and helmet face screen-right toward the titan; his back and shoulders lead toward the tower at screen-left. The transmitted force carries shoulders, spine and hips together along one continuous nearly horizontal trajectory. His boots trail to the right, knees flex under inertia, and the free arm opens for balance. The shield stays close to its supporting forearm and chest throughout the flight.
+Begin with leftward velocity already established. Carry his body swiftly across the open air toward the same facade bay shown in the ending frame. Keep movement continuous through the middle and final portions of the shot, with a clear change of position against the fixed floor grid. A narrow white-orange trail stretches behind him toward screen-right, emphasizing the direction of travel. Back and calf exhaust remains compact and attached to its emitters. His rigid armor and articulated limbs retain their proportions as the whole body translates. End with his back arriving immediately beside the wall, still moving left into the upcoming collision. Brisk real-time knockback, direct trajectory, clear separation from the attacking hand.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A

@@ -1,0 +1,819 @@
+{
+  "id": "b832a4f5-6c0b-4940-8d88-0ba4a68a22e8",
+  "revision": 0,
+  "last_node_id": 17,
+  "last_link_id": 32,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "VAELoader",
+      "pos": [
+        -720,
+        500
+      ],
+      "size": [
+        360,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "title": "Audio VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "VAELoader",
+        "models": [
+          {
+            "name": "minimax_h3_audio_vae_fp32.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_audio_vae_fp32.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+      }
+    },
+    {
+      "id": 8,
+      "type": "PreviewAny",
+      "pos": [
+        1006.1195126617181,
+        90.46763850287226
+      ],
+      "size": [
+        640,
+        200
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Director 运行报告",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 6,
+      "type": "CreateVideo",
+      "pos": [
+        1006.6064265507966,
+        342.40096040896543
+      ],
+      "size": [
+        280,
+        126
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 17
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          },
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "CreateVideo"
+      },
+      "widgets_values": [
+        24,
+        8,
+        "sRGB"
+      ],
+      "widgets_values_named": {
+        "fps": 24,
+        "bit_depth": 8,
+        "color_space": "sRGB"
+      }
+    },
+    {
+      "id": 11,
+      "type": "MarkdownNote",
+      "pos": [
+        -724.3830097138574,
+        658.4727692014667
+      ],
+      "size": [
+        360,
+        320
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "导演台插件地址：",
+      "properties": {},
+      "widgets_values": [
+        "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director"
+      ],
+      "widgets_values_named": {
+        "text": "https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 13,
+      "type": "MarkdownNote",
+      "pos": [
+        -677.5318640062727,
+        1021.9142453295678
+      ],
+      "size": [
+        300,
+        512
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "先上传源视频，再运行",
+      "properties": {},
+      "widgets_values": [
+        "Motion Repair V2 test. Flight/collision:0.9 active. Nyx: bypassed. FL2VA25steps, seed888; original start/end frames. Check console for LoRA key compatibility. Optional trigger is in action prompts. HUD is applied in post."
+      ],
+      "widgets_values_named": {
+        "text": "Motion Repair V2 test. Flight/collision:0.9 active. Nyx: bypassed. FL2VA25steps, seed888; original start/end frames. Check console for LoRA key compatibility. Optional trigger is in action prompts. HUD is applied in post."
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 7,
+      "type": "SaveVideo",
+      "pos": [
+        1310.6007923489485,
+        347.11800275100524
+      ],
+      "size": [
+        619.371811810659,
+        106
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "SaveVideo"
+      },
+      "widgets_values": [
+        "video/EP3_MotionRepairV2_01-flight",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "video/EP3_MotionRepairV2_01-flight",
+        "format": "auto",
+        "format.codec": "auto",
+        "codec": "auto"
+      }
+    },
+    {
+      "id": 3,
+      "type": "VAELoader",
+      "pos": [
+        -720,
+        380
+      ],
+      "size": [
+        360,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "title": "Video VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "VAELoader",
+        "models": [
+          {
+            "name": "minimax_h3_video_vae_fp16.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_video_vae_int8_convrot.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+      }
+    },
+    {
+      "id": 2,
+      "type": "CLIPLoader",
+      "pos": [
+        -720,
+        220
+      ],
+      "size": [
+        360,
+        106
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "title": "CLIP (minimax / Qwen3-VL)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "CLIPLoader",
+        "models": [
+          {
+            "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "directory": "text_encoders"
+          }
+        ]
+      },
+      "widgets_values": [
+        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "minimax",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "default"
+      }
+    },
+    {
+      "id": 1,
+      "type": "UNETLoader",
+      "pos": [
+        -720,
+        80
+      ],
+      "size": [
+        360,
+        82
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            31
+          ]
+        }
+      ],
+      "title": "MiniMax H3 UNET",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "UNETLoader",
+        "models": [
+          {
+            "name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "directory": "diffusion_models"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    {
+      "id": 16,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        -197.89013796604354,
+        -169.49871455379616
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        1
+      ],
+      "widgets_values_named": {
+        "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "strength_model": 1
+      }
+    },
+    {
+      "id": 17,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        155.12640375310855,
+        -158.26233627563045
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            29
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.35.0",
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "Motion_Repair_V2.safetensors",
+        0.9
+      ],
+      "widgets_values_named": {
+        "lora_name": "Motion_Repair_V2.safetensors",
+        "strength_model": 0.9
+      },
+      "title": "Motion Repair V2 — standalone test"
+    },
+    {
+      "id": 12,
+      "type": "MiniMaxH3Director",
+      "pos": [
+        -305.80147156628084,
+        103.10439081429395
+      ],
+      "size": [
+        1240.1726593472085,
+        1672
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 29
+        },
+        {
+          "name": "video_vae",
+          "type": "VAE",
+          "link": 15
+        },
+        {
+          "name": "audio_vae",
+          "type": "VAE",
+          "link": 13
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 16
+        },
+        {
+          "name": "i2v_groups",
+          "shape": 7,
+          "type": "MMX_DIR_GROUP",
+          "link": null
+        },
+        {
+          "name": "r2v_groups",
+          "shape": 7,
+          "type": "MMX_DIR_GROUP",
+          "link": null
+        },
+        {
+          "name": "semantic_bridge",
+          "shape": 7,
+          "type": "MMX_DIR_SEMANTIC_BRIDGE",
+          "link": null
+        },
+        {
+          "name": "selflift",
+          "shape": 7,
+          "type": "MMX_DIR_SELFLIFT",
+          "link": null
+        },
+        {
+          "name": "refine",
+          "shape": 7,
+          "type": "MMX_DIR_REFINE",
+          "link": null
+        },
+        {
+          "name": "face_refine",
+          "shape": 7,
+          "type": "MMX_DIR_FACE_REFINE",
+          "link": null
+        },
+        {
+          "name": "sigmas",
+          "shape": 7,
+          "type": "SIGMAS",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": [
+            17
+          ]
+        },
+        {
+          "name": "audio",
+          "shape": 6,
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "fps",
+          "type": "FLOAT",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "source_images",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "report",
+          "type": "STRING",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "images_pre_refine",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "images_pre_face_refine",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "minimax-h3-director",
+        "ver": "a8f57b8e23c46ee28fdb96796510fa7b4f3b1fbb",
+        "Node name for S&R": "MiniMaxH3Director"
+      },
+      "widgets_values": [
+        "fl2v — 首尾帧生视频(First-Last Frame)",
+        "",
+        "采样设置",
+        1.0,
+        888,
+        "fixed",
+        24,
+        864,
+        480,
+        864,
+        39,
+        "{\"version\": 5, \"editMode\": \"segment\", \"timelineMode\": \"fl2v\", \"totalFrames\": 39, \"frameRate\": 24, \"width\": 864, \"height\": 480, \"refMaxSize\": 864, \"video\": {\"fileName\": \"\", \"videoFile\": \"\", \"subfolder\": \"\", \"type\": \"input\", \"frames\": [], \"frameMap\": []}, \"videoClips\": [], \"output\": {\"mode\": \"fixed\", \"aspectRatio\": \"16:9 (宽屏)\", \"megapixels\": 0.4, \"multiple\": 32, \"longEdge\": 864, \"width\": 864, \"height\": 480, \"maxExportFrames\": 0, \"exportMode\": \"all\", \"audioMode\": \"mute\", \"continuityEnabled\": false, \"exportSourceImages\": false}, \"segments\": [{\"id\": \"01-flight\", \"start\": 0, \"length\": 39, \"frameCount\": 39, \"durationSec\": 1.3, \"prompt\": \"How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.\\n\\nintegrated_multimodal_description: [Shot 1] bunny_crisp_motion. Cinematic 3D CG, a single elevated wide shot with a fixed camera and focal length. Match the reference city's red moon, left office tower, rooftop antenna and exposed floor grid. The titan hand remains at the right edge. Aegis is already airborne and separated from that hand. Preserve his 1.88-meter human scale, black gunmetal armor, orange chest core, cyan visor and attached golden forearm shield.\\nAegis is being thrown backward by the previous impact. His chest and helmet face screen-right toward the titan; his back and shoulders lead toward the tower at screen-left. The transmitted force carries shoulders, spine and hips together along one continuous nearly horizontal trajectory. His boots trail to the right, knees flex under inertia, and the free arm opens for balance. The shield stays close to its supporting forearm and chest throughout the flight.\\nBegin with leftward velocity already established. Carry his body swiftly across the open air toward the same facade bay shown in the ending frame. Keep movement continuous through the middle and final portions of the shot, with a clear change of position against the fixed floor grid. A narrow white-orange trail stretches behind him toward screen-right, emphasizing the direction of travel. Back and calf exhaust remains compact and attached to its emitters. His rigid armor and articulated limbs retain their proportions as the whole body translates. End with his back arriving immediately beside the wall, still moving left into the upcoming collision. Brisk real-time knockback, direct trajectory, clear separation from the attacking hand.\\n\\noverall_soundscape: N/A\\n\\nnon_diegetic_music: N/A\\n\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 0, \"genImage\": {\"imageFile\": \"01-flight-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"01-flight-start.png\", \"endImage\": {\"imageFile\": \"01-flight-end.png\", \"width\": 1672, \"height\": 941}}], \"gen\": {\"defaultFrameCount\": 39}, \"runSelectEnabled\": false, \"runSelection\": [], \"global\": {\"taskType\": \"fl2v — 首尾帧生视频(First-Last Frame)\", \"prompt\": \"\", \"refs\": [], \"referenceVideo\": {}, \"continuousReference\": false, \"genImage\": {\"imageFile\": \"\"}}, \"durationSec\": 1.3, \"shots\": [{\"id\": \"01-flight\", \"durationSec\": 1.3, \"prompt\": \"How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.\\n\\nintegrated_multimodal_description: [Shot 1] bunny_crisp_motion. Cinematic 3D CG, a single elevated wide shot with a fixed camera and focal length. Match the reference city's red moon, left office tower, rooftop antenna and exposed floor grid. The titan hand remains at the right edge. Aegis is already airborne and separated from that hand. Preserve his 1.88-meter human scale, black gunmetal armor, orange chest core, cyan visor and attached golden forearm shield.\\nAegis is being thrown backward by the previous impact. His chest and helmet face screen-right toward the titan; his back and shoulders lead toward the tower at screen-left. The transmitted force carries shoulders, spine and hips together along one continuous nearly horizontal trajectory. His boots trail to the right, knees flex under inertia, and the free arm opens for balance. The shield stays close to its supporting forearm and chest throughout the flight.\\nBegin with leftward velocity already established. Carry his body swiftly across the open air toward the same facade bay shown in the ending frame. Keep movement continuous through the middle and final portions of the shot, with a clear change of position against the fixed floor grid. A narrow white-orange trail stretches behind him toward screen-right, emphasizing the direction of travel. Back and calf exhaust remains compact and attached to its emitters. His rigid armor and articulated limbs retain their proportions as the whole body translates. End with his back arriving immediately beside the wall, still moving left into the upcoming collision. Brisk real-time knockback, direct trajectory, clear separation from the attacking hand.\\n\\noverall_soundscape: N/A\\n\\nnon_diegetic_music: N/A\\n\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"01-flight-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"01-flight-end.png\", \"width\": 1672, \"height\": 941}}], \"keyframes\": []}",
+        "高级采样",
+        25,
+        "res_multistep",
+        "simple",
+        12,
+        3,
+        false,
+        false,
+        "Ollama",
+        false,
+        false,
+        false,
+        "raw",
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "task_type": "fl2v — 首尾帧生视频(First-Last Frame)",
+        "global_prompt": "",
+        "bd_grp_sample": "采样设置",
+        "cfg": 1.0,
+        "seed": 888,
+        "control_after_generate": "fixed",
+        "frame_rate": 24,
+        "width": 864,
+        "height": 480,
+        "ref_max_size": 864,
+        "total_frames": 39,
+        "timeline_data": "{\"version\": 5, \"editMode\": \"segment\", \"timelineMode\": \"fl2v\", \"totalFrames\": 39, \"frameRate\": 24, \"width\": 864, \"height\": 480, \"refMaxSize\": 864, \"video\": {\"fileName\": \"\", \"videoFile\": \"\", \"subfolder\": \"\", \"type\": \"input\", \"frames\": [], \"frameMap\": []}, \"videoClips\": [], \"output\": {\"mode\": \"fixed\", \"aspectRatio\": \"16:9 (宽屏)\", \"megapixels\": 0.4, \"multiple\": 32, \"longEdge\": 864, \"width\": 864, \"height\": 480, \"maxExportFrames\": 0, \"exportMode\": \"all\", \"audioMode\": \"mute\", \"continuityEnabled\": false, \"exportSourceImages\": false}, \"segments\": [{\"id\": \"01-flight\", \"start\": 0, \"length\": 39, \"frameCount\": 39, \"durationSec\": 1.3, \"prompt\": \"How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.\\n\\nintegrated_multimodal_description: [Shot 1] bunny_crisp_motion. Cinematic 3D CG, a single elevated wide shot with a fixed camera and focal length. Match the reference city's red moon, left office tower, rooftop antenna and exposed floor grid. The titan hand remains at the right edge. Aegis is already airborne and separated from that hand. Preserve his 1.88-meter human scale, black gunmetal armor, orange chest core, cyan visor and attached golden forearm shield.\\nAegis is being thrown backward by the previous impact. His chest and helmet face screen-right toward the titan; his back and shoulders lead toward the tower at screen-left. The transmitted force carries shoulders, spine and hips together along one continuous nearly horizontal trajectory. His boots trail to the right, knees flex under inertia, and the free arm opens for balance. The shield stays close to its supporting forearm and chest throughout the flight.\\nBegin with leftward velocity already established. Carry his body swiftly across the open air toward the same facade bay shown in the ending frame. Keep movement continuous through the middle and final portions of the shot, with a clear change of position against the fixed floor grid. A narrow white-orange trail stretches behind him toward screen-right, emphasizing the direction of travel. Back and calf exhaust remains compact and attached to its emitters. His rigid armor and articulated limbs retain their proportions as the whole body translates. End with his back arriving immediately beside the wall, still moving left into the upcoming collision. Brisk real-time knockback, direct trajectory, clear separation from the attacking hand.\\n\\noverall_soundscape: N/A\\n\\nnon_diegetic_music: N/A\\n\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"taskType\": \"\", \"refs\": [], \"isStartFrame\": true, \"isEndFrame\": true, \"shotIndex\": 0, \"genImage\": {\"imageFile\": \"01-flight-start.png\", \"width\": 1672, \"height\": 941}, \"imageFile\": \"01-flight-start.png\", \"endImage\": {\"imageFile\": \"01-flight-end.png\", \"width\": 1672, \"height\": 941}}], \"gen\": {\"defaultFrameCount\": 39}, \"runSelectEnabled\": false, \"runSelection\": [], \"global\": {\"taskType\": \"fl2v — 首尾帧生视频(First-Last Frame)\", \"prompt\": \"\", \"refs\": [], \"referenceVideo\": {}, \"continuousReference\": false, \"genImage\": {\"imageFile\": \"\"}}, \"durationSec\": 1.3, \"shots\": [{\"id\": \"01-flight\", \"durationSec\": 1.3, \"prompt\": \"How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.\\n\\nintegrated_multimodal_description: [Shot 1] bunny_crisp_motion. Cinematic 3D CG, a single elevated wide shot with a fixed camera and focal length. Match the reference city's red moon, left office tower, rooftop antenna and exposed floor grid. The titan hand remains at the right edge. Aegis is already airborne and separated from that hand. Preserve his 1.88-meter human scale, black gunmetal armor, orange chest core, cyan visor and attached golden forearm shield.\\nAegis is being thrown backward by the previous impact. His chest and helmet face screen-right toward the titan; his back and shoulders lead toward the tower at screen-left. The transmitted force carries shoulders, spine and hips together along one continuous nearly horizontal trajectory. His boots trail to the right, knees flex under inertia, and the free arm opens for balance. The shield stays close to its supporting forearm and chest throughout the flight.\\nBegin with leftward velocity already established. Carry his body swiftly across the open air toward the same facade bay shown in the ending frame. Keep movement continuous through the middle and final portions of the shot, with a clear change of position against the fixed floor grid. A narrow white-orange trail stretches behind him toward screen-right, emphasizing the direction of travel. Back and calf exhaust remains compact and attached to its emitters. His rigid armor and articulated limbs retain their proportions as the whole body translates. End with his back arriving immediately beside the wall, still moving left into the upcoming collision. Brisk real-time knockback, direct trajectory, clear separation from the attacking hand.\\n\\noverall_soundscape: N/A\\n\\nnon_diegetic_music: N/A\\n\", \"negativePrompt\": \"\", \"continuityFromPrev\": false, \"loras\": [], \"startImage\": {\"imageFile\": \"01-flight-start.png\", \"width\": 1672, \"height\": 941}, \"endImage\": {\"imageFile\": \"01-flight-end.png\", \"width\": 1672, \"height\": 941}}], \"keyframes\": []}",
+        "bd_grp_advanced": "高级采样",
+        "steps": 25,
+        "sampler": "res_multistep",
+        "scheduler": "simple",
+        "shift_video": 12,
+        "shift_audio": 3,
+        "export_source_images": false,
+        "export_pre_face_refine": false,
+        "bd_grp_perf": "Ollama",
+        "clear_vram_between_segments": false,
+        "clear_vram_before_refine": false,
+        "clear_vram_before_face_refine": false,
+        "cache_frames_codec": "raw",
+        "cache_name": "",
+        "minimax_director_ui": ""
+      }
+    }
+  ],
+  "links": [
+    [
+      9,
+      6,
+      0,
+      7,
+      0,
+      "VIDEO"
+    ],
+    [
+      13,
+      4,
+      0,
+      12,
+      2,
+      "VAE"
+    ],
+    [
+      15,
+      3,
+      0,
+      12,
+      1,
+      "VAE"
+    ],
+    [
+      16,
+      2,
+      0,
+      12,
+      3,
+      "CLIP"
+    ],
+    [
+      17,
+      12,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      12,
+      2,
+      6,
+      2,
+      "FLOAT"
+    ],
+    [
+      20,
+      12,
+      5,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      29,
+      17,
+      0,
+      12,
+      0,
+      "MODEL"
+    ],
+    [
+      31,
+      1,
+      0,
+      16,
+      0,
+      "MODEL"
+    ],
+    [
+      32,
+      16,
+      0,
+      17,
+      0,
+      "MODEL"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "模型加载 (MiniMax H3)",
+      "bounding": [
+        -760,
+        40,
+        440,
+        560
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "MiniMax H3 Director",
+      "bounding": [
+        -320,
+        40,
+        1120,
+        960
+      ],
+      "color": "#8A8",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "输出",
+      "bounding": [
+        959.7884550354713,
+        38.736816353831586,
+        760,
+        760
+      ],
+      "color": "#b58",
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "加速模块（用就开启，不用可以关掉）",
+      "bounding": [
+        -232.17580618807037,
+        -257.8403935307404,
+        696.8626780790273,
+        222.74509026022088
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "frontendVersion": "1.51.10",
+    "note": "MiniMax H3 Director · t2v",
+    "ds": {
+      "scale": 0.7727272727272978,
+      "offset": [
+        1218.1888106747235,
+        -372.52355266709606
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4,
+  "seed_widgets": {
+    "12": 4
+  }
+}

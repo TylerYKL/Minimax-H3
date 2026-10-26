@@ -1,0 +1,9 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 1) aligns with the 1.63-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] Cinematic 3D CG, a tight medium close-up matching the supplied Nyx references. Preserve purple-black segmented armor, the long violet crest, fully closed angular faceplate, purple chest core and lowered rifle across the bottom of frame. Nyx occupies the left half, while blurred smoke and city buildings occupy the right third. Keep the camera fixed and focus on helmet orientation, shoulder tension and gauntlet movement.
+Nyx notices Aegis's collision outside screen-left. The helmet makes a short sharp turn toward the upper-left, then fixes on the collision location. The shoulders rise slightly, the torso leans forward, and the right fingers tighten around the rifle grip in response. The left supporting hand braces the barrel. After the turn, maintain a brief tense pause with subtle chest movement, conveying alarm and concern for the teammate through posture.
+A thin red warning accent pulses along the rim of the violet faceplate. Warm orange reflected collision light crosses the left helmet edge and then subsides. The faceplate stays solid and closed, maintaining its original panel geometry. The rifle stays lowered, with hands attached to the same grip and support positions. Finish in the supplied alert posture, poised to move toward Aegis. The right-side smoke remains softly blurred and visually quiet for the teammate telemetry overlay added during editing.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A
