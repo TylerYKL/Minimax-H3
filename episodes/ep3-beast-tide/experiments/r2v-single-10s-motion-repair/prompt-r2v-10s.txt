@@ -1,0 +1,31 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>: a 1.88-meter warrior in black gunmetal armor, orange hexagonal chest core, cyan visor, back and calf thrusters, and a golden honeycomb shield attached to his right forearm.
+<Subject 2> is the 30-meter titan from <Picture 2>: black rock armor, red fissures, curved horns, red eyes, red chest core and huge clawed hands.
+<Subject 3> is Nyx from <Picture 3>: purple-black armor, long violet helmet crest, fully closed purple faceplate, purple chest core and long rifle.
+<Subject 4> is the red-moon ruined city and left office tower from <Picture 4>, retaining its rooftop antenna, concrete floor grid, window bays and surrounding street canyon.
+<Picture 5> provides the first-person composition for [Shot 1]: Aegis's foreground gauntlets and shield beneath the approaching titan palm.
+
+summary:
+[reference generation] A single cinematic sequence shows <Subject 2> striking <Subject 1>'s shield, throwing him into <Subject 4>'s tower and causing localized structural collapse; <Subject 3> reacts with alarm. References guide identity, environment and composition across six connected camera views.
+
+retention_analysis:
+<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3], [Shot 4]): fully_preserved - retain identity, armor, human scale and attached shield.
+<Subject 2> (appears in [Shot 1], [Shot 2], [Shot 3]): fully_preserved - retain titan anatomy, rock surface and huge scale.
+<Subject 3> (appears in [Shot 6]): fully_preserved - retain closed helmet, armor and lowered rifle.
+<Subject 4> (appears throughout): partially_preserved - retain city geography, add impact damage to the designated tower bays.
+<Picture 5> (appears in [Shot 1]): partially_preserved - use the eye-position viewpoint and foreground framing while developing the incoming strike.
+
+detailed_description:
+bunny_crisp_motion. Cinematic 3D CG with worn metal, rough concrete, volcanic rock, localized energy light and red-moon illumination. One continuous story with explicit camera cuts. Keep attack and knockback direction consistent, with the titan to the right and the destination tower to the left in external views.
+[Shot 1] First-person view through Aegis's eyes at titan chest height, following <Picture 5>. His right gauntlet and golden shield occupy the lower-right foreground. The titan's palm drives directly toward the viewpoint, rapidly enlarging as the claws spread beyond the image edges. A thin pressure front bends the air ahead of the palm. The hand progressively occludes the titan face and sky; its shadow crosses the gauntlet. Aegis braces the shield into the attack line.
+[Shot 2] At 00:01.000, the camera cuts to a lateral medium-wide view. Aegis is screen-left facing right; the giant hand enters from screen-right. The palm strikes the shield center. The honeycomb surface bows inward, a compact orange-white flare marks contact, and a circular ripple expands. The elbow folds toward the chest, the shoulder and hips follow the force left. Aegis rapidly separates from the palm, opening a widening air gap. His back leads left, legs trail right, shield travels with his forearm.
+[Shot 3] At 00:01.800, the camera cuts to the elevated wide view of <Subject 4>. Aegis crosses the street canyon from right to left as a small armored figure at the leading end of a thin white-orange streak. The office floors remain fixed in the frame. His back reaches the designated window bay in one swift traversal, chest still facing toward the attacker.
+[Shot 4] At 00:02.300, the camera cuts closer to the same facade bay. His back punches through concrete and glass, followed immediately by a localized orange flash inside the room. Fragments burst outward from the contact point; dust follows. His armor becomes partly obscured inside the new opening. Cracks reach adjacent slab supports, exposed reinforcement bends, and the local floor edge tilts downward under its weight.
+[Shot 5] At 00:05.200, the camera cuts to a low street view looking up at that damaged bay. Falling concrete crosses the foreground, strikes the street and breaks into smaller chunks. A dense dust wave rolls outward from the building base. The jagged opening remains visible above through thinning patches of dust, with a faint orange armor glow inside. The surrounding tower structure retains its recognizable floor grid.
+[Shot 6] At 00:08.200, the camera cuts to Nyx's helmet-and-hands close-up. Nyx turns sharply toward the upper-left collision site, tightens the rifle grip and leans forward with tense shoulders. A red warning accent pulses along the closed violet faceplate. Warm collision light crosses the helmet edge. Keep Nyx on the left half and blurred smoke on the right, ready for a teammate-status overlay during editing. Hold the alert reaction with subtle breathing through the final moment.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
