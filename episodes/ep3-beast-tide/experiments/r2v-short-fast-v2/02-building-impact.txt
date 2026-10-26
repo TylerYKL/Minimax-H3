@@ -1,0 +1,20 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>: a 1.88-meter warrior in black gunmetal armor, orange hexagonal chest core, cyan visor, back and calf thrusters, and a golden honeycomb shield attached to his right forearm.
+<Subject 4> is the red-moon ruined city and left office tower from <Picture 2>, retaining its rooftop antenna, concrete floor grid, window bays and surrounding street canyon.
+
+summary:
+[reference generation] Aegis crashes back-first through an office facade at high speed; the collision immediately ejects concrete fragments and glass.
+
+retention_analysis:
+Reference subjects retain their armor design, material colors, anatomy and relative scale. The city retains its facade grid and red illumination; impact damage develops at the designated bay.
+
+detailed_description:
+bunny_crisp_motion. Cinematic 3D CG, worn gunmetal armor, volcanic rock, red-moon city illumination. Explosive acceleration, abrupt impact, fast decisive action, crisp momentum transfer. In external views, Aegis travels from screen-right toward the office tower on screen-left. [Shot 1] Locked three-quarter exterior view of the left office tower. The impact bay occupies the center-left. At the opening frame, Aegis is already within one body length of the facade, upper back aimed directly at its concrete window edge, chest facing outward toward screen-right, boots trailing right. His right-forearm shield is tucked against his chest. He is traveling at approximately 80 meters per second. Within the opening 0.12 seconds, his upper back crosses the remaining gap and punches through the window edge. His torso and hips follow through the same opening immediately. A compact orange-white flash blooms exactly where armor meets concrete. A ring of concrete fragments bursts outward from that contact point, followed by glittering glass. The collision consumes the opening instant of this shot.
+From 00:00.120 to 00:00.700, Aegis passes fully into the room, with orange armor lights briefly visible behind the fragments. Dust expands outward in a dense cone. Cracks spread from the fresh opening into the adjacent slab edge; fractured concrete drops from exposed reinforcing bars. Large fragments descend quickly past the window below, while small chips spread farther outward.
+[Shot 2] At 00:00.700, hard cut to a low street angle looking up at the same damaged bay. Heavy concrete chunks fall through the foreground and strike the pavement, breaking into smaller fragments. A dust surge rolls across the lower frame. The damaged bay remains identifiable above, with a faint orange armor glow deep inside the room. The surrounding vertical columns and floor grid anchor the building's scale. Debris continues falling through the final moment.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,22 @@
+subject_definitions:
+<Subject 1> is Aegis from <Picture 1>: a 1.88-meter warrior in black gunmetal armor, orange hexagonal chest core, cyan visor, back and calf thrusters, and a golden honeycomb shield attached to his right forearm.
+<Subject 2> is the 30-meter titan from <Picture 2>: black rock armor, red fissures, curved horns, red eyes, red chest core and huge clawed hands.
+<Subject 4> is the red-moon ruined city and left office tower from <Picture 3>, retaining its rooftop antenna, concrete floor grid, window bays and surrounding street canyon.
+<Picture 4> provides the first-person composition for [Shot 1]: Aegis's foreground gauntlets and shield beneath the approaching titan palm.
+
+summary:
+[reference generation] A giant palm strikes Aegis's shield and launches him across the street canyon in an explosive burst.
+
+retention_analysis:
+Reference subjects retain their armor design, material colors, anatomy and relative scale. The city retains its facade grid and red illumination; impact damage develops at the designated bay.
+
+detailed_description:
+bunny_crisp_motion. Cinematic 3D CG, worn gunmetal armor, volcanic rock, red-moon city illumination. Explosive acceleration, abrupt impact, fast decisive action, crisp momentum transfer. In external views, Aegis travels from screen-right toward the office tower on screen-left. [Shot 1] First-person view through Aegis's eyes at titan chest height. The approaching palm is already close to the camera. His right forearm raises the golden honeycomb shield into the lower-right foreground. During the opening 0.25 seconds, the palm lunges straight toward the lens, growing from half-frame to nearly full-frame. A narrow curved pressure front races ahead of the fingertips; dust snaps outward along its edge. The hand's shadow sweeps across the gauntlet.
+[Shot 2] At 00:00.250, hard cut to a fixed lateral medium-wide view, Aegis screen-left, titan palm screen-right. By 00:00.400, the palm slams into the shield center. A brief orange-white contact flash lasts about two frames; a thin circular shock front expands outward. The shield arm folds sharply toward his chest, his shoulder snaps left, then his hips follow in the same impulse. By 00:00.550, his entire body has separated from the palm by several body lengths. His upper back leads screen-left, his chest faces screen-right toward the attacker, his knees and boots trail screen-right. The shield stays attached to his right forearm against his chest. This is an abrupt ballistic launch driven by the palm impact.
+[Shot 3] At 00:00.650, hard cut to a locked elevated wide view: tower left, titan hand right, street canyon between them. Aegis is a small armored silhouette on the right side of the gap. In the next 0.25 seconds he traverses approximately 20 meters, crossing most of the frame width toward the left tower. His silhouette forms the leading tip of a short white-orange motion streak trailing toward screen-right along his whole-body trajectory. The building's window grid remains sharp and fixed, making the displacement immediately readable. By 00:00.900, his back reaches the window bay and a compact impact flash erupts there. For the remainder of the shot, concrete chips burst out of that bay, glass sprays downward, and a dense dust plume expands from the opening.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,18 @@
+subject_definitions:
+<Subject 3> is Nyx from <Picture 1>: purple-black armor, long violet helmet crest, fully closed purple faceplate, purple chest core and long rifle.
+<Subject 4> is the red-moon ruined city and left office tower from <Picture 2>, retaining its rooftop antenna, concrete floor grid, window bays and surrounding street canyon.
+
+summary:
+[reference generation] Nyx registers Aegis's collision and reacts urgently through her sealed smart faceplate and body posture.
+
+retention_analysis:
+Reference subjects retain their armor design, material colors, anatomy and relative scale. The city retains its facade grid and red illumination; impact damage develops at the designated bay.
+
+detailed_description:
+Cinematic 3D CG, purple-black armor, red-moon illumination, detailed sealed smart faceplate. [Shot 1] Tight three-quarter close-up of Nyx's sealed violet helmet, shoulders and rifle grip. Nyx fills the left half of the frame; soft distant smoke occupies the right half. During the opening 0.20 seconds, an orange collision reflection sweeps across her helmet and she snaps her head toward the upper-left impact site. Her shoulders tense, her grip closes firmly around the rifle, and she leans forward as if preparing to rush toward her teammate. By 00:00.400, a red warning accent lights along the violet faceplate and pulses twice. Her helmet remains turned toward Aegis's location. Fine armor seams, purple visor contours and the tightening fingers remain clearly visible. The final moment holds her urgent attentive posture with subtle breathing. The right-side smoke provides a clear area for a teammate-status graphic in postproduction.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
