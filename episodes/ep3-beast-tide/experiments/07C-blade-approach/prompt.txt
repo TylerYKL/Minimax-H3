@@ -1,0 +1,20 @@
+subject_definitions:
+<Subject 1> is Aegis: a 1.88-meter warrior in black gunmetal armor, cyan visor and orange hexagonal chest core. His back and calf thrusters propel him through the air. A broad golden energy blade extends from his right forearm.
+<Subject 2> is the 30-meter titan: a massive horned creature with black rock armor, red glowing fissures and a red chest core.
+
+summary:
+[reference generation] Aegis bursts across the ruined city toward the titan, carrying his energy blade into a fast aerial attack approach.
+
+retention_analysis:
+Retain both subjects' armor, anatomy and relative scale. Keep Aegis roughly one sixteenth of the titan's height at equal distance. Preserve the ruined city and red-moon lighting.
+
+detailed_description:
+Cinematic realistic 3D CG, fixed wide three-quarter view across the city canyon. Aegis enters from screen-left toward the titan on screen-right. The titan's immense chest and shoulder fill the right side, while the tiny armored warrior approaches at chest height. His right forearm carries a broad golden energy blade angled backward; his left arm balances his flight.
+During the opening 0.20 seconds, Aegis flashes into the frame as a compact orange-white thruster streak. By 00:00.450, the streak resolves into his recognizable armored silhouette close to the titan's shoulder. His back and calf jets flare briefly as he banks around the shoulder. The right-arm blade sweeps forward into a ready striking position, with the blade edge aimed at the armor seam beside the red chest core.
+From 00:00.450 to 00:01.200, the camera tracks his fast curved approach while the titan turns its head to follow him. Window rows and falling dust move rapidly behind Aegis, emphasizing his speed. His body and blade remain readable in the final approach. End with the blade close to the chest armor seam, ready for the next contact shot.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
