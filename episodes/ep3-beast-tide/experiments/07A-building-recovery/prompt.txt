@@ -1,0 +1,10 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] Cinematic realistic 3D CG. A single fixed low three-quarter frontal camera watches Aegis recover inside the shattered office room. Retain his 1.88-meter human scale, sealed gunmetal helmet, cyan visor, orange hexagonal chest reactor, dusty scratched armor and intact golden honeycomb shield attached to his anatomical right forearm. Normal office furniture and the window grid establish scale. The jagged facade opening stays in the background on screen-right. His left knee rests in rubble, his right boot is planted forward, and his left palm supports his weight on the floor.
+From 00:00.000 to 00:00.350, his cyan visor lifts toward the facade opening as fine dust falls from his shoulder plates. His chest reactor maintains a restrained steady orange glow.
+From 00:00.350 to 00:01.100, he pushes firmly through his planted left palm and right boot. His torso rises, his left knee lifts from the rubble, and his left boot plants beneath his hips. Small stones roll away beneath his shifting weight. His right-forearm shield stays close to his right side and moves with the arm.
+From 00:01.100 to 00:01.650, his left palm lifts clear of the floor and he settles into a low two-footed ready crouch. He turns his helmet toward the opening. His stance shows effort through bent knees, a forward torso and loaded shoulders.
+From 00:01.650 through the final moment, compact orange ignition pulses appear at his back and calf thrusters. Downward exhaust kicks a short ring of floor dust away from his boots. Both boots remain firmly planted as he prepares his next launch. The chest reactor holds its subdued intensity. The shot ends on his grounded ready posture, with the city opening visible as his next destination.
+
+overall_soundscape: N/A
+non_diegetic_music: N/A
