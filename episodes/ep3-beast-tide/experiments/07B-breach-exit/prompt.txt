@@ -1,0 +1,9 @@
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video.
+
+integrated_multimodal_description: [Shot 1] Cinematic realistic 3D CG. A locked exterior three-quarter camera frames the damaged office tower on screen-left and the open street canyon on screen-right. Preserve the reference facade grid, jagged window bay, exposed reinforcement, red sky and orange-lit room dust. Aegis is concealed deep inside the room behind the dense dust. This shot depicts his explosive departure through its exhaust wake and the reaction of loose debris.
+At the opening instant, the orange engine glow inside the room flares sharply. Within the opening 0.15 seconds, a compact white-orange streak bursts out of the broken window and crosses the entire right half of the frame, exiting beyond the right image edge. The visible moving object is a short bright tapered motion streak, with its leading tip pointing right and its fading wake extending left toward the opening. The traversal completes in one abrupt burst.
+By 00:00.200, the flight has already continued beyond the right edge of the camera view. A brief residual trail spans the route from the window bay to the right edge. This residual glow fades rapidly across its full length by 00:00.350.
+From 00:00.350 through the final frame, the camera remains fixed on the launch aftermath. A compact engine-wash dust plume rolls out of the opening, loose concrete chips tumble from the sill, and grit falls past the next floor's windows. The deep room glow subsides to warm reflected firelight. Buildings remain sharply fixed, emphasizing how quickly the departure crossed the frame. The fading dust and falling fragments complete the shot.
+
+overall_soundscape: N/A
+non_diegetic_music: N/A
