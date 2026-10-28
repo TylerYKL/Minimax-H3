@@ -1,0 +1,21 @@
+subject_definitions:
+<Picture 1> is 01 aegis shield visual reference.
+<Picture 2> is 02 titan visual reference.
+<Picture 3> is 05 team visual reference.
+<Picture 4> is 04 city visual reference.
+Aegis is 1.88 meters tall, black gunmetal armor, cyan visor, orange chest core, right forearm projects a golden blade or honeycomb shield. The titan is 30 meters tall, horned volcanic rock armor with a red chest core. Nyx wears purple armor and Lyra wears teal armor.
+
+summary:
+[reference generation] One continuous cinematic combat shot in the red-moon ruined city.
+
+retention_analysis:
+Retain character identities, armor materials, right-forearm equipment and the scale difference. Maintain two shallow chest gouges after the blade strikes.
+
+detailed_description:
+Cinematic realistic 3D CG with worn metal, volcanic rock, concrete dust and red-moon illumination. Fast decisive action, clear contact and force transfer. Wide ground-level view toward the northern street. Aegis takes one deliberate step forward with his cracked golden shield raised; Nyx and Lyra stand behind him beside the wounded. The giant silhouette recedes beyond the broken bridge. Additional pairs of red eyes illuminate the smoke at different heights. Red moonlight and drifting ash frame the team as the shot fades into darkness.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A
